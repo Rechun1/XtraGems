@@ -1,3 +1,3 @@
 PARA EXECUTAR O JOGO:
 ABRA O CMD, VÁ PARA A PASTA DO MOD E RODE
-genIntellijRuns
+gradlew genIntellijRuns
