@@ -1,0 +1,17 @@
+item.topaz.name=Topaz
+item.black_gem.name=Black Gem
+item.ruby.name=Ruby
+item.amethyst.name=Amethyst
+item.shadow_ingot.name=Shadow Ingot
+item.firite_gem.name=Firite Gem
+item.bloodstone.name=Bloodstone
+
+tile.ruby_block.name=Block of Ruby
+tile.topaz_block.name=Block of Topaz
+tile.bloodstone_ore.name=Bloodstone Ore
+tile.ruby_ore.name=Ruby Ore
+tile.firite_ore.name=Firite Ore
+tile.amethyst_ore.name=Amethyst Ore
+tile.topaz_ore.name=Topaz Ore
+tile.black_gem_ore.name=Black gem Ore
+tile.amethyst_block.name=Block of Amethyst

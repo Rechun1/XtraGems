@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "xtragems:amethyst_block"
+    }
+  ],
+  "result": {
+    "item": "xtragems:amethyst",
+    "count": 9
+  }
+}
