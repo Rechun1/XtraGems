@@ -5,6 +5,7 @@ import com.ferriolli.xtragems.proxy.ClientProxy;
 import com.ferriolli.xtragems.proxy.CommonProxy;
 import com.ferriolli.xtragems.util.Reference;
 
+import com.ferriolli.xtragems.world.ModWorldGen;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -12,6 +13,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import java.util.logging.Logger;
 
@@ -31,7 +33,7 @@ public class Main {
     @EventHandler
     public static void PreInit(FMLPreInitializationEvent event)
     {
-
+        GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
     }
 
     @EventHandler
