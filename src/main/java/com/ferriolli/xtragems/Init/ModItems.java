@@ -1,10 +1,7 @@
 package com.ferriolli.xtragems.Init;
 
 import com.ferriolli.xtragems.items.ItemBase;
-import com.ferriolli.xtragems.items.tools.ToolAxe;
-import com.ferriolli.xtragems.items.tools.ToolPickaxe;
-import com.ferriolli.xtragems.items.tools.ToolSpade;
-import com.ferriolli.xtragems.items.tools.ToolSword;
+import com.ferriolli.xtragems.items.tools.*;
 import net.minecraft.item.*;
 import net.minecraftforge.common.util.EnumHelper;
 
@@ -28,4 +25,5 @@ public class ModItems {
     public static final ItemSpade RUBY_SHOVEL = new ToolSpade("ruby_shovel", MATERIAL_RUBY);
     public static final ItemPickaxe RUBY_PICKAXE = new ToolPickaxe("ruby_pickaxe", MATERIAL_RUBY);
     public static final ItemAxe RUBY_AXE = new ToolAxe("ruby_axe", MATERIAL_RUBY);
+    public static final ItemHoe RUBY_HOE = new ToolHoe("ruby_hoe", MATERIAL_RUBY);
 }

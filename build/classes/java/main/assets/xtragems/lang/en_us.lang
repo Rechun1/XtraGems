@@ -5,6 +5,11 @@ item.amethyst.name=Amethyst
 item.shadow_ingot.name=Shadow Ingot
 item.firite_gem.name=Firite Gem
 item.bloodstone.name=Bloodstone
+item.ruby_axe.name=Ruby axe
+item.ruby_pickaxe.name=Ruby pickaxe
+item.ruby_sword.name=Ruby sword
+item.ruby_hoe.name=Ruby hoe
+item.ruby_shovel.name=Ruby shovel
 
 tile.ruby_block.name=Block of Ruby
 tile.topaz_block.name=Block of Topaz
