@@ -11,9 +11,10 @@ import java.util.List;
 public class ModItems {
     public static final List<Item> ITEMS = new ArrayList<Item>();
 
-    public static final Item.ToolMaterial MATERIAL_RUBY = EnumHelper.addToolMaterial("material_ruby", 3, 1736, 14.0F, 3.0F, 10);
+    public static final Item.ToolMaterial MATERIAL_RUBY = EnumHelper.addToolMaterial("material_ruby", 3, 1736, 14.0F, 4.0F, 10);
     public static final Item.ToolMaterial MATERIAL_TOPAZ = EnumHelper.addToolMaterial("material_topaz", 3, 848, 9.0F, 2.5F, 10);
     public static final Item.ToolMaterial MATERIAL_AMETHYST = EnumHelper.addToolMaterial("material_amethyst", 2, 348, 6.0F, 2.0F, 10);
+    public static final Item.ToolMaterial MATERIAL_GLASS = EnumHelper.addToolMaterial("material_glass", 2, 50, 20.0F, 6.0F, 10);
 
     public static final Item TOPAZ = new ItemBase("topaz");
     public static final Item BLACK_GEM = new ItemBase("black_gem");
@@ -40,4 +41,10 @@ public class ModItems {
     public static final ItemPickaxe AMETHYST_PICKAXE = new ToolPickaxe("amethyst_pickaxe", MATERIAL_AMETHYST);
     public static final ItemAxe AMETHYST_AXE = new ToolAxe("amethyst_axe", MATERIAL_AMETHYST);
     public static final ItemHoe AMETHYST_HOE = new ToolHoe("amethyst_hoe", MATERIAL_AMETHYST);
+
+    public static final ItemSword GLASS_SWORD = new ToolSword("glass_sword", MATERIAL_GLASS);
+    public static final ItemSpade GLASS_SHOVEL = new ToolSpade("glass_shovel", MATERIAL_GLASS);
+    public static final ItemPickaxe GLASS_PICKAXE = new ToolPickaxe("glass_pickaxe", MATERIAL_GLASS);
+    public static final ItemAxe GLASS_AXE = new ToolAxe("glass_axe", MATERIAL_GLASS);
+    public static final ItemHoe GLASS_HOE = new ToolHoe("glass_hoe", MATERIAL_GLASS);
 }

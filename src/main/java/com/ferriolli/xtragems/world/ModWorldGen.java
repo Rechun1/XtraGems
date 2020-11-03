@@ -31,7 +31,7 @@ public class ModWorldGen implements IWorldGenerator {
     }
 
     private void generateNether(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider){
-        generateOreNether(ModBlocks.BLACK_GEM_ORE.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 0, 100, random.nextInt(5) + 1, 10);
+        generateOreNether(ModBlocks.BLACK_GEM_ORE.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 0, 100, random.nextInt(5) + 3, 12);
     }
 
     private void generateOre(IBlockState ore, World world, Random random, int x, int z, int minY, int maxY, int size, int chances){

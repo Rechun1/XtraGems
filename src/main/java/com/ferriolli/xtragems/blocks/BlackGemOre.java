@@ -14,9 +14,4 @@ public class BlackGemOre extends BlockBase{
         setResistance(30f);
         setHarvestLevel("pickaxe", 3);
     }
-
-    public int getExpDrop(IBlockState state, IBlockAccess world, BlockPos pos, int fortune)
-    {
-        return 30;
-    }
 }
