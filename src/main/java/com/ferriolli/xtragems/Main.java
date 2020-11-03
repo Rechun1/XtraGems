@@ -6,6 +6,7 @@ import com.ferriolli.xtragems.proxy.CommonProxy;
 import com.ferriolli.xtragems.util.Reference;
 
 import com.ferriolli.xtragems.world.ModWorldGen;
+import com.ferriolli.xtragems.world.ModWorldGenCustomStructures;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -33,6 +34,7 @@ public class Main {
     @EventHandler
     public static void PreInit(FMLPreInitializationEvent event)
     {
+        GameRegistry.registerWorldGenerator(new ModWorldGenCustomStructures(), 0);
         GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
     }
 

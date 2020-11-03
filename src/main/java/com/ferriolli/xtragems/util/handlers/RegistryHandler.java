@@ -3,12 +3,14 @@ package com.ferriolli.xtragems.util.handlers;
 import com.ferriolli.xtragems.Init.ModBlocks;
 import com.ferriolli.xtragems.Init.ModItems;
 import com.ferriolli.xtragems.util.IHasModel;
+import com.ferriolli.xtragems.world.ModWorldGenCustomStructures;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @EventBusSubscriber
 public class RegistryHandler {
