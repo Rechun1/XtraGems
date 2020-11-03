@@ -23,6 +23,8 @@ public class ModItems {
     public static final Item SHADOW_INGOT = new ItemBase("shadow_ingot");
     public static final Item FIRITE_GEM = new ItemBase("firite_gem");
     public static final Item BLOODSTONE = new ItemBase("bloodstone");
+    public static final Item GLASS_SHARD = new ItemBase("glass_shard");
+    public static final Item REINFORCED_GLASS_SHARD = new ItemBase("reinforced_glass_shard");
 
     public static final ItemSword RUBY_SWORD = new ToolSword("ruby_sword", MATERIAL_RUBY);
     public static final ItemSpade RUBY_SHOVEL = new ToolSpade("ruby_shovel", MATERIAL_RUBY);

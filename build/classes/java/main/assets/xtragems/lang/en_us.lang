@@ -20,6 +20,13 @@ item.amethyst_shovel.name=Amethyst Shovel
 item.amethyst_pickaxe.name=Amethyst Pickaxe
 item.amethyst_axe.name=Amethyst Axe
 item.amethyst_hoe.name=Amethyst Hoe
+item.glass_sword.name=Glass Sword
+item.glass_shovel.name=Glass Shovel
+item.glass_pickaxe.name=Glass Pickaxe
+item.glass_axe.name=Glass Axe
+item.glass_hoe.name=Glass Hoe
+item.glass_shard.name=Glass shard
+item.reinforced_glass_shard.name=Reinforced glass shard
 
 tile.ruby_block.name=Block of Ruby
 tile.topaz_block.name=Block of Topaz
