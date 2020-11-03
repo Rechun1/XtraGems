@@ -5,6 +5,7 @@ import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldType;
+import net.minecraft.world.biome.BiomeDesert;
 import net.minecraft.world.biome.BiomeForest;
 import net.minecraft.world.biome.BiomePlains;
 import net.minecraft.world.chunk.IChunkProvider;
@@ -18,6 +19,7 @@ import java.util.Random;
 
 public class ModWorldGenCustomStructures implements IWorldGenerator {
     public static final ModWorldGenStructure TEST_HOUSE = new ModWorldGenStructure("test_house");
+    public static final ModWorldGenStructure RUINED_HOUSE = new ModWorldGenStructure("ruined_house");
 
     @Override
     public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
@@ -28,7 +30,8 @@ public class ModWorldGenCustomStructures implements IWorldGenerator {
                 break;
 
             case 0:
-                genereateStructure(TEST_HOUSE, world, random, chunkX, chunkZ, 25, Blocks.GRASS, BiomePlains.class );
+                    generateStructure(TEST_HOUSE, world, random, chunkX, chunkZ, 25, Blocks.GRASS, BiomePlains.class );
+                    generateStructure(RUINED_HOUSE, world, random, chunkX, chunkZ, 25, Blocks.GRASS, BiomeDesert.class);
                 break;
 
             case -1:
@@ -36,7 +39,7 @@ public class ModWorldGenCustomStructures implements IWorldGenerator {
                 break;
         }
     }
-    private void genereateStructure(WorldGenerator generator, World world, Random random, int chunkX, int chunkZ, int chance, Block topBlock, Class<?>... classes){
+    private void generateStructure(WorldGenerator generator, World world, Random random, int chunkX, int chunkZ, int chance, Block topBlock, Class<?>... classes){
         ArrayList<Class<?>> classesList = new ArrayList<Class<?>>(Arrays.asList(classes));
 
         int x = (chunkX * 16) + random.nextInt(15);
