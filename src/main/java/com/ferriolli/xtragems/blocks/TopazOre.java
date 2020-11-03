@@ -5,6 +5,8 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.Item;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.IBlockAccess;
 
 import java.util.Random;
 
@@ -22,5 +24,10 @@ public class TopazOre extends BlockBase{
 
     public int quantityDropped(IBlockState state, int fortune, Random random) {
         return 1;
+    }
+
+    public int getExpDrop(IBlockState state, IBlockAccess world, BlockPos pos, int fortune)
+    {
+        return 15;
     }
 }

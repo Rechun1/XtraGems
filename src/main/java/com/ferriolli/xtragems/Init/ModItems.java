@@ -11,9 +11,9 @@ import java.util.List;
 public class ModItems {
     public static final List<Item> ITEMS = new ArrayList<Item>();
 
-    public static final Item.ToolMaterial MATERIAL_RUBY = EnumHelper.addToolMaterial("material_ruby", 3, 750, 10F, 3.0F, 10);
-    public static final Item.ToolMaterial MATERIAL_TOPAZ = EnumHelper.addToolMaterial("material_topaz", 3, 600, 9F, 2.5F, 10);
-    public static final Item.ToolMaterial MATERIAL_AMETHYST = EnumHelper.addToolMaterial("material_amethyst", 2, 526, 8F, 2.0F, 10);
+    public static final Item.ToolMaterial MATERIAL_RUBY = EnumHelper.addToolMaterial("material_ruby", 3, 1736, 14.0F, 3.0F, 10);
+    public static final Item.ToolMaterial MATERIAL_TOPAZ = EnumHelper.addToolMaterial("material_topaz", 3, 848, 9.0F, 2.5F, 10);
+    public static final Item.ToolMaterial MATERIAL_AMETHYST = EnumHelper.addToolMaterial("material_amethyst", 2, 348, 6.0F, 2.0F, 10);
 
     public static final Item TOPAZ = new ItemBase("topaz");
     public static final Item BLACK_GEM = new ItemBase("black_gem");
