@@ -15,7 +15,7 @@ import net.minecraft.world.gen.structure.template.TemplateManager;
 import java.util.Random;
 
 public class ModWorldGenStructure extends WorldGenerator implements IStructure {
-    public static String structureName;
+    public String structureName;
 
     public ModWorldGenStructure(String name){
         this.structureName = name;
@@ -27,7 +27,7 @@ public class ModWorldGenStructure extends WorldGenerator implements IStructure {
         return true;
     }
 
-    public static void generateStructure(World world, BlockPos pos){
+    public void generateStructure(World world, BlockPos pos){
         MinecraftServer mcServer = world.getMinecraftServer();
         TemplateManager manager = worldServer.getStructureTemplateManager();
         ResourceLocation location = new ResourceLocation(Reference.MOD_ID, structureName);

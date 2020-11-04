@@ -18,8 +18,9 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class ModWorldGenCustomStructures implements IWorldGenerator {
-    public static final ModWorldGenStructure TEST_HOUSE = new ModWorldGenStructure("test_house");
-    public static final ModWorldGenStructure RUINED_HOUSE = new ModWorldGenStructure("ruined_house");
+    public final ModWorldGenStructure TEST_HOUSE = new ModWorldGenStructure("test_house");
+    public final ModWorldGenStructure RUINED_HOUSE = new ModWorldGenStructure("ruined_house");
+    public final ModWorldGenStructure CASA = new ModWorldGenStructure("casa");
 
     @Override
     public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
@@ -30,8 +31,9 @@ public class ModWorldGenCustomStructures implements IWorldGenerator {
                 break;
 
             case 0:
-                    generateStructure(TEST_HOUSE, world, random, chunkX, chunkZ, 25, Blocks.GRASS, BiomePlains.class );
-                    generateStructure(RUINED_HOUSE, world, random, chunkX, chunkZ, 25, Blocks.GRASS, BiomeDesert.class);
+                    //generateStructure(TEST_HOUSE, world, random, chunkX, chunkZ, 25, Blocks.GRASS, BiomePlains.class);
+                    //generateStructure(RUINED_HOUSE, world, random, chunkX, chunkZ, 25, Blocks.GRASS, BiomePlains.class);
+                    generateStructure(CASA, world, random, chunkX, chunkZ, 1, Blocks.SAND, BiomeDesert.class);
                 break;
 
             case -1:
@@ -58,7 +60,7 @@ public class ModWorldGenCustomStructures implements IWorldGenerator {
         }
     }
 
-    private static int calculateGenerationHeight(World world, int x, int z, Block topBlock){
+    private int calculateGenerationHeight(World world, int x, int z, Block topBlock){
         int y = world.getHeight();
         boolean foundGround = false;
 
