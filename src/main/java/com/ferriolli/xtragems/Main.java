@@ -7,6 +7,8 @@ import com.ferriolli.xtragems.util.Reference;
 
 import com.ferriolli.xtragems.world.ModWorldGen;
 import com.ferriolli.xtragems.world.ModWorldGenCustomStructures;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.world.storage.loot.LootTableList;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;

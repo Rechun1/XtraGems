@@ -1,0 +1,2 @@
+//Full diamond zombie with diamond axe and shield
+/setblock ~ ~ ~ mob_spawner 0 replace {SpawnData:{id:zombie,HandItems:[{Count:1,id:diamond_axe},{Count:1,id:shield}],ArmorItems:[{Count:1,id:diamond_boots},{Count:1,id:diamond_leggings},{Count:1,id:diamond_chestplate},{Count:1,id:diamond_helmet}]},SpawnRange:2,Delay:200,MaxSpawnDelay:600}
