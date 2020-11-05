@@ -12,6 +12,7 @@ import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.util.SoundCategory;
 import net.minecraftforge.event.entity.living.LivingAttackEvent;
+import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
@@ -38,7 +39,7 @@ public class EnchantmentInit {
         }
     }
 
-    @SubscribeEvent
+    /*@SubscribeEvent
     public static void dmgIncrease(LivingAttackEvent event) {
         Object attacker = event.getSource().getTrueSource();
         Object enemy = event.getEntity();
@@ -51,7 +52,22 @@ public class EnchantmentInit {
                 if (((EntityLivingBase) attacker).getHealth() > 10){
                     //System.out.println(enemy.toString());
                     //entityEnemy.setHealth(0);
-                    entityAttacker.getEntityWorld().playSound(null, entityAttacker.getPosition(), SoundEvents.ENTITY_PLAYER_LEVELUP, SoundCategory.HOSTILE, 1.0F, 0.5F);
+                    entityAttacker.getEntityWorld().playSound(null, entityAttacker.getPosition(), SoundEvents.ENTITY_PLAYER_LEVELUP, SoundCategory.HOSTILE, 1.0F, 0.1F);
+                }
+            }
+        }
+    }*/
+    @SubscribeEvent
+    public static void dmgIncrease(LivingHurtEvent event) {
+        Object attacker = event.getSource().getTrueSource();
+        if (attacker instanceof  EntityLivingBase){
+            EntityLivingBase entityAttacker = (EntityLivingBase)attacker;
+            int level = EnchantmentHelper.getEnchantmentLevel(DAMAGE_INCREASE, entityAttacker.getHeldItemMainhand());
+            if (!entityAttacker.getEntityWorld().isRemote && level > 0){
+                float floatLevel = (float)level;
+                if (entityAttacker.getHealth() < 5){
+                    event.setAmount(10000);
+                    entityAttacker.getEntityWorld().playSound(null, entityAttacker.getPosition(), SoundEvents.ENTITY_PLAYER_LEVELUP, SoundCategory.HOSTILE, 1.0F, 0.1F);
                 }
             }
         }
