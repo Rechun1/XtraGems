@@ -5,6 +5,7 @@ import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldType;
+import net.minecraft.world.biome.BiomeDesert;
 import net.minecraft.world.biome.BiomePlains;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.IChunkGenerator;
@@ -16,7 +17,7 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class ModWorldGenCustomStructures implements IWorldGenerator {
-    public final ModWorldGenStructure TEST_HOUSE = new ModWorldGenStructure("test_house");
+    public final ModWorldGenStructure MINER_HOUSE = new ModWorldGenStructure("miner_house");
     public final ModWorldGenStructure RUINED_HOUSE = new ModWorldGenStructure("ruined_house");
 
     @Override
@@ -28,8 +29,8 @@ public class ModWorldGenCustomStructures implements IWorldGenerator {
                 break;
 
             case 0:
-                    generateStructure(TEST_HOUSE, world, random, chunkX, chunkZ, 25, Blocks.GRASS, BiomePlains.class);
-                    generateStructure(RUINED_HOUSE, world, random, chunkX, chunkZ, 25, Blocks.GRASS, BiomePlains.class);
+                    generateStructure(MINER_HOUSE, world, random, chunkX, chunkZ, 100, Blocks.GRASS, BiomePlains.class);
+                    generateStructure(RUINED_HOUSE, world, random, chunkX, chunkZ, 100, Blocks.GRASS, BiomePlains.class);
                 break;
             case -1:
                 break;

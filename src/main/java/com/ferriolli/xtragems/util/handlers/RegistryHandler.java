@@ -1,10 +1,12 @@
 package com.ferriolli.xtragems.util.handlers;
 
+import com.ferriolli.xtragems.Init.EnchantmentInit;
 import com.ferriolli.xtragems.Init.ModBlocks;
 import com.ferriolli.xtragems.Init.ModItems;
 import com.ferriolli.xtragems.util.IHasModel;
 import com.ferriolli.xtragems.world.ModWorldGenCustomStructures;
 import net.minecraft.block.Block;
+import net.minecraft.enchantment.Enchantment;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
@@ -23,6 +25,11 @@ public class RegistryHandler {
     public static void onBlockRegister(RegistryEvent.Register<Block> event){
         event.getRegistry().registerAll(ModBlocks.BLOCKS.toArray(new Block[0]));
 
+    }
+
+    @SubscribeEvent
+    public static void registerEnchant(RegistryEvent.Register<Enchantment> event){
+        event.getRegistry().registerAll(EnchantmentInit.ENCHANTMENTS.toArray(new Enchantment[0]));
     }
 
     @SubscribeEvent

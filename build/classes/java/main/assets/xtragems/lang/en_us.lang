@@ -37,3 +37,6 @@ tile.amethyst_ore.name=Amethyst Ore
 tile.topaz_ore.name=Topaz Ore
 tile.black_gem_ore.name=Black gem Ore
 tile.amethyst_block.name=Block of Amethyst
+
+enchantment.damage_heal=Vampirism
+enchantment.damage_increase=Damage Increase
