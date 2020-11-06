@@ -4,16 +4,15 @@ import com.ferriolli.xtragems.Init.EnchantmentInit;
 import com.ferriolli.xtragems.util.Reference;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnumEnchantmentType;
-import net.minecraft.init.Enchantments;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.util.ResourceLocation;
 
-public class EnchantmentDamageIncrease extends Enchantment {
+public class EnchantmentMinerTest extends Enchantment {
 
-    public EnchantmentDamageIncrease(Rarity rarityIn, EnumEnchantmentType typeIn, EntityEquipmentSlot[] slots) {
+    public EnchantmentMinerTest(Rarity rarityIn, EnumEnchantmentType typeIn, EntityEquipmentSlot[] slots) {
         super(rarityIn, typeIn, slots);
-        this.setName("damage_increase");
-        this.setRegistryName(new ResourceLocation(Reference.MOD_ID + ":damage_increase"));
+        this.setName("miner_test");
+        this.setRegistryName(new ResourceLocation(Reference.MOD_ID + ":miner_test"));
 
         EnchantmentInit.ENCHANTMENTS.add(this);
     }
@@ -30,7 +29,7 @@ public class EnchantmentDamageIncrease extends Enchantment {
 
     @Override
     public int getMaxLevel() {
-        return 1;
+        return 3;
     }
 
     @Override

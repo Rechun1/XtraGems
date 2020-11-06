@@ -39,4 +39,5 @@ tile.black_gem_ore.name=Black gem Ore
 tile.amethyst_block.name=Block of Amethyst
 
 enchantment.damage_heal=Vampirism
-enchantment.damage_increase=Damage Increase
+enchantment.damage_increase=Risk Taker
+enchantment.miner_test=Miner
