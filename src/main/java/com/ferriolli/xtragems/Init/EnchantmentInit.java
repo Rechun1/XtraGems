@@ -9,6 +9,7 @@ import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.enchantment.EnumEnchantmentType;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.MobEffects;
 import net.minecraft.init.SoundEvents;
@@ -35,6 +36,7 @@ public class EnchantmentInit {
     public static final Enchantment MINER_TEST = new EnchantmentMinerTest(Enchantment.Rarity.VERY_RARE, EnumEnchantmentType.DIGGER, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
     public static final Enchantment VENOMOUS = new EnchantmentVenomous(Enchantment.Rarity.VERY_RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
     public static final Enchantment KNOWLEDGE = new EnchantmentKnowledge(Enchantment.Rarity.VERY_RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
+    public static final Enchantment CATACLYSM = new EnchantmentCataclysm(Enchantment.Rarity.VERY_RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
 
     @SubscribeEvent
     public static void vampirism(LivingAttackEvent event){
@@ -105,8 +107,27 @@ public class EnchantmentInit {
         if (attacker instanceof EntityLivingBase){
             int level = EnchantmentHelper.getEnchantmentLevel(KNOWLEDGE, entityAttacker.getHeldItemMainhand());
             if (level > 0){
-                event.setDroppedExperience(event.getOriginalExperience() * level);
+                //Minecraft.getMinecraft().player.sendChatMessage("xp dropado: " + event.getOriginalExperience() + ", level 1: " + event.getOriginalExperience() * 1 * 1.5F + ", level 2: " + event.getOriginalExperience() * 2 * 1.5F + ", level 3: " + event.getOriginalExperience() * 3 * 1.5F);
+                int droppedXp = (int) Math.ceil(event.getOriginalExperience() * level * 1.2F);
+                event.setDroppedExperience(droppedXp);
                 entityAttacker.getEntityWorld().playSound(null, entityAttacker.getPosition(), SoundEvents.ENTITY_PLAYER_LEVELUP, SoundCategory.HOSTILE, 1.0F, 2F);
+            }
+        }
+    }
+    @SubscribeEvent
+    public static void cataclysm(LivingAttackEvent event){
+        Object attacker = event.getSource().getTrueSource();
+        if (attacker instanceof EntityLivingBase){
+            EntityLivingBase entityAttacker = (EntityLivingBase) attacker;
+            Object enemy = event.getEntity();
+            EntityLivingBase entityEnemy = (EntityLivingBase) enemy;
+            int level = EnchantmentHelper.getEnchantmentLevel(CATACLYSM, entityAttacker.getHeldItemMainhand());
+            if (level > 0){
+                entityEnemy.addPotionEffect(new PotionEffect(MobEffects.POISON, 60 * level, level));
+                entityEnemy.setFire(20 * level);
+                entityEnemy.addPotionEffect(new PotionEffect(MobEffects.WITHER, 60 * level, level));
+                entityAttacker.getEntityWorld().playSound(null, entityAttacker.getPosition(), SoundEvents.ENTITY_GENERIC_EXPLODE, SoundCategory.HOSTILE, 1.0F, 2F);
+
             }
         }
     }
