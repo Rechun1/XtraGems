@@ -1,48 +1,87 @@
-[17:55:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:55:49] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:55:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:55:49] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
-[17:55:49] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_272, running on Windows 10:amd64:10.0, installed at C:\Program Files\AdoptOpenJDK\jdk-8.0.272.10-hotspot\jre
-[17:55:49] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[17:55:49] [main/ERROR] [FML]: Full: C:\Users\Pedro\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[17:55:49] [main/ERROR] [FML]: Trimmed: c:/users/pedro/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[17:55:49] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[17:55:49] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[17:55:49] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[17:55:49] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[17:55:49] [main/INFO] [FML]: Searching C:\Users\Pedro\Desktop\Mine_Geral\XtraGems\run\.\mods for mods
-[17:55:49] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:55:49] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:55:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:55:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:55:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:55:51] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[17:55:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:55:51] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:55:52] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:55:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:55:52] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[17:55:52] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player593
-[17:55:56] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[17:55:56] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[17:55:57] [Client thread/INFO] [FML]: -- System Details --
+[02:21:27] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[02:21:27] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[02:21:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[02:21:27] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
+[02:21:27] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_272, running on Windows 10:amd64:10.0, installed at C:\Program Files\AdoptOpenJDK\jdk-8.0.272.10-hotspot\jre
+[02:21:27] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[02:21:27] [main/ERROR] [FML]: Full: C:\Users\Pedro\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[02:21:27] [main/ERROR] [FML]: Trimmed: c:/users/pedro/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[02:21:27] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[02:21:27] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[02:21:28] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[02:21:28] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[02:21:28] [main/INFO] [FML]: Searching C:\Users\Pedro\Desktop\Mine_Geral\XtraGems\run\.\mods for mods
+[02:21:28] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:21:28] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[02:21:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:21:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[02:21:28] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[02:21:32] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[02:21:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[02:21:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[02:21:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[02:21:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[02:21:32] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[02:21:34] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player671
+[02:21:41] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[02:21:41] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[02:21:43] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_272, AdoptOpenJDK
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), AdoptOpenJDK
-	Memory: 720826704 bytes (687 MB) / 868220928 bytes (828 MB) up to 3808428032 bytes (3632 MB)
+	Memory: 505070440 bytes (481 MB) / 664272896 bytes (633 MB) up to 3808428032 bytes (3632 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 451.67' Renderer: 'GeForce GTX 1060 3GB/PCIe/SSE2'
-[17:55:57] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
-[17:55:57] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[17:55:57] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[17:55:57] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
-[17:55:57] [Client thread/INFO] [FML]: Searching C:\Users\Pedro\Desktop\Mine_Geral\XtraGems\run\.\mods for mods
-[17:55:58] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[02:21:44] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
+[02:21:44] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[02:21:44] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[02:21:44] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[02:21:45] [Client thread/INFO] [FML]: Searching C:\Users\Pedro\Desktop\Mine_Geral\XtraGems\run\.\mods for mods
+[02:21:50] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+java.lang.IllegalArgumentException: null
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
+	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
+	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) [ASMModParser.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.findClassesASM(JarDiscoverer.java:102) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:77) [JarDiscoverer.class:?]
+	at net.minecraftforge.fml.common.discovery.ContainerType.findMods(ContainerType.java:47) [ContainerType.class:?]
+	at net.minecraftforge.fml.common.discovery.ModCandidate.explore(ModCandidate.java:74) [ModCandidate.class:?]
+	at net.minecraftforge.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:93) [ModDiscoverer.class:?]
+	at net.minecraftforge.fml.common.Loader.identifyMods(Loader.java:427) [Loader.class:?]
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:568) [Loader.class:?]
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_272]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_272]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_272]
+	at java.lang.reflect.Method.invoke(Method.java:49[02:21:56] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[02:21:56] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[02:21:58] [Client thread/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_272, AdoptOpenJDK
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), AdoptOpenJDK
+	Memory: 577555400 bytes (550 MB) / 736624640 bytes (702 MB) up to 3808428032 bytes (3632 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 451.67' Renderer: 'GeForce GTX 1060 3GB/PCIe/SSE2'
+[02:21:58] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
+[02:21:58] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[02:21:58] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[02:21:58] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[02:21:58] [Client thread/INFO] [FML]: Searching C:\Users\Pedro\Desktop\Mine_Geral\XtraGems\run\.\mods for mods
+[02:22:00] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -71,7 +110,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_272]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[17:55:58] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Pedro\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar - probably a corrupt zip
+[02:22:00] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Pedro\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -104,7 +143,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:55:58] [Client thread/WARN] [FML]: Zip file asm-util-6.2.jar failed to read properly, it will be ignored
+[02:22:00] [Client thread/WARN] [FML]: Zip file asm-util-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -137,7 +176,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:55:58] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[02:22:00] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -166,7 +205,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_272]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[17:55:58] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Pedro\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar - probably a corrupt zip
+[02:22:00] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Pedro\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -199,7 +238,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:55:58] [Client thread/WARN] [FML]: Zip file asm-tree-6.2.jar failed to read properly, it will be ignored
+[02:22:00] [Client thread/WARN] [FML]: Zip file asm-tree-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -232,7 +271,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:55:58] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[02:22:00] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -261,7 +300,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_272]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[17:55:58] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Pedro\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar - probably a corrupt zip
+[02:22:00] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Pedro\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -294,7 +333,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:55:58] [Client thread/WARN] [FML]: Zip file asm-6.2.jar failed to read properly, it will be ignored
+[02:22:00] [Client thread/WARN] [FML]: Zip file asm-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -327,7 +366,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:55:58] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[02:22:00] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -356,7 +395,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_272]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[17:55:58] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Pedro\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar - probably a corrupt zip
+[02:22:00] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Pedro\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -389,7 +428,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[17:55:58] [Client thread/WARN] [FML]: Zip file asm-analysis-6.2.jar failed to read properly, it will be ignored
+[02:22:00] [Client thread/WARN] [FML]: Zip file asm-analysis-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -411,1440 +450,90 @@ net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentExceptio
 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_272]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_272]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_272]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_272]
-	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-Caused by: java.lang.IllegalArgumentException
-	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
-	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
-	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
-	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
-	... 23 more
-[17:55:58] [Client thread/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
-[17:55:58] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xtragems, xray] at CLIENT
-[17:55:58] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xtragems, xray] at SERVER
-[17:55:59] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 89674500 nanos
-[17:55:59] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Extra Gems, FMLFileResourcePack:XRay
-[17:55:59] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[17:55:59] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[17:55:59] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[17:55:59] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[17:55:59] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[17:55:59] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[17:56:00] [Client thread/INFO] [FML]: Applying holder lookups
-[17:56:00] [Client thread/INFO] [FML]: Holder lookups applied
-[17:56:00] [Client thread/INFO] [FML]: Applying holder lookups
-[17:56:00] [Client thread/INFO] [FML]: Holder lookups applied
-[17:56:00] [Client thread/INFO] [FML]: Applying holder lookups
-[17:56:00] [Client thread/INFO] [FML]: Holder lookups applied
-[17:56:00] [Client thread/INFO] [FML]: Applying holder lookups
-[17:56:00] [Client thread/INFO] [FML]: Holder lookups applied
-[17:56:00] [Client thread/INFO] [FML]: Injecting itemstacks
-[17:56:00] [Client thread/INFO] [FML]: Itemstack injection complete
-[17:56:00] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
-[17:56:00] [Forge Version Check/INFO] [forge.VersionCheck]: [xray] Starting version check at https://raw.githubusercontent.com/MichaelHillcox/XRay-Mod/master/versions.json
-[17:56:00] [Forge Version Check/INFO] [forge.VersionCheck]: [xray] Found status: AHEAD Target: null
-[17:56:02] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[17:56:02] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[17:56:02] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[17:56:02] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[17:56:02] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[17:56:09] [Client thread/INFO] [FML]: Max texture size: 16384
-[17:56:12] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
-[17:56:13] [Client thread/INFO] [FML]: Applying holder lookups
-[17:56:13] [Client thread/INFO] [FML]: Holder lookups applied
-[17:56:13] [Client thread/INFO] [FML]: Injecting itemstacks
-[17:56:13] [Client thread/INFO] [FML]: Itemstack injection complete
-[17:56:14] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
-[17:56:14] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[17:56:14] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
-[17:56:16] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[17:56:21] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
-[17:56:21] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
-[17:56:22] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[17:56:22] [Server thread/INFO] [FML]: Applying holder lookups
-[17:56:22] [Server thread/INFO] [FML]: Holder lookups applied
-[17:56:22] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@4ead4598)
-[17:56:22] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[17:56:22] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@4ead4598)
-[17:56:22] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@4ead4598)
-[17:56:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[17:56:23] [Server thread/INFO] [FML]: Unloading dimension -1
-[17:56:23] [Server thread/INFO] [FML]: Unloading dimension 1
-[17:56:23] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 22, from 10
-[17:56:24] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
-[17:56:24] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[17:56:24] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,xtragems@1.0,FML@8.0.99.99,forge@14.23.5.2854,xray@2.0.0,mcp@9.42
-[17:56:24] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
-[17:56:24] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[17:56:24] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player593[local:E:2738731e] logged in with entity id 28 at (325.0487942247363, 4.0, -248.04917646742214)
-[17:56:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player593 joined the game
-[17:56:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player593 has made the advancement [Acquire Hardware]
-[17:56:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player593 has made the advancement [Stone Age]
-[17:56:26] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[17:56:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[17:56:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player593 has made the advancement [Acquire Hardware]
-[17:56:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player593 has made the advancement [Stone Age]
-[17:56:27] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 43 advancements
-[17:56:33] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] There is no such item with name minecraft:stone30
-[17:56:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Given [Stone] * 30 to Player593]
-[17:56:36] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Given [Stone] * 30 to Player593
-[17:56:36] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 47 advancements
-[17:56:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Set the time to 1000]
-[17:56:42] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Set the time to 1000
-[17:56:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player593 has made the advancement [Monster Hunter]
-[17:56:45] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player593 has made the advancement [Monster Hunter]
-[17:56:45] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 57 advancements
-[17:56:46] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Unable to play empty soundEvent: minecraft:entity.small_slime.squish
-[17:56:46] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Unable to play empty soundEvent: minecraft:entity.small_slime.jump
-[17:57:01] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 77 advancements
-[17:57:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player593 was slain by Slime
-[17:57:07] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player593 was slain by Slime
-[17:57:33] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] xtragems:damage_heal, xtragems:damage_increase
-[17:57:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Enchanting succeeded]
-[17:57:33] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Enchanting succeeded
-[17:57:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Set own game mode to Creative Mode]
-[17:57:53] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Creative Mode
-[17:58:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Set own game mode to Survival Mode]
-[17:58:01] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Survival Mode
-[17:59:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Set own game mode to Creative Mode]
-[17:59:21] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Creative Mode
-[17:59:35] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 82 advancements
-[17:59:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] 'sru' is not a valid number
-[17:59:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Set own game mode to Survival Mode]
-[17:59:49] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Survival Mode
-[18:00:11] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 89 advancements
-[18:01:10] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 89 advancements
-[18:01:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player593 has made the advancement [Suit Up]
-[18:01:11] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player593 has made the advancement [Suit Up]
-[18:01:11] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 90 advancements
-[18:01:12] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 90 advancements
-[18:01:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Set own game mode to Creative Mode]
-[18:01:36] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Creative Mode
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player593 fell out of the world
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Player593]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.oreEmerald]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.egg]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Donkey]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.emerald]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.egg]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.egg]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.stonebrick]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.stonebrick]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.chickenRaw]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.egg]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.chickenRaw]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.feather]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.arrow]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.bone]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.egg]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.leather]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Sheep]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.bone]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player593 fell out of the world
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Player593
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.oreEmerald
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.egg
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Donkey
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.emerald
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.egg
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.egg
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.chickenRaw]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.egg]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Horse]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Horse]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.rottenFlesh]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.egg]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.egg]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.stonebrick]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.porkchopRaw]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.egg]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.cloth.white]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.stonebrick
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.egg]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.potato]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.egg]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.stonebrick
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.chickenRaw
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.egg
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.chickenRaw
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.feather
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.arrow
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.bone
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.egg
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.leather
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Sheep
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.bone
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.chickenRaw
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.egg
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Horse
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.egg]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Horse
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.rottenFlesh
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.egg
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.egg]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.egg]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Cow]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Sheep]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Sheep]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Cow]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Sheep]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Cow]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Sheep]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Sheep]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Sheep]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Sheep]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.egg]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.egg]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.egg]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Sheep]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Sheep]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Sheep]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Sheep]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Sheep]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.egg
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.stonebrick
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.porkchopRaw
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.egg
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.cloth.white
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.egg
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.potato
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.egg
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.egg
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.egg
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.egg
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Cow
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Sheep
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Sheep
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Cow
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Sheep
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Cow
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Sheep
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Sheep
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Sheep
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Sheep
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.egg
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.egg
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.egg
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Sheep
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Sheep
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Sheep
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Sheep
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Sheep
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player593 fell out of the world
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Player593]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.leather]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.porkchopCooked]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.muttonRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.rottenFlesh]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.dirt.default]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.helmetIron]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.ingotIron]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.ruby_sword]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.stone.stone]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.ruby_pickaxe]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.chestplateIron]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Experience Orb]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.chickenRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player593 fell out of the world
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Player593
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.leather
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.porkchopCooked
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.muttonRaw
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.feather]
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.rottenFlesh
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.dirt.default
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.helmetIron
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.ingotIron
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.chickenRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.ruby_sword
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.stone.stone
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.ruby_pickaxe
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.chestplateIron
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Experience Orb
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.chickenRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.feather]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.porkchopRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.chickenRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.feather]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.chickenRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.feather]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.feather]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.chickenRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.muttonRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.cloth.silver]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.porkchopRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.feather]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.chickenRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.chickenRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.feather]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.chickenRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.beefRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.leather]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.porkchopRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.leather]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.porkchopRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.beefRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.leather]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.porkchopRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.porkchopRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.porkchopRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.porkchopRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.porkchopRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.chickenRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.cloth.white]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.feather]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.muttonRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.cloth.white]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.muttonRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.feather]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.chickenRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.porkchopRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.muttonRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.cloth.white]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.muttonRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.cloth.white]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.muttonRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.cloth.white]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.muttonRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.cloth.white]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.muttonRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.cloth.white]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.feather]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.porkchopRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.leather]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.chickenRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.beefRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.feather]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.chickenRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.muttonRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.cloth.black]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.feather]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.muttonRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.cloth.gray]
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.muttonRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.cloth.white]
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.muttonRaw]
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.chickenRaw
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.cloth.white]
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.muttonRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.tile.cloth.white]
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.porkchopRaw]
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.porkchopRaw]
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.porkchopRaw]
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.porkchopRaw]
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.feather
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.chickenRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.chickenRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.feather
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.porkchopRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.chickenRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.feather
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.chickenRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.feather
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.feather
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.chickenRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.muttonRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.cloth.silver
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.porkchopRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.feather
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.chickenRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.chickenRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.feather
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.chickenRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.beefRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.leather
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.porkchopRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.leather
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.porkchopRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.beefRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.leather
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.porkchopRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.porkchopRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.porkchopRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.porkchopRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.porkchopRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.chickenRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.cloth.white
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.feather
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.muttonRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.cloth.white
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.muttonRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.feather
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.chickenRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.porkchopRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.muttonRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.cloth.white
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.muttonRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.cloth.white
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.muttonRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.cloth.white
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.muttonRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.cloth.white
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.muttonRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.cloth.white
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.feather
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.porkchopRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.leather
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.chickenRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.beefRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.feather
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.chickenRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.muttonRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.cloth.black
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.feather
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.muttonRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.cloth.gray
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.muttonRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.cloth.white
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.muttonRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.cloth.white
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.muttonRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.tile.cloth.white
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.porkchopRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.porkchopRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.porkchopRaw
-[18:02:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.porkchopRaw
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player593 fell out of the world
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Player593]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player593 fell out of the world
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Player593
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player593 fell out of the world
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Player593]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Skeleton]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Witch]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Skeleton]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Zombie]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Sheep]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Sheep]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Creeper]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Spider]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Creeper]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Creeper]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Spider]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Witch]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Zombie]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Zombie]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Creeper]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Zombie]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Creeper]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Skeleton]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Spider]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Creeper]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Skeleton]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Cow]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Creeper]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Cow]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Cow]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Zombie]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Skeleton]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Cow]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Slime]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Creeper]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Skeleton]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Spider]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Skeleton]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Sheep]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Creeper]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Spider]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Skeleton]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Skeleton]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Spider]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Skeleton]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Creeper]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Horse]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Spider]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Creeper]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Spider]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Horse]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Creeper]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Sheep]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Witch]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Zombie]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Creeper]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Horse]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Zombie]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Zombie]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Sheep]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Creeper]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Zombie]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Creeper]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Creeper]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Zombie]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Creeper]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Skeleton]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Zombie]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Cow]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Spider]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Sheep]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Cow]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Cow]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Zombie]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Zombie]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Creeper]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Skeleton]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Spider]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Zombie]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed item.item.slimeball]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Zombie]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Skeleton]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Creeper]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Zombie]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Horse]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Horse]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Chicken]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Donkey]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Pig]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Sheep]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Sheep]
-[18:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Killed Sheep]
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player593 fell out of the world
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Player593
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Skeleton
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Witch
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Skeleton
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Zombie
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Sheep
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Sheep
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Creeper
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Spider
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Creeper
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Creeper
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Spider
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Witch
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Zombie
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Zombie
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Creeper
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Zombie
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Creeper
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Skeleton
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Spider
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Creeper
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Skeleton
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Cow
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Creeper
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Cow
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Cow
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Zombie
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Skeleton
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Cow
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Slime
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Creeper
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Skeleton
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Spider
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Skeleton
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Sheep
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Creeper
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Spider
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Skeleton
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Skeleton
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Spider
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Skeleton
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Creeper
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Horse
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Spider
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Creeper
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Spider
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Horse
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Creeper
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Sheep
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Witch
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Zombie
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Creeper
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Horse
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Zombie
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Zombie
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Sheep
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Creeper
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Zombie
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Creeper
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Creeper
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Zombie
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Creeper
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Skeleton
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Zombie
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Cow
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Spider
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Sheep
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Cow
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Cow
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Zombie
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Zombie
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Creeper
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Skeleton
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Spider
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Zombie
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed item.item.slimeball
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Zombie
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Skeleton
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Creeper
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Zombie
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Horse
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Horse
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Chicken
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Donkey
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Pig
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Sheep
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Sheep
-[18:02:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Killed Sheep
-[18:02:39] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[18:02:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[18:02:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Changing to clear weather]
-[18:02:42] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Changing to clear weather
-[18:02:46] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] announceAdvancements, commandBlockOutput, disableElytraMovementCheck, doDaylightCycle, doEntityDrops, doFireTick, doLimitedCrafting, doMobLoot, doMobSpawning, doTileDrops, doWeatherCycle, gameLoopFunction, keepInventory, logAdminCommands, maxCommandChainLength, maxEntityCramming, mobGriefing, naturalRegeneration, randomTickSpeed, reducedDebugInfo, sendCommandFeedback, showDeathMessages, spawnRadius, spectatorsGenerateChunks
-[18:03:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Game rule spectatorsGenerateChunks has been updated to false]
-[18:03:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Game rule spectatorsGenerateChunks has been updated to false
-[18:03:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Set own game mode to Spectator Mode]
-[18:03:28] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Spectator Mode
-[18:04:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Player593: Set own game mode to Creative Mode]
-[18:04:12] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your game mode has been updated to Creative Mode
-[18:04:20] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Entity 'slime' cannot be found
-[18:04:21] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Entity 'slimes' cannot be found
-[18:04:34] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 91 advancements
-[18:05:01] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 92 advancements
-[18:05:23] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 95 advancements
-[18:06:28] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[18:06:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[18:06:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[18:06:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[18:06:28] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player593 lost connection: Disconnected
-[18:06:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player593 left the game
-[18:06:28] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
-[18:06:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[18:06:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[18:06:28] [Server thread/INFO] [FML]: Unloading dimension 0
-[18:06:28] [Server thread/INFO] [FML]: Applying holder lookups
-[18:06:28] [Server thread/INFO] [FML]: Holder lookups applied
-[18:06:29] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[18:06:29] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[18:06:30] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+	at sun.reflect.NativeMethodAccessorImpl.invo[02:22:01] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[02:22:01] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[02:22:01] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[02:22:02] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[02:22:02] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[02:22:11] [Client thread/INFO] [FML]: Max texture size: 16384
+[02:22:17] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[02:22:19] [Client thread/INFO] [FML]: Applying holder lookups
+[02:22:19] [Client thread/INFO] [FML]: Holder lookups applied
+[02:22:19] [Client thread/INFO] [FML]: Injecting itemstacks
+[02:22:19] [Client thread/INFO] [FML]: Itemstack injection complete
+[02:22:19] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
+[02:22:19] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[02:22:19] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[02:22:20] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[02:22:59] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[02:22:59] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[02:22:59] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+2:22:01] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[02:22:01] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[02:22:02] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[02:22:02] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[02:22:02] [Client thread/INFO] [FML]: Applying holder lookups
+[02:22:02] [Client thread/INFO] [FML]: Holder lookups applied
+[02:22:02] [Client thread/INFO] [FML]: Applying holder lookups
+[02:22:02] [Client thread/INFO] [FML]: Holder lookups applied
+[02:22:02] [Client thread/INFO] [FML]: Applying holder lookups
+[02:22:02] [Client thread/INFO] [FML]: Holder lookups applied
+[02:22:02] [Client thread/INFO] [FML]: Applying holder lookups
+[02:22:02] [Client thread/INFO] [FML]: Holder lookups applied
+[02:22:02] [Client thread/INFO] [FML]: Injecting itemstacks
+[02:22:02] [Client thread/INFO] [FML]: Itemstack injection complete
+[02:22:02] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[02:22:02] [Forge Version Check/INFO] [forge.VersionCheck]: [xray] Starting version check at https://raw.githubusercontent.com/MichaelHillcox/XRay-Mod/master/versions.json
+[02:22:02] [Forge Version Check/INFO] [forge.VersionCheck]: [xray] Found status: AHEAD Target: null
+[02:22:05] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[02:22:06] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[02:22:06] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[02:22:06] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[02:22:06] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[02:22:14] [Client thread/INFO] [FML]: Max texture size: 16384
+[02:22:20] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[02:22:22] [Client thread/INFO] [FML]: Applying holder lookups
+[02:22:22] [Client thread/INFO] [FML]: Holder lookups applied
+[02:22:22] [Client thread/INFO] [FML]: Injecting itemstacks
+[02:22:22] [Client thread/INFO] [FML]: Itemstack injection complete
+[02:22:22] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
+[02:22:22] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[02:22:22] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[02:22:23] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[02:22:34] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[02:22:34] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[02:22:34] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[02:22:34] [Server thread/INFO] [FML]: Applying holder lookups
+[02:22:34] [Server thread/INFO] [FML]: Holder lookups applied
+[02:22:34] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@62d0025c)
+[02:22:35] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[02:22:35] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@62d0025c)
+[02:22:35] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@62d0025c)
+[02:22:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[02:22:35] [Server thread/INFO] [FML]: Unloading dimension -1
+[02:22:35] [Server thread/INFO] [FML]: Unloading dimension 1
+[02:22:35] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 22, from 10
+[02:22:37] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[02:22:37] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[02:22:37] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,xtragems@1.0,FML@8.0.99.99,forge@14.23.5.2854,xray@2.0.0,mcp@9.42
+[02:22:37] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[02:22:37] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[02:22:37] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player515[local:E:8f3537e4] logged in with entity id 22 at (340.18810361626254, 4.0, -263.4419672752275)
+[02:22:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player515 joined the game
+[02:22:40] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[02:22:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[02:22:52] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[02:22:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[02:22:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[02:22:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[02:22:52] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player515 lost connection: Disconnected
+[02:22:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player515 left the game
+[02:22:53] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[02:22:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[02:22:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[02:22:53] [Server thread/INFO] [FML]: Unloading dimension 0
+[02:22:53] [Server thread/INFO] [FML]: Applying holder lookups
+[02:22:53] [Server thread/INFO] [FML]: Holder lookups applied
+[02:22:55] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[02:22:55] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[02:22:55] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
