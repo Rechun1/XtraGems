@@ -11,14 +11,17 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.init.MobEffects;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.item.ItemStack;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraftforge.event.entity.living.*;
+import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.event.world.BlockEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.Event;
@@ -37,6 +40,7 @@ public class EnchantmentInit {
     public static final Enchantment VENOMOUS = new EnchantmentVenomous(Enchantment.Rarity.VERY_RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
     public static final Enchantment KNOWLEDGE = new EnchantmentKnowledge(Enchantment.Rarity.VERY_RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
     public static final Enchantment CATACLYSM = new EnchantmentCataclysm(Enchantment.Rarity.VERY_RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
+    public static final Enchantment BLAST_FURNACE = new EnchantmentBlastFurnace(Enchantment.Rarity.UNCOMMON, EnumEnchantmentType.DIGGER, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
 
     @SubscribeEvent
     public static void vampirism(LivingAttackEvent event){
@@ -128,6 +132,26 @@ public class EnchantmentInit {
                 entityEnemy.addPotionEffect(new PotionEffect(MobEffects.WITHER, 60 * level, level));
                 entityAttacker.getEntityWorld().playSound(null, entityAttacker.getPosition(), SoundEvents.ENTITY_GENERIC_EXPLODE, SoundCategory.HOSTILE, 1.0F, 2F);
 
+            }
+        }
+    }
+    @SubscribeEvent
+    public static void blastFurnace(BlockEvent.HarvestDropsEvent event){
+        if (event.getHarvester() instanceof EntityPlayer){
+            EntityPlayer entityBreaker = event.getHarvester();
+            int level = EnchantmentHelper.getEnchantmentLevel(BLAST_FURNACE, entityBreaker.getHeldItemMainhand());
+            if (level > 0) {
+                Block dblock = event.getState().getBlock();
+                if (dblock == Blocks.IRON_ORE){
+                    event.getDrops().add(new ItemStack(Items.IRON_INGOT));
+                    event.getDrops().remove(0);
+                    return;
+                }
+                if (dblock == Blocks.GOLD_ORE){
+                    event.getDrops().add(new ItemStack(Items.GOLD_INGOT));
+                    event.getDrops().remove(0);
+                    return;
+                }
             }
         }
     }
