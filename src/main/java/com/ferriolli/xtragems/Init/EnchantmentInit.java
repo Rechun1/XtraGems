@@ -42,6 +42,8 @@ public class EnchantmentInit {
     public static final Enchantment CATACLYSM = new EnchantmentCataclysm(Enchantment.Rarity.VERY_RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
     public static final Enchantment BLAST_FURNACE = new EnchantmentBlastFurnace(Enchantment.Rarity.UNCOMMON, EnumEnchantmentType.DIGGER, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
 
+    //enchant de mob dropar cabeça
+
     @SubscribeEvent
     public static void vampirism(LivingAttackEvent event){
         Object attacker = event.getSource().getTrueSource();
@@ -155,4 +157,5 @@ public class EnchantmentInit {
             }
         }
     }
+
 }
