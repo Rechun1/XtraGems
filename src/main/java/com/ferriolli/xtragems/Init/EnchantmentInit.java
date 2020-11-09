@@ -43,17 +43,17 @@ public class EnchantmentInit {
     public static final Enchantment BLAST_FURNACE = new EnchantmentBlastFurnace(Enchantment.Rarity.UNCOMMON, EnumEnchantmentType.DIGGER, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
 
     //enchant de mob dropar cabeça
+    //mudar cataclysm para chance de causar um tipo de efeito no mob atingido
 
     @SubscribeEvent
-    public static void vampirism(LivingAttackEvent event){
+    public static void vampirism(LivingDeathEvent event){
         Object attacker = event.getSource().getTrueSource();
-        if (attacker instanceof EntityLivingBase){
-            EntityLivingBase entityAttacker = (EntityLivingBase)attacker;
+        if (attacker instanceof EntityPlayer){
+            EntityPlayer entityAttacker = (EntityPlayer)attacker;
             int level = EnchantmentHelper.getEnchantmentLevel(DAMAGE_HEAL, entityAttacker.getHeldItemMainhand());
             if (!entityAttacker.getEntityWorld().isRemote && level > 0){
-                float floatLevel = (float)level;
-                entityAttacker.heal(event.getAmount() * floatLevel);
-                entityAttacker.getEntityWorld().playSound(null, entityAttacker.getPosition(), SoundEvents.ENTITY_DONKEY_ANGRY, SoundCategory.HOSTILE, 1.0F, 1.0F);
+                entityAttacker.heal(level);
+                entityAttacker.getEntityWorld().playSound(null, entityAttacker.getPosition(), SoundEvents.ENTITY_ARROW_HIT_PLAYER, SoundCategory.HOSTILE, 1.0F, 2.0F);
             }
         }
     }
