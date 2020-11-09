@@ -19,6 +19,7 @@ public class ModItems {
     public static final Item.ToolMaterial MATERIAL_TOPAZ = EnumHelper.addToolMaterial("material_topaz", 3, 848, 9.0F, 2.5F, 10);
     public static final Item.ToolMaterial MATERIAL_AMETHYST = EnumHelper.addToolMaterial("material_amethyst", 2, 348, 6.0F, 2.0F, 10);
     public static final Item.ToolMaterial MATERIAL_GLASS = EnumHelper.addToolMaterial("material_glass", 2, 50, 20.0F, 6.0F, 10);
+    public static final Item.ToolMaterial MATERIAL_FIRITE = EnumHelper.addToolMaterial("material_firite", 3, 500, 12.0F, 6.0F, 10);
 
     public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_RUBY = EnumHelper.addArmorMaterial("armor_material_ruby", Reference.MOD_ID + ":ruby", 16, new int[] {4, 9, 7, 4}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0);
 
@@ -55,6 +56,8 @@ public class ModItems {
     public static final ItemPickaxe GLASS_PICKAXE = new ToolPickaxe("glass_pickaxe", MATERIAL_GLASS);
     public static final ItemAxe GLASS_AXE = new ToolAxe("glass_axe", MATERIAL_GLASS);
     public static final ItemHoe GLASS_HOE = new ToolHoe("glass_hoe", MATERIAL_GLASS);
+
+    public static final ItemPickaxe FIERY_PICKAXE = new ToolPickaxe("fiery_pickaxe", MATERIAL_FIRITE);
 
     public static final Item RUBY_HELMET = new ArmorBase("ruby_helmet", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.HEAD);
     public static final Item RUBY_CHESTPLATE = new ArmorBase("ruby_chestplate", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.CHEST);
