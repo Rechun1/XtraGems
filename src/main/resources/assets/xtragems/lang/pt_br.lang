@@ -1,11 +1,11 @@
-item.topaz.name=Topaz
+item.topaz.name=Topazio
 item.black_gem.name=Black Gem
-item.ruby.name=Ruby
-item.amethyst.name=Amethyst
-item.shadow_ingot.name=Shadow Ingot
-item.firite_gem.name=Firite Gem
-item.bloodstone.name=Bloodstone
-item.ruby_sword.name=Ruby Sword
+item.ruby.name=Rubi
+item.amethyst.name=Ametista
+item.shadow_ingot.name=Barra Sombria
+item.firite_gem.name=Gema de Firite
+item.bloodstone.name=Pedra Sangrenta
+item.ruby_sword.name=Espada de Rubi
 item.ruby_shovel.name=Ruby Shovel
 item.ruby_pickaxe.name=Ruby Pickaxe
 item.ruby_axe.name=Ruby Axe
@@ -27,11 +27,6 @@ item.glass_axe.name=Glass Axe
 item.glass_hoe.name=Glass Hoe
 item.glass_shard.name=Glass shard
 item.reinforced_glass_shard.name=Reinforced glass shard
-
-item.ruby_helmet.name=Ruby Helmet
-item.ruby_chestplate.name=Ruby Chestplate
-item.ruby_leggings.name=Ruby Leggings
-item.ruby_boots.name=Ruby Boots
 
 tile.ruby_block.name=Block of Ruby
 tile.topaz_block.name=Block of Topaz

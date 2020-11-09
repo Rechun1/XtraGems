@@ -28,6 +28,11 @@ item.glass_hoe.name=Glass Hoe
 item.glass_shard.name=Glass shard
 item.reinforced_glass_shard.name=Reinforced glass shard
 
+item.ruby_helmet.name=Ruby Helmet
+item.ruby_chestplate.name=Ruby Chestplate
+item.ruby_leggings.name=Ruby Leggings
+item.ruby_boots.name=Ruby Boots
+
 tile.ruby_block.name=Block of Ruby
 tile.topaz_block.name=Block of Topaz
 tile.bloodstone_ore.name=Bloodstone Ore
