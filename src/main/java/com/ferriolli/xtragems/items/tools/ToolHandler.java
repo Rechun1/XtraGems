@@ -68,35 +68,4 @@ public class ToolHandler {
             }
         }
     }
-
-    @SubscribeEvent
-    public static void UseItemHealTest(PlayerInteractEvent.EntityInteract event){
-        if (event.getEntity() instanceof EntityLivingBase){
-            EntityLivingBase entityUser = (EntityLivingBase) event.getEntity();
-            if (entityUser.getHeldItemMainhand().getItem() ==  ModItems.BLACK_GEM){
-                if (event.getEntity() instanceof EntityLivingBase){
-                    EntityLivingBase entityTarget = (EntityLivingBase) event.getTarget();
-                    entityTarget.heal(2);
-                }
-            }
-        }
-    }
-    //NÃO FUNCIONA, VERIFICAR MOTIVO
-    @SubscribeEvent
-    public void staffHeal(PlayerInteractEvent.EntityInteract event){
-        if(event.getEntity() instanceof EntityLivingBase){
-            Minecraft.getMinecraft().player.sendChatMessage("entidade é living base");
-            EntityLivingBase entityUser = (EntityLivingBase) event.getEntity();
-            if (entityUser.getHeldItemMainhand().getItem() == ModItems.HEALING_STAFF){
-                Minecraft.getMinecraft().player.sendChatMessage("esta segurando staff");
-                if (event.getTarget() instanceof EntityLivingBase){
-                    Minecraft.getMinecraft().player.sendChatMessage("Alvo é living base");
-                    EntityLivingBase entityTarget = (EntityLivingBase) event.getTarget();
-                    entityTarget.heal(4);
-                    entityUser.getHeldItemMainhand().damageItem(1, entityUser);
-                    entityUser.getEntityWorld().playSound(null, entityUser.getPosition(), SoundEvents.ENTITY_ARROW_HIT, SoundCategory.HOSTILE, 1.0F, 2F);
-                }
-            }
-        }
-    }
 }
