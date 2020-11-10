@@ -5,7 +5,7 @@ import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldType;
-import net.minecraft.world.biome.BiomePlains;
+import net.minecraft.world.biome.*;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraft.world.gen.feature.WorldGenerator;
@@ -18,7 +18,7 @@ import java.util.Random;
 public class ModWorldGenCustomStructures implements IWorldGenerator {
     public final ModWorldGenStructure MINER_HOUSE = new ModWorldGenStructure("miner_house");
     public final ModWorldGenStructure RUINED_HOUSE = new ModWorldGenStructure("ruined_house");
-
+    public final ModWorldGenStructure ABANDONED_TOWER = new ModWorldGenStructure("abandoned_tower");
     @Override
     public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
 
@@ -30,6 +30,7 @@ public class ModWorldGenCustomStructures implements IWorldGenerator {
             case 0:
                     generateStructure(MINER_HOUSE, world, random, chunkX, chunkZ, 100, Blocks.GRASS, BiomePlains.class);
                     generateStructure(RUINED_HOUSE, world, random, chunkX, chunkZ, 100, Blocks.GRASS, BiomePlains.class);
+                    generateStructure(ABANDONED_TOWER, world, random, chunkX, chunkZ, 100, Blocks.GRASS, BiomePlains.class, BiomeDesert.class, BiomeForest.class, BiomeBeach.class, BiomeMesa.class, BiomeSavanna.class, BiomeHills.class, BiomeSnow.class);
                 break;
             case -1:
                 break;

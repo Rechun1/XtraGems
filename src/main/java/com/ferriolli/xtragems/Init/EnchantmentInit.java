@@ -28,7 +28,9 @@ import net.minecraftforge.fml.common.eventhandler.Event;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.Random;
 
 @Mod.EventBusSubscriber(modid = Reference.MOD_ID)
 public class EnchantmentInit {
@@ -128,12 +130,23 @@ public class EnchantmentInit {
             Object enemy = event.getEntity();
             EntityLivingBase entityEnemy = (EntityLivingBase) enemy;
             int level = EnchantmentHelper.getEnchantmentLevel(CATACLYSM, entityAttacker.getHeldItemMainhand());
-            if (level > 0){
-                entityEnemy.addPotionEffect(new PotionEffect(MobEffects.POISON, 60 * level, level));
-                entityEnemy.setFire(20 * level);
-                entityEnemy.addPotionEffect(new PotionEffect(MobEffects.WITHER, 60 * level, level));
+            if (level > 0 && entityEnemy.getActivePotionEffects().isEmpty()){
+                Random random = new Random();
+                int chance = random.nextInt(3);
+                Minecraft.getMinecraft().player.sendChatMessage("num: " + chance);
+                switch (chance){
+                    case 0:
+                        //entityEnemy.setFire(3 * level);
+                        Minecraft.getMinecraft().player.sendChatMessage("foguinho");
+                        break;
+                    case 1:
+                        entityEnemy.addPotionEffect(new PotionEffect(MobEffects.WITHER, 60 * level, level));
+                        break;
+                    case 2:
+                        entityEnemy.addPotionEffect(new PotionEffect(MobEffects.POISON, 60 * level, level));
+                        break;
+                }
                 entityAttacker.getEntityWorld().playSound(null, entityAttacker.getPosition(), SoundEvents.ENTITY_GENERIC_EXPLODE, SoundCategory.HOSTILE, 1.0F, 2F);
-
             }
         }
     }

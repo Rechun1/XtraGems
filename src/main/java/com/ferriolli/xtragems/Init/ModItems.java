@@ -1,6 +1,7 @@
 package com.ferriolli.xtragems.Init;
 
 import com.ferriolli.xtragems.items.ItemBase;
+import com.ferriolli.xtragems.items.ItemStaff;
 import com.ferriolli.xtragems.items.armor.ArmorBase;
 import com.ferriolli.xtragems.items.tools.*;
 import com.ferriolli.xtragems.util.Reference;
@@ -63,6 +64,8 @@ public class ModItems {
     public static final Item RUBY_CHESTPLATE = new ArmorBase("ruby_chestplate", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.CHEST);
     public static final Item RUBY_LEGGINGS = new ArmorBase("ruby_leggings", ARMOR_MATERIAL_RUBY, 2, EntityEquipmentSlot.LEGS);
     public static final Item RUBY_BOOTS = new ArmorBase("ruby_boots", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.FEET);
+
+    public static final ItemStaff HEALING_STAFF = new ItemStaff("healing_staff");
 
 
 }

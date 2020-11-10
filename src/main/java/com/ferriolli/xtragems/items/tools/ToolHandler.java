@@ -2,10 +2,19 @@ package com.ferriolli.xtragems.items.tools;
 
 import com.ferriolli.xtragems.Init.ModItems;
 import net.minecraft.block.Block;
+import net.minecraft.client.Minecraft;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
+import net.minecraft.init.MobEffects;
+import net.minecraft.init.SoundEvents;
 import net.minecraft.item.ItemStack;
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.util.SoundCategory;
+import net.minecraftforge.event.entity.living.LivingEntityUseItemEvent;
+import net.minecraftforge.event.entity.player.PlayerEvent;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.event.world.BlockEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
@@ -14,6 +23,7 @@ import java.util.Random;
 
 @Mod.EventBusSubscriber
 public class ToolHandler {
+    //VERIFICAR SE (!world.isRemote())
     @SubscribeEvent
     public static void fieryPick(BlockEvent.HarvestDropsEvent event) {
         if (event.getHarvester() instanceof EntityPlayer) {
@@ -43,6 +53,48 @@ public class ToolHandler {
                 int chance = random.nextInt(21);
                 if (chance == 1){
                     entityBreaker.getHeldItemMainhand().damageItem(9999, event.getPlayer());
+                }
+            }
+        }
+    }
+
+    @SubscribeEvent
+    public static void UseItemTest(PlayerInteractEvent.RightClickItem event){
+        if (event.getEntityLiving() instanceof EntityLivingBase){
+            EntityLivingBase entityUser = event.getEntityLiving();
+            if (entityUser.getHeldItemMainhand().getItem() == ModItems.FIERY_PICKAXE){
+                Minecraft.getMinecraft().player.sendChatMessage("passou aqui 2");
+                entityUser.getHeldItemMainhand().damageItem(50, entityUser);
+            }
+        }
+    }
+
+    @SubscribeEvent
+    public static void UseItemHealTest(PlayerInteractEvent.EntityInteract event){
+        if (event.getEntity() instanceof EntityLivingBase){
+            EntityLivingBase entityUser = (EntityLivingBase) event.getEntity();
+            if (entityUser.getHeldItemMainhand().getItem() ==  ModItems.BLACK_GEM){
+                if (event.getEntity() instanceof EntityLivingBase){
+                    EntityLivingBase entityTarget = (EntityLivingBase) event.getTarget();
+                    entityTarget.heal(2);
+                }
+            }
+        }
+    }
+    //NÃO FUNCIONA, VERIFICAR MOTIVO
+    @SubscribeEvent
+    public void staffHeal(PlayerInteractEvent.EntityInteract event){
+        if(event.getEntity() instanceof EntityLivingBase){
+            Minecraft.getMinecraft().player.sendChatMessage("entidade é living base");
+            EntityLivingBase entityUser = (EntityLivingBase) event.getEntity();
+            if (entityUser.getHeldItemMainhand().getItem() == ModItems.HEALING_STAFF){
+                Minecraft.getMinecraft().player.sendChatMessage("esta segurando staff");
+                if (event.getTarget() instanceof EntityLivingBase){
+                    Minecraft.getMinecraft().player.sendChatMessage("Alvo é living base");
+                    EntityLivingBase entityTarget = (EntityLivingBase) event.getTarget();
+                    entityTarget.heal(4);
+                    entityUser.getHeldItemMainhand().damageItem(1, entityUser);
+                    entityUser.getEntityWorld().playSound(null, entityUser.getPosition(), SoundEvents.ENTITY_ARROW_HIT, SoundCategory.HOSTILE, 1.0F, 2F);
                 }
             }
         }

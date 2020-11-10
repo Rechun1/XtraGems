@@ -28,6 +28,7 @@ item.glass_hoe.name=Glass Hoe
 item.fiery_pickaxe.name=Fiery Pickaxe
 item.glass_shard.name=Glass shard
 item.reinforced_glass_shard.name=Reinforced glass shard
+item.healing_staff.name=Healing Staff
 
 item.ruby_helmet.name=Ruby Helmet
 item.ruby_chestplate.name=Ruby Chestplate
