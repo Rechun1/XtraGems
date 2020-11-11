@@ -5,6 +5,8 @@ import com.ferriolli.xtragems.items.tools.specialItems.ItemHealingStaff;
 import com.ferriolli.xtragems.items.armor.ArmorBase;
 import com.ferriolli.xtragems.items.tools.*;
 import com.ferriolli.xtragems.util.Reference;
+import net.minecraft.block.Block;
+import net.minecraft.init.Blocks;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.*;
@@ -66,6 +68,4 @@ public class ModItems {
     public static final Item RUBY_BOOTS = new ArmorBase("ruby_boots", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.FEET);
 
     public static final ItemHealingStaff HEALING_STAFF = new ItemHealingStaff("healing_staff");
-
-
 }

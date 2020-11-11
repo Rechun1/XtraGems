@@ -40,8 +40,7 @@ public class ItemHealingStaff extends Item implements IHasModel {
     }
 
     @Override
-    public boolean itemInteractionForEntity(ItemStack stack, EntityPlayer playerIn, EntityLivingBase target, EnumHand handIn)
-    {
+    public boolean itemInteractionForEntity(ItemStack stack, EntityPlayer playerIn, EntityLivingBase target, EnumHand handIn) {
         ItemStack itemStack = playerIn.getHeldItem(handIn);
         World worldIn = playerIn.getEntityWorld();
         if(!worldIn.isRemote && target.getHealth() < target.getMaxHealth()){

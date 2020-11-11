@@ -12,6 +12,7 @@ import net.minecraft.init.SoundEvents;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.SoundCategory;
+import net.minecraft.world.gen.feature.WorldGenWaterlily;
 import net.minecraftforge.event.entity.living.LivingEntityUseItemEvent;
 import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
@@ -28,17 +29,19 @@ public class ToolHandler {
     public static void fieryPick(BlockEvent.HarvestDropsEvent event) {
         if (event.getHarvester() instanceof EntityPlayer) {
             EntityPlayer entityBreaker = event.getHarvester();
-            if (entityBreaker.getHeldItemMainhand().getItem() == ModItems.FIERY_PICKAXE) {
-                Block dBlock = event.getState().getBlock();
-                if (dBlock == Blocks.IRON_ORE) {
-                    event.getDrops().add(new ItemStack(Items.IRON_INGOT));
-                    event.getDrops().remove(0);
-                    return;
-                }
-                if (dBlock == Blocks.GOLD_ORE) {
-                    event.getDrops().add(new ItemStack(Items.GOLD_INGOT));
-                    event.getDrops().remove(0);
-                    return;
+            if (!entityBreaker.getEntityWorld().isRemote){
+                if (entityBreaker.getHeldItemMainhand().getItem() == ModItems.FIERY_PICKAXE) {
+                    Block dBlock = event.getState().getBlock();
+                    if (dBlock == Blocks.IRON_ORE) {
+                        event.getDrops().add(new ItemStack(Items.IRON_INGOT));
+                        event.getDrops().remove(0);
+                        return;
+                    }
+                    if (dBlock == Blocks.GOLD_ORE) {
+                        event.getDrops().add(new ItemStack(Items.GOLD_INGOT));
+                        event.getDrops().remove(0);
+                        return;
+                    }
                 }
             }
         }
@@ -68,4 +71,5 @@ public class ToolHandler {
             }
         }
     }
+
 }
