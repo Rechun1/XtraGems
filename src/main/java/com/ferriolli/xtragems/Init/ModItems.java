@@ -1,6 +1,6 @@
 package com.ferriolli.xtragems.Init;
 
-import com.ferriolli.xtragems.items.ItemBase;
+import com.ferriolli.xtragems.items.ItemBase;;
 import com.ferriolli.xtragems.items.tools.specialItems.ItemHealingStaff;
 import com.ferriolli.xtragems.items.armor.ArmorBase;
 import com.ferriolli.xtragems.items.tools.*;

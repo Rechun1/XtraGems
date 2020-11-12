@@ -46,7 +46,7 @@ public class EnchantmentInit {
 
     //enchant de mob dropar cabeça
     //mudar cataclysm para chance de causar um tipo de efeito no mob atingido
-
+    //VERIFICAR !WORLD.ISREMOTE
     @SubscribeEvent
     public static void vampirism(LivingDeathEvent event){
         Object attacker = event.getSource().getTrueSource();
