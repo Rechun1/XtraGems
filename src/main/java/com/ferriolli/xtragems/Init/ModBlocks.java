@@ -2,6 +2,7 @@ package com.ferriolli.xtragems.Init;
 
 import com.ferriolli.xtragems.blocks.*;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockFurnace;
 import net.minecraft.block.material.Material;
 
 import java.util.ArrayList;
@@ -19,4 +20,5 @@ public class ModBlocks {
     public static final Block TOPAZ_ORE = new TopazOre("topaz_ore", Material.ROCK);
     public static final Block BLACK_GEM_ORE = new BlackGemOre("black_gem_ore", Material.ROCK);
     public static final Block AMETHYST_BLOCK = new AmethystBlock("amethyst_block", Material.ROCK);
+    public static final Block GEM_REFINER = new GemRefiner("gem_refiner", Material.IRON);
 }

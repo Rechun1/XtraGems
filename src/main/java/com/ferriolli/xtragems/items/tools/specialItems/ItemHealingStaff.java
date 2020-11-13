@@ -3,11 +3,13 @@ package com.ferriolli.xtragems.items.tools.specialItems;
 import com.ferriolli.xtragems.Init.ModItems;
 import com.ferriolli.xtragems.Main;
 import com.ferriolli.xtragems.util.IHasModel;
+import net.minecraft.block.BlockFurnace;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ActionResult;
@@ -52,4 +54,5 @@ public class ItemHealingStaff extends Item implements IHasModel {
         }
         return false;
     }
+
 }
