@@ -5,6 +5,7 @@ import com.ferriolli.xtragems.proxy.ClientProxy;
 import com.ferriolli.xtragems.proxy.CommonProxy;
 import com.ferriolli.xtragems.util.Reference;
 
+//import com.ferriolli.xtragems.util.handlers.TileEntityHandler;
 import com.ferriolli.xtragems.world.ModWorldGen;
 import com.ferriolli.xtragems.world.ModWorldGenCustomStructures;
 import net.minecraft.util.ResourceLocation;
@@ -38,6 +39,7 @@ public class Main {
     {
         GameRegistry.registerWorldGenerator(new ModWorldGenCustomStructures(), 0);
         GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
+        //TileEntityHandler.registerTileEntities();
     }
 
     @EventHandler

@@ -1,7 +1,6 @@
 package com.ferriolli.xtragems.Init;
 
 import com.ferriolli.xtragems.blocks.*;
-import com.ferriolli.xtragems.blocks.gemrefiner.GemRefiner;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 
@@ -20,6 +19,7 @@ public class ModBlocks {
     public static final Block TOPAZ_ORE = new TopazOre("topaz_ore", Material.ROCK);
     public static final Block BLACK_GEM_ORE = new BlackGemOre("black_gem_ore", Material.ROCK);
     public static final Block AMETHYST_BLOCK = new AmethystBlock("amethyst_block", Material.ROCK);
-    public static final Block GEM_REFINER_OFF = new GemRefiner("gem_refiner_off", false);
-    public static final Block GEM_REFINER_ON = new GemRefiner("gem_refiner_on", true);
+    public static final GemRefiner_OLD GEM_REFINER = new GemRefiner_OLD("gem_refiner", Material.IRON);
+    //public static final Block GEM_REFINER_OFF = new GemRefiner("gem_refiner_off", false);
+    //public static final Block GEM_REFINER_ON = new GemRefiner("gem_refiner_on", true);
 }

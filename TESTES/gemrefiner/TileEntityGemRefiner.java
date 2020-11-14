@@ -1,5 +1,6 @@
 package com.ferriolli.xtragems.blocks.gemrefiner;
 
+import com.ferriolli.xtragems.blocks.gemrefiner.slots.SlotRefinerFuel;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.player.EntityPlayer;
@@ -19,6 +20,7 @@ import net.minecraft.util.NonNullList;
 import net.minecraft.util.datafix.DataFixer;
 import net.minecraft.util.datafix.FixTypes;
 import net.minecraft.util.datafix.walkers.ItemStackDataLists;
+import net.minecraft.util.math.MathHelper;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
@@ -219,7 +221,7 @@ public class TileEntityGemRefiner extends TileEntityLockable implements ITickabl
             if (flag != this.isBurning())
             {
                 flag1 = true;
-                SilverFurnace.setState(this.isBurning(), this.world, this.pos);
+                GemRefiner.setState(this.isBurning(), this.world, this.pos);
             }
         }
 
@@ -433,7 +435,7 @@ public class TileEntityGemRefiner extends TileEntityLockable implements ITickabl
         else
         {
             ItemStack itemStack = this.refinerItemStacks.get(1);
-            return isItemFuel(stack) || SlotGemRefinerFuel.isBucket(stack) && itemStack.getItem() != Items.BUCKET;
+            return isItemFuel(stack) || SlotRefinerFuel.isBucket(stack) && itemStack.getItem() != Items.BUCKET;
         }
     }
 
