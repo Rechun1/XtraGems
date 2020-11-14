@@ -18,10 +18,10 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class GemRefiner extends BlockBase{
+public class GemRefiner_OLD extends BlockBase{
     private static final IProperty<EnumFacing> FACING = PropertyDirection.create("facing");;
 
-    public GemRefiner(String name, Material material) {
+    public GemRefiner_OLD(String name, Material material) {
         super(name, material);
         setSoundType(SoundType.METAL);
         setHardness(5f);
