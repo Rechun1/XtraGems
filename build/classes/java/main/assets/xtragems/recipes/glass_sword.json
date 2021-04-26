@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "xtragems:reinforced_glass_shard"
+    }
+  },
+  "result": {
+    "item": "xtragems:glass_sword"
+  }
+}
