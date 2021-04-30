@@ -1,8 +1,0 @@
-{
-  "parent": "block/orientable",
-  "textures": {
-    "top": "xtragems:blocks/gem_refiner_top",
-    "front": "xtragems:blocks/gem_refiner_front",
-    "side": "xtragems:blocks/gem_refiner_side"
-  }
-}

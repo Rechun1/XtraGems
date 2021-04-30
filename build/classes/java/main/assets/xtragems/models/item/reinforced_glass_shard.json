@@ -1,6 +1,0 @@
-{
-   "parent": "item/generated",
-   "textures": {
-       "layer0": "xtragems:items/reinforced_glass_shard"
-   }
-}
