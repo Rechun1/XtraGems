@@ -1,46 +1,47 @@
-[00:49:54] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[00:49:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[00:49:54] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
-[00:49:54] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_292, running on Windows 10:amd64:10.0, installed at C:\Users\Pedro\.jdks\adopt-openjdk-1.8.0_292\jre
-[00:49:54] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[00:49:54] [main/ERROR] [FML]: Full: C:\Users\Pedro\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[00:49:54] [main/ERROR] [FML]: Trimmed: c:/users/pedro/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[00:49:55] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[00:49:55] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[00:49:55] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[00:49:55] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[00:49:55] [main/INFO] [FML]: Searching C:\Users\Pedro\Desktop\Coisas\XtraGems\run\.\mods for mods
-[00:49:55] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[00:49:55] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[00:49:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[00:49:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[00:49:55] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[00:49:57] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[00:49:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[00:49:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[00:49:57] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[00:49:57] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[00:49:57] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[00:49:57] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player281
-[00:50:00] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[00:50:01] [Client thread/INFO] [FML]: -- System Details --
+[19:58:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:58:12] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:58:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:58:12] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
+[19:58:12] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_292, running on Windows 10:amd64:10.0, installed at C:\Users\Pedro\.jdks\adopt-openjdk-1.8.0_292\jre
+[19:58:12] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[19:58:12] [main/ERROR] [FML]: Full: C:\Users\Pedro\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[19:58:12] [main/ERROR] [FML]: Trimmed: c:/users/pedro/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[19:58:12] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[19:58:12] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[19:58:13] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[19:58:13] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[19:58:13] [main/INFO] [FML]: Searching C:\Users\Pedro\Desktop\Coisas\XtraGems\run\.\mods for mods
+[19:58:13] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:58:13] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:58:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:58:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:58:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:58:14] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[19:58:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:58:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:58:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:58:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:58:14] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[19:58:15] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player703
+[19:58:17] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[19:58:17] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_292, AdoptOpenJDK
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), AdoptOpenJDK
-	Memory: 688941224 bytes (657 MB) / 852492288 bytes (813 MB) up to 3797417984 bytes (3621 MB)
+	Memory: 890774808 bytes (849 MB) / 1048576000 bytes (1000 MB) up to 3797417984 bytes (3621 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 460.79' Renderer: 'GeForce GTX 1060 3GB/PCIe/SSE2'
-[00:50:01] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
-[00:50:01] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[00:50:01] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[00:50:01] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
-[00:50:01] [Client thread/INFO] [FML]: Searching C:\Users\Pedro\Desktop\Coisas\XtraGems\run\.\mods for mods
-[00:50:02] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[19:58:17] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
+[19:58:17] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[19:58:17] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[19:58:17] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[19:58:18] [Client thread/INFO] [FML]: Searching C:\Users\Pedro\Desktop\Coisas\XtraGems\run\.\mods for mods
+[19:58:18] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -69,7 +70,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:50:02] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Pedro\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar - probably a corrupt zip
+[19:58:18] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Pedro\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -102,7 +103,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[00:50:02] [Client thread/WARN] [FML]: Zip file asm-util-6.2.jar failed to read properly, it will be ignored
+[19:58:18] [Client thread/WARN] [FML]: Zip file asm-util-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -135,7 +136,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[00:50:02] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[19:58:18] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -164,7 +165,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:50:02] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Pedro\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar - probably a corrupt zip
+[19:58:18] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Pedro\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -197,7 +198,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[00:50:02] [Client thread/WARN] [FML]: Zip file asm-tree-6.2.jar failed to read properly, it will be ignored
+[19:58:18] [Client thread/WARN] [FML]: Zip file asm-tree-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -230,7 +231,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[00:50:02] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[19:58:18] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -259,7 +260,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:50:02] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Pedro\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar - probably a corrupt zip
+[19:58:18] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Pedro\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -292,7 +293,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[00:50:02] [Client thread/WARN] [FML]: Zip file asm-6.2.jar failed to read properly, it will be ignored
+[19:58:18] [Client thread/WARN] [FML]: Zip file asm-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -325,7 +326,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[00:50:02] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[19:58:18] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -354,7 +355,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_292]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[00:50:02] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Pedro\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar - probably a corrupt zip
+[19:58:18] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Pedro\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -387,7 +388,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[00:50:02] [Client thread/WARN] [FML]: Zip file asm-analysis-6.2.jar failed to read properly, it will be ignored
+[19:58:18] [Client thread/WARN] [FML]: Zip file asm-analysis-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -420,464 +421,127 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[00:50:02] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
-[00:50:02] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xtragems] at CLIENT
-[00:50:02] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xtragems] at SERVER
-[00:50:02] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Extra Gems
-[00:50:02] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[00:50:02] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[00:50:02] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[00:50:02] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[00:50:03] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[00:50:03] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[00:50:03] [Client thread/INFO] [FML]: Applying holder lookups
-[00:50:03] [Client thread/INFO] [FML]: Holder lookups applied
-[00:50:03] [Client thread/INFO] [FML]: Applying holder lookups
-[00:50:03] [Client thread/INFO] [FML]: Holder lookups applied
-[00:50:03] [Client thread/INFO] [FML]: Applying holder lookups
-[00:50:03] [Client thread/INFO] [FML]: Holder lookups applied
-[00:50:03] [Client thread/INFO] [FML]: Applying holder lookups
-[00:50:03] [Client thread/INFO] [FML]: Holder lookups applied
-[00:50:03] [Client thread/INFO] [FML]: Injecting itemstacks
-[00:50:03] [Client thread/INFO] [FML]: Itemstack injection complete
-[00:50:03] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 54684000 nanos
-[00:50:04] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[00:50:04] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[00:50:04] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[00:50:04] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[00:50:04] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2855
-[00:50:05] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[00:50:09] [Client thread/INFO] [FML]: Max texture size: 16384
-[00:50:11] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
-[00:50:12] [Client thread/INFO] [FML]: Applying holder lookups
-[00:50:12] [Client thread/INFO] [FML]: Holder lookups applied
-[00:50:12] [Client thread/INFO] [FML]: Injecting itemstacks
-[00:50:12] [Client thread/INFO] [FML]: Itemstack injection complete
-[00:50:12] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
-[00:50:12] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
-[00:50:13] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[00:50:18] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
-[00:50:18] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
-[00:50:18] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[00:50:18] [Server thread/INFO] [FML]: Applying holder lookups
-[00:50:18] [Server thread/INFO] [FML]: Holder lookups applied
-[00:50:18] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@18bd2503)
-[00:50:19] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[00:50:19] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@18bd2503)
-[00:50:19] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@18bd2503)
-[00:50:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[00:50:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 10%
-[00:50:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 22%
-[00:50:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 32%
-[00:50:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 45%
-[00:50:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 59%
-[00:50:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 73%
-[00:50:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 90%
-[00:50:27] [Server thread/INFO] [FML]: Unloading dimension -1
-[00:50:27] [Server thread/INFO] [FML]: Unloading dimension 1
-[00:50:27] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 22, from 10
-[00:50:28] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
-[00:50:28] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[00:50:28] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,xtragems@1.0,FML@8.0.99.99,forge@14.23.5.2854,mcp@9.42
-[00:50:28] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
-[00:50:29] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[00:50:29] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player281[local:E:4c5707cd] logged in with entity id 1904 at (50.5, 78.0, 256.5)
-[00:50:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player281 joined the game
-[00:50:29] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[00:50:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[00:50:32] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2552ms behind, skipping 51 tick(s)
-[00:50:36] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_292]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_292]
-	at net.minecraft.util.Util.runTask(Util.java:51) [Util.class:?]
-	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:185) [IntegratedServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
-Caused by: java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at net.minecraft.tileentity.TileEntity.writeInternal(TileEntity.java:78) ~[TileEntity.class:?]
-	at net.minecraft.tileentity.TileEntity.writeToNBT(TileEntity.java:69) ~[TileEntity.class:?]
-	at com.ferriolli.xtragems.blocks.TileEntityGemRefiner.writeToNBT(TileEntityGemRefiner.java:114) ~[TileEntityGemRefiner.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.getTileNBT(BlockSnapshot.java:132) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:61) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:82) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.getBlockSnapshot(BlockSnapshot.java:113) ~[BlockSnapshot.class:?]
-	at net.minecraft.world.World.setBlockState(World.java:336) ~[World.class:?]
-	at com.ferriolli.xtragems.blocks.GemRefiner.onBlockAdded(GemRefiner.java:86) ~[GemRefiner.class:?]
-	at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614) ~[Chunk.class:?]
-	at net.minecraft.world.World.setBlockState(World.java:343) ~[World.class:?]
-	at net.minecraft.item.ItemBlock.placeBlockAt(ItemBlock.java:180) ~[ItemBlock.class:?]
-	at net.minecraft.item.ItemBlock.onItemUse(ItemBlock.java:54) ~[ItemBlock.class:?]
-	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:889) ~[ForgeHooks.class:14.23.5.2854]
-	at net.minecraft.item.ItemStack.onItemUse(ItemStack.java:186) ~[ItemStack.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.processRightClickBlock(PlayerInteractionManager.java:481) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.network.NetHandlerPlayServer.processTryUseItemOnBlock(NetHandlerPlayServer.java:741) ~[NetHandlerPlayServer.class:?]
-	at net.minecraft.network.play.client.CPacketPlayerTryUseItemOnBlock.processPacket(CPacketPlayerTryUseItemOnBlock.java:59) ~[CPacketPlayerTryUseItemOnBlock.class:?]
-	at net.minecraft.network.play.client.CPacketPlayerTryUseItemOnBlock.processPacket(CPacketPlayerTryUseItemOnBlock.java:13) ~[CPacketPlayerTryUseItemOnBlock.class:?]
-	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[PacketThreadUtil$1.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_292]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_292]
-	at net.minecraft.util.Util.runTask(Util.java:50) ~[Util.class:?]
-	... 5 more
-[00:50:41] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[00:50:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[00:50:41] [Server thread/ERROR] [FML]: A TileEntity type com.ferriolli.xtragems.blocks.TileEntityGemRefiner has throw an exception trying to write state. It will not persist. Report this to the mod author
-java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at net.minecraft.tileentity.TileEntity.writeInternal(TileEntity.java:78) ~[TileEntity.class:?]
-	at net.minecraft.tileentity.TileEntity.writeToNBT(TileEntity.java:69) ~[TileEntity.class:?]
-	at com.ferriolli.xtragems.blocks.TileEntityGemRefiner.writeToNBT(TileEntityGemRefiner.java:114) ~[TileEntityGemRefiner.class:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeChunkToNBT(AnvilChunkLoader.java:383) [AnvilChunkLoader.class:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.saveChunk(AnvilChunkLoader.java:174) [AnvilChunkLoader.class:?]
-	at net.minecraft.world.gen.ChunkProviderServer.saveChunkData(ChunkProviderServer.java:202) [ChunkProviderServer.class:?]
-	at net.minecraft.world.gen.ChunkProviderServer.saveChunks(ChunkProviderServer.java:230) [ChunkProviderServer.class:?]
-	at net.minecraft.world.WorldServer.saveAllChunks(WorldServer.java:1007) [WorldServer.class:?]
-	at net.minecraft.server.MinecraftServer.saveAllWorlds(MinecraftServer.java:408) [MinecraftServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.saveAllWorlds(IntegratedServer.java:252) [IntegratedServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:170) [IntegratedServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
-[00:51:28] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[00:51:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[00:51:28] [Server thread/ERROR] [FML]: A TileEntity type com.ferriolli.xtragems.blocks.TileEntityGemRefiner has throw an exception trying to write state. It will not persist. Report this to the mod author
-java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at net.minecraft.tileentity.TileEntity.writeInternal(TileEntity.java:78) ~[TileEntity.class:?]
-	at net.minecraft.tileentity.TileEntity.writeToNBT(TileEntity.java:69) ~[TileEntity.class:?]
-	at com.ferriolli.xtragems.blocks.TileEntityGemRefiner.writeToNBT(TileEntityGemRefiner.java:114) ~[TileEntityGemRefiner.class:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeChunkToNBT(AnvilChunkLoader.java:383) [AnvilChunkLoader.class:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.saveChunk(AnvilChunkLoader.java:174) [AnvilChunkLoader.class:?]
-	at net.minecraft.world.gen.ChunkProviderServer.saveChunkData(ChunkProviderServer.java:202) [ChunkProviderServer.class:?]
-	at net.minecraft.world.gen.ChunkProviderServer.saveChunks(ChunkProviderServer.java:230) [ChunkProviderServer.class:?]
-	at net.minecraft.world.WorldServer.saveAllChunks(WorldServer.java:1007) [WorldServer.class:?]
-	at net.minecraft.server.MinecraftServer.saveAllWorlds(MinecraftServer.java:408) [MinecraftServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.saveAllWorlds(IntegratedServer.java:252) [IntegratedServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:170) [IntegratedServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
-[00:51:35] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_292]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_292]
-	at net.minecraft.util.Util.runTask(Util.java:51) [Util.class:?]
-	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:185) [IntegratedServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
-Caused by: java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at net.minecraft.tileentity.TileEntity.writeInternal(TileEntity.java:78) ~[TileEntity.class:?]
-	at net.minecraft.tileentity.TileEntity.writeToNBT(TileEntity.java:69) ~[TileEntity.class:?]
-	at com.ferriolli.xtragems.blocks.TileEntityGemRefiner.writeToNBT(TileEntityGemRefiner.java:114) ~[TileEntityGemRefiner.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.getTileNBT(BlockSnapshot.java:132) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:61) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:82) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.getBlockSnapshot(BlockSnapshot.java:113) ~[BlockSnapshot.class:?]
-	at net.minecraft.world.World.setBlockState(World.java:336) ~[World.class:?]
-	at net.minecraft.block.Block.removedByPlayer(Block.java:1179) ~[Block.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.removeBlock(PlayerInteractionManager.java:271) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.removeBlock(PlayerInteractionManager.java:265) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.tryHarvestBlock(PlayerInteractionManager.java:309) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.onBlockClicked(PlayerInteractionManager.java:154) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.network.NetHandlerPlayServer.processPlayerDigging(NetHandlerPlayServer.java:693) ~[NetHandlerPlayServer.class:?]
-	at net.minecraft.network.play.client.CPacketPlayerDigging.processPacket(CPacketPlayerDigging.java:46) ~[CPacketPlayerDigging.class:?]
-	at net.minecraft.network.play.client.CPacketPlayerDigging.processPacket(CPacketPlayerDigging.java:12) ~[CPacketPlayerDigging.class:?]
-	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[PacketThreadUtil$1.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_292]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_292]
-	at net.minecraft.util.Util.runTask(Util.java:50) ~[Util.class:?]
-	... 5 more
-[00:51:35] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_292]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_292]
-	at net.minecraft.util.Util.runTask(Util.java:51) [Util.class:?]
-	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:185) [IntegratedServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
-Caused by: java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at net.minecraft.tileentity.TileEntity.writeInternal(TileEntity.java:78) ~[TileEntity.class:?]
-	at net.minecraft.tileentity.TileEntity.writeToNBT(TileEntity.java:69) ~[TileEntity.class:?]
-	at com.ferriolli.xtragems.blocks.TileEntityGemRefiner.writeToNBT(TileEntityGemRefiner.java:114) ~[TileEntityGemRefiner.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.getTileNBT(BlockSnapshot.java:132) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:61) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:82) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.getBlockSnapshot(BlockSnapshot.java:113) ~[BlockSnapshot.class:?]
-	at net.minecraft.world.World.setBlockState(World.java:336) ~[World.class:?]
-	at com.ferriolli.xtragems.blocks.GemRefiner.onBlockAdded(GemRefiner.java:86) ~[GemRefiner.class:?]
-	at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614) ~[Chunk.class:?]
-	at net.minecraft.world.World.setBlockState(World.java:343) ~[World.class:?]
-	at net.minecraft.item.ItemBlock.placeBlockAt(ItemBlock.java:180) ~[ItemBlock.class:?]
-	at net.minecraft.item.ItemBlock.onItemUse(ItemBlock.java:54) ~[ItemBlock.class:?]
-	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:889) ~[ForgeHooks.class:14.23.5.2854]
-	at net.minecraft.item.ItemStack.onItemUse(ItemStack.java:186) ~[ItemStack.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.processRightClickBlock(PlayerInteractionManager.java:481) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.network.NetHandlerPlayServer.processTryUseItemOnBlock(NetHandlerPlayServer.java:741) ~[NetHandlerPlayServer.class:?]
-	at net.minecraft.network.play.client.CPacketPlayerTryUseItemOnBlock.processPacket(CPacketPlayerTryUseItemOnBlock.java:59) ~[CPacketPlayerTryUseItemOnBlock.class:?]
-	at net.minecraft.network.play.client.CPacketPlayerTryUseItemOnBlock.processPacket(CPacketPlayerTryUseItemOnBlock.java:13) ~[CPacketPlayerTryUseItemOnBlock.class:?]
-	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[PacketThreadUtil$1.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_292]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_292]
-	at net.minecraft.util.Util.runTask(Util.java:50) ~[Util.class:?]
-	... 5 more
-[00:51:47] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_292]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_292]
-	at net.minecraft.util.Util.runTask(Util.java:51) [Util.class:?]
-	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:185) [IntegratedServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
-Caused by: java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at net.minecraft.tileentity.TileEntity.writeInternal(TileEntity.java:78) ~[TileEntity.class:?]
-	at net.minecraft.tileentity.TileEntity.writeToNBT(TileEntity.java:69) ~[TileEntity.class:?]
-	at com.ferriolli.xtragems.blocks.TileEntityGemRefiner.writeToNBT(TileEntityGemRefiner.java:114) ~[TileEntityGemRefiner.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.getTileNBT(BlockSnapshot.java:132) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:61) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:82) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.getBlockSnapshot(BlockSnapshot.java:113) ~[BlockSnapshot.class:?]
-	at net.minecraft.world.World.setBlockState(World.java:336) ~[World.class:?]
-	at net.minecraft.block.Block.removedByPlayer(Block.java:1179) ~[Block.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.removeBlock(PlayerInteractionManager.java:271) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.removeBlock(PlayerInteractionManager.java:265) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.tryHarvestBlock(PlayerInteractionManager.java:309) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.onBlockClicked(PlayerInteractionManager.java:154) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.network.NetHandlerPlayServer.processPlayerDigging(NetHandlerPlayServer.java:693) ~[NetHandlerPlayServer.class:?]
-	at net.minecraft.network.play.client.CPacketPlayerDigging.processPacket(CPacketPlayerDigging.java:46) ~[CPacketPlayerDigging.class:?]
-	at net.minecraft.network.play.client.CPacketPlayerDigging.processPacket(CPacketPlayerDigging.java:12) ~[CPacketPlayerDigging.class:?]
-	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[PacketThreadUtil$1.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_292]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_292]
-	at net.minecraft.util.Util.runTask(Util.java:50) ~[Util.class:?]
-	... 5 more
-[00:51:47] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_292]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_292]
-	at net.minecraft.util.Util.runTask(Util.java:51) [Util.class:?]
-	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:185) [IntegratedServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
-Caused by: java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at net.minecraft.tileentity.TileEntity.writeInternal(TileEntity.java:78) ~[TileEntity.class:?]
-	at net.minecraft.tileentity.TileEntity.writeToNBT(TileEntity.java:69) ~[TileEntity.class:?]
-	at com.ferriolli.xtragems.blocks.TileEntityGemRefiner.writeToNBT(TileEntityGemRefiner.java:114) ~[TileEntityGemRefiner.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.getTileNBT(BlockSnapshot.java:132) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:61) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:82) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.getBlockSnapshot(BlockSnapshot.java:113) ~[BlockSnapshot.class:?]
-	at net.minecraft.world.World.setBlockState(World.java:336) ~[World.class:?]
-	at net.minecraft.block.Block.removedByPlayer(Block.java:1179) ~[Block.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.removeBlock(PlayerInteractionManager.java:271) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.removeBlock(PlayerInteractionManager.java:265) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.tryHarvestBlock(PlayerInteractionManager.java:309) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.onBlockClicked(PlayerInteractionManager.java:154) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.network.NetHandlerPlayServer.processPlayerDigging(NetHandlerPlayServer.java:693) ~[NetHandlerPlayServer.class:?]
-	at net.minecraft.network.play.client.CPacketPlayerDigging.processPacket(CPacketPlayerDigging.java:46) ~[CPacketPlayerDigging.class:?]
-	at net.minecraft.network.play.client.CPacketPlayerDigging.processPacket(CPacketPlayerDigging.java:12) ~[CPacketPlayerDigging.class:?]
-	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[PacketThreadUtil$1.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_292]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_292]
-	at net.minecraft.util.Util.runTask(Util.java:50) ~[Util.class:?]
-	... 5 more
-[00:51:51] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_292]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_292]
-	at net.minecraft.util.Util.runTask(Util.java:51) [Util.class:?]
-	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:185) [IntegratedServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
-Caused by: java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at net.minecraft.tileentity.TileEntity.writeInternal(TileEntity.java:78) ~[TileEntity.class:?]
-	at net.minecraft.tileentity.TileEntity.writeToNBT(TileEntity.java:69) ~[TileEntity.class:?]
-	at com.ferriolli.xtragems.blocks.TileEntityGemRefiner.writeToNBT(TileEntityGemRefiner.java:114) ~[TileEntityGemRefiner.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.getTileNBT(BlockSnapshot.java:132) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:61) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:82) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.getBlockSnapshot(BlockSnapshot.java:113) ~[BlockSnapshot.class:?]
-	at net.minecraft.world.World.setBlockState(World.java:336) ~[World.class:?]
-	at com.ferriolli.xtragems.blocks.GemRefiner.onBlockAdded(GemRefiner.java:86) ~[GemRefiner.class:?]
-	at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614) ~[Chunk.class:?]
-	at net.minecraft.world.World.setBlockState(World.java:343) ~[World.class:?]
-	at net.minecraft.item.ItemBlock.placeBlockAt(ItemBlock.java:180) ~[ItemBlock.class:?]
-	at net.minecraft.item.ItemBlock.onItemUse(ItemBlock.java:54) ~[ItemBlock.class:?]
-	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:889) ~[ForgeHooks.class:14.23.5.2854]
-	at net.minecraft.item.ItemStack.onItemUse(ItemStack.java:186) ~[ItemStack.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.processRightClickBlock(PlayerInteractionManager.java:481) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.network.NetHandlerPlayServer.processTryUseItemOnBlock(NetHandlerPlayServer.java:741) ~[NetHandlerPlayServer.class:?]
-	at net.minecraft.network.play.client.CPacketPlayerTryUseItemOnBlock.processPacket(CPacketPlayerTryUseItemOnBlock.java:59) ~[CPacketPlayerTryUseItemOnBlock.class:?]
-	at net.minecraft.network.play.client.CPacketPlayerTryUseItemOnBlock.processPacket(CPacketPlayerTryUseItemOnBlock.java:13) ~[CPacketPlayerTryUseItemOnBlock.class:?]
-	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[PacketThreadUtil$1.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_292]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_292]
-	at net.minecraft.util.Util.runTask(Util.java:50) ~[Util.class:?]
-	... 5 more
-[00:51:51] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_292]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_292]
-	at net.minecraft.util.Util.runTask(Util.java:51) [Util.class:?]
-	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:185) [IntegratedServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
-Caused by: java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at net.minecraft.tileentity.TileEntity.writeInternal(TileEntity.java:78) ~[TileEntity.class:?]
-	at net.minecraft.tileentity.TileEntity.writeToNBT(TileEntity.java:69) ~[TileEntity.class:?]
-	at com.ferriolli.xtragems.blocks.TileEntityGemRefiner.writeToNBT(TileEntityGemRefiner.java:114) ~[TileEntityGemRefiner.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.getTileNBT(BlockSnapshot.java:132) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:61) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:82) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.getBlockSnapshot(BlockSnapshot.java:113) ~[BlockSnapshot.class:?]
-	at net.minecraft.world.World.setBlockState(World.java:336) ~[World.class:?]
-	at net.minecraft.block.Block.removedByPlayer(Block.java:1179) ~[Block.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.removeBlock(PlayerInteractionManager.java:271) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.removeBlock(PlayerInteractionManager.java:265) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.tryHarvestBlock(PlayerInteractionManager.java:309) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.onBlockClicked(PlayerInteractionManager.java:154) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.network.NetHandlerPlayServer.processPlayerDigging(NetHandlerPlayServer.java:693) ~[NetHandlerPlayServer.class:?]
-	at net.minecraft.network.play.client.CPacketPlayerDigging.processPacket(CPacketPlayerDigging.java:46) ~[CPacketPlayerDigging.class:?]
-	at net.minecraft.network.play.client.CPacketPlayerDigging.processPacket(CPacketPlayerDigging.java:12) ~[CPacketPlayerDigging.class:?]
-	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[PacketThreadUtil$1.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_292]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_292]
-	at net.minecraft.util.Util.runTask(Util.java:50) ~[Util.class:?]
-	... 5 more
-[00:51:52] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_292]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_292]
-	at net.minecraft.util.Util.runTask(Util.java:51) [Util.class:?]
-	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:185) [IntegratedServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
-Caused by: java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at net.minecraft.tileentity.TileEntity.writeInternal(TileEntity.java:78) ~[TileEntity.class:?]
-	at net.minecraft.tileentity.TileEntity.writeToNBT(TileEntity.java:69) ~[TileEntity.class:?]
-	at com.ferriolli.xtragems.blocks.TileEntityGemRefiner.writeToNBT(TileEntityGemRefiner.java:114) ~[TileEntityGemRefiner.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.getTileNBT(BlockSnapshot.java:132) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:61) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:82) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.getBlockSnapshot(BlockSnapshot.java:113) ~[BlockSnapshot.class:?]
-	at net.minecraft.world.World.setBlockState(World.java:336) ~[World.class:?]
-	at com.ferriolli.xtragems.blocks.GemRefiner.onBlockAdded(GemRefiner.java:86) ~[GemRefiner.class:?]
-	at net.minecraft.world.chunk.Chunk.setBlockState(Chunk.java:614) ~[Chunk.class:?]
-	at net.minecraft.world.World.setBlockState(World.java:343) ~[World.class:?]
-	at net.minecraft.item.ItemBlock.placeBlockAt(ItemBlock.java:180) ~[ItemBlock.class:?]
-	at net.minecraft.item.ItemBlock.onItemUse(ItemBlock.java:54) ~[ItemBlock.class:?]
-	at net.minecraftforge.common.ForgeHooks.onPlaceItemIntoWorld(ForgeHooks.java:889) ~[ForgeHooks.class:14.23.5.2854]
-	at net.minecraft.item.ItemStack.onItemUse(ItemStack.java:186) ~[ItemStack.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.processRightClickBlock(PlayerInteractionManager.java:481) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.network.NetHandlerPlayServer.processTryUseItemOnBlock(NetHandlerPlayServer.java:741) ~[NetHandlerPlayServer.class:?]
-	at net.minecraft.network.play.client.CPacketPlayerTryUseItemOnBlock.processPacket(CPacketPlayerTryUseItemOnBlock.java:59) ~[CPacketPlayerTryUseItemOnBlock.class:?]
-	at net.minecraft.network.play.client.CPacketPlayerTryUseItemOnBlock.processPacket(CPacketPlayerTryUseItemOnBlock.java:13) ~[CPacketPlayerTryUseItemOnBlock.class:?]
-	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[PacketThreadUtil$1.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_292]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_292]
-	at net.minecraft.util.Util.runTask(Util.java:50) ~[Util.class:?]
-	... 5 more
-[00:51:55] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 22261ms behind, skipping 445 tick(s)
-[00:51:55] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_292]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_292]
-	at net.minecraft.util.Util.runTask(Util.java:51) [Util.class:?]
-	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:185) [IntegratedServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
-Caused by: java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at net.minecraft.tileentity.TileEntity.writeInternal(TileEntity.java:78) ~[TileEntity.class:?]
-	at net.minecraft.tileentity.TileEntity.writeToNBT(TileEntity.java:69) ~[TileEntity.class:?]
-	at com.ferriolli.xtragems.blocks.TileEntityGemRefiner.writeToNBT(TileEntityGemRefiner.java:114) ~[TileEntityGemRefiner.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.getTileNBT(BlockSnapshot.java:132) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:61) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.<init>(BlockSnapshot.java:82) ~[BlockSnapshot.class:?]
-	at net.minecraftforge.common.util.BlockSnapshot.getBlockSnapshot(BlockSnapshot.java:113) ~[BlockSnapshot.class:?]
-	at net.minecraft.world.World.setBlockState(World.java:336) ~[World.class:?]
-	at net.minecraft.block.Block.removedByPlayer(Block.java:1179) ~[Block.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.removeBlock(PlayerInteractionManager.java:271) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.removeBlock(PlayerInteractionManager.java:265) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.tryHarvestBlock(PlayerInteractionManager.java:309) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.server.management.PlayerInteractionManager.onBlockClicked(PlayerInteractionManager.java:154) ~[PlayerInteractionManager.class:?]
-	at net.minecraft.network.NetHandlerPlayServer.processPlayerDigging(NetHandlerPlayServer.java:693) ~[NetHandlerPlayServer.class:?]
-	at net.minecraft.network.play.client.CPacketPlayerDigging.processPacket(CPacketPlayerDigging.java:46) ~[CPacketPlayerDigging.class:?]
-	at net.minecraft.network.play.client.CPacketPlayerDigging.processPacket(CPacketPlayerDigging.java:12) ~[CPacketPlayerDigging.class:?]
-	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:15) ~[PacketThreadUtil$1.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_292]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_292]
-	at net.minecraft.util.Util.runTask(Util.java:50) ~[Util.class:?]
-	... 5 more
-[00:52:00] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player281 lost connection: Disconnected
-[00:52:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player281 left the game
-[00:52:00] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
-[00:52:00] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[00:52:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[00:52:00] [Server thread/ERROR] [FML]: A TileEntity type com.ferriolli.xtragems.blocks.TileEntityGemRefiner has throw an exception trying to write state. It will not persist. Report this to the mod author
-java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at net.minecraft.tileentity.TileEntity.writeInternal(TileEntity.java:78) ~[TileEntity.class:?]
-	at net.minecraft.tileentity.TileEntity.writeToNBT(TileEntity.java:69) ~[TileEntity.class:?]
-	at com.ferriolli.xtragems.blocks.TileEntityGemRefiner.writeToNBT(TileEntityGemRefiner.java:114) ~[TileEntityGemRefiner.class:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeChunkToNBT(AnvilChunkLoader.java:383) [AnvilChunkLoader.class:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.saveChunk(AnvilChunkLoader.java:174) [AnvilChunkLoader.class:?]
-	at net.minecraft.world.gen.ChunkProviderServer.saveChunkData(ChunkProviderServer.java:202) [ChunkProviderServer.class:?]
-	at net.minecraft.world.gen.ChunkProviderServer.saveChunks(ChunkProviderServer.java:230) [ChunkProviderServer.class:?]
-	at net.minecraft.world.WorldServer.saveAllChunks(WorldServer.java:1007) [WorldServer.class:?]
-	at net.minecraft.server.MinecraftServer.saveAllWorlds(MinecraftServer.java:408) [MinecraftServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.saveAllWorlds(IntegratedServer.java:252) [IntegratedServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:170) [IntegratedServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
-[00:52:00] [Server thread/ERROR] [FML]: A TileEntity type com.ferriolli.xtragems.blocks.TileEntityGemRefiner has throw an exception trying to write state. It will not persist. Report this to the mod author
-java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at net.minecraft.tileentity.TileEntity.writeInternal(TileEntity.java:78) ~[TileEntity.class:?]
-	at net.minecraft.tileentity.TileEntity.writeToNBT(TileEntity.java:69) ~[TileEntity.class:?]
-	at com.ferriolli.xtragems.blocks.TileEntityGemRefiner.writeToNBT(TileEntityGemRefiner.java:114) ~[TileEntityGemRefiner.class:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeChunkToNBT(AnvilChunkLoader.java:383) [AnvilChunkLoader.class:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.saveChunk(AnvilChunkLoader.java:174) [AnvilChunkLoader.class:?]
-	at net.minecraft.world.gen.ChunkProviderServer.saveChunkData(ChunkProviderServer.java:202) [ChunkProviderServer.class:?]
-	at net.minecraft.world.gen.ChunkProviderServer.saveChunks(ChunkProviderServer.java:230) [ChunkProviderServer.class:?]
-	at net.minecraft.world.WorldServer.saveAllChunks(WorldServer.java:1007) [WorldServer.class:?]
-	at net.minecraft.server.MinecraftServer.saveAllWorlds(MinecraftServer.java:408) [MinecraftServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.saveAllWorlds(IntegratedServer.java:252) [IntegratedServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:170) [IntegratedServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
-[00:52:00] [Server thread/ERROR] [FML]: A TileEntity type com.ferriolli.xtragems.blocks.TileEntityGemRefiner has throw an exception trying to write state. It will not persist. Report this to the mod author
-java.lang.RuntimeException: class com.ferriolli.xtragems.blocks.TileEntityGemRefiner is missing a mapping! This is a bug!
-	at net.minecraft.tileentity.TileEntity.writeInternal(TileEntity.java:78) ~[TileEntity.class:?]
-	at net.minecraft.tileentity.TileEntity.writeToNBT(TileEntity.java:69) ~[TileEntity.class:?]
-	at com.ferriolli.xtragems.blocks.TileEntityGemRefiner.writeToNBT(TileEntityGemRefiner.java:114) ~[TileEntityGemRefiner.class:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.writeChunkToNBT(AnvilChunkLoader.java:383) [AnvilChunkLoader.class:?]
-	at net.minecraft.world.chunk.storage.AnvilChunkLoader.saveChunk(AnvilChunkLoader.java:174) [AnvilChunkLoader.class:?]
-	at net.minecraft.world.gen.ChunkProviderServer.saveChunkData(ChunkProviderServer.java:202) [ChunkProviderServer.class:?]
-	at net.minecraft.world.gen.ChunkProviderServer.saveChunks(ChunkProviderServer.java:230) [ChunkProviderServer.class:?]
-	at net.minecraft.world.WorldServer.saveAllChunks(WorldServer.java:1007) [WorldServer.class:?]
-	at net.minecraft.server.MinecraftServer.saveAllWorlds(MinecraftServer.java:408) [MinecraftServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.saveAllWorlds(IntegratedServer.java:252) [IntegratedServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:170) [IntegratedServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_292]
-[00:52:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[00:52:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[00:52:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[00:52:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[00:52:01] [Server thread/INFO] [FML]: Unloading dimension 0
-[00:52:01] [Server thread/INFO] [FML]: Applying holder lookups
-[00:52:01] [Server thread/INFO] [FML]: Holder lookups applied
-[00:52:02] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[00:52:02] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[00:52:02] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+[19:58:18] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[19:58:19] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xtragems] at CLIENT
+[19:58:19] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, xtragems] at SERVER
+[19:58:19] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Extra Gems
+[19:58:19] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[19:58:19] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[19:58:19] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[19:58:19] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[19:58:19] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[19:58:19] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[19:58:19] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `gem_refiner`, expected `xtragems`. This could be a intended override, but in most cases indicates a broken mod.
+[19:58:19] [Client thread/INFO] [FML]: Applying holder lookups
+[19:58:19] [Client thread/INFO] [FML]: Holder lookups applied
+[19:58:19] [Client thread/INFO] [FML]: Applying holder lookups
+[19:58:19] [Client thread/INFO] [FML]: Holder lookups applied
+[19:58:19] [Client thread/INFO] [FML]: Applying holder lookups
+[19:58:19] [Client thread/INFO] [FML]: Holder lookups applied
+[19:58:19] [Client thread/INFO] [FML]: Applying holder lookups
+[19:58:19] [Client thread/INFO] [FML]: Holder lookups applied
+[19:58:19] [Client thread/INFO] [FML]: Injecting itemstacks
+[19:58:19] [Client thread/INFO] [FML]: Itemstack injection complete
+[19:58:19] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 18899000 nanos
+[19:58:21] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[19:58:21] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[19:58:21] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[19:58:21] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[19:58:21] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2855
+[19:58:21] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[19:58:25] [Client thread/INFO] [FML]: Max texture size: 16384
+[19:58:27] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[19:58:28] [Client thread/INFO] [FML]: Applying holder lookups
+[19:58:28] [Client thread/INFO] [FML]: Holder lookups applied
+[19:58:28] [Client thread/INFO] [FML]: Injecting itemstacks
+[19:58:28] [Client thread/INFO] [FML]: Itemstack injection complete
+[19:58:28] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[19:58:28] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[19:58:29] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[20:01:43] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[20:01:43] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[20:01:43] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[20:01:43] [Server thread/INFO] [FML]: Applying holder lookups
+[20:01:43] [Server thread/INFO] [FML]: Holder lookups applied
+[20:01:43] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@695083e2)
+[20:01:44] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[20:01:44] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@695083e2)
+[20:01:44] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@695083e2)
+[20:01:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[20:01:45] [Server thread/INFO] [FML]: Unloading dimension -1
+[20:01:45] [Server thread/INFO] [FML]: Unloading dimension 1
+[20:01:45] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 22, from 10
+[20:01:46] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[20:01:46] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[20:01:46] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,xtragems@1.0,FML@8.0.99.99,forge@14.23.5.2854,mcp@9.42
+[20:01:46] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[20:01:46] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[20:01:46] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player703[local:E:e2640656] logged in with entity id 389 at (48.926585053859036, 80.0, 256.4754074087293)
+[20:01:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player703 joined the game
+[20:01:47] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[20:01:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:01:47] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 3 advancements
+[20:01:48] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[20:01:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:13:49] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[20:13:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:14:40] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2725ms behind, skipping 54 tick(s)
+[20:14:57] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[20:14:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:16:14] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 7 advancements
+[20:16:14] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 13 advancements
+[20:17:29] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2224ms behind, skipping 44 tick(s)
+[20:17:59] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[20:17:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:18:11] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[20:18:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:18:46] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[20:18:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:19:11] [Client thread/WARN] [net.minecraft.client.network.NetHandlerPlayClient]: Received passengers for unknown entity
+[20:19:32] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[20:19:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:20:50] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[20:20:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:21:07] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[20:21:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:23:58] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[20:23:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:24:32] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2394ms behind, skipping 47 tick(s)
+[20:24:56] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2267ms behind, skipping 45 tick(s)
+[20:25:23] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 11871ms behind, skipping 237 tick(s)
+[20:25:32] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 5483ms behind, skipping 109 tick(s)
+[20:25:52] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 10582ms behind, skipping 211 tick(s)
+[20:25:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player703 has made the advancement [Ice Bucket Challenge]
+[20:25:57] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player703 has made the advancement [Ice Bucket Challenge]
+[20:25:57] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 24 advancements
+[20:25:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player703 has made the advancement [Isn't It Iron Pick]
+[20:25:57] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player703 has made the advancement [Isn't It Iron Pick]
+[20:25:57] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 40 advancements
+[20:25:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player703 has made the advancement [Suit Up]
+[20:25:57] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player703 has made the advancement [Suit Up]
+[20:25:57] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 42 advancements
+[20:25:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player703 has made the advancement [Diamonds!]
+[20:25:58] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player703 has made the advancement [Diamonds!]
+[20:25:58] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 52 advancements
+[20:26:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player703 has made the advancement [Acquire Hardware]
+[20:26:03] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player703 has made the advancement [Acquire Hardware]
+[20:26:03] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 71 advancements
+[20:26:04] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 73 advancements
+[20:26:27] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2924ms behind, skipping 58 tick(s)
+[20:27:01] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[20:27:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:27:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[20:27:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[20:27:01] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player703 lost connection: Disconnected
+[20:27:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player703 left the game
+[20:27:01] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[20:27:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[20:27:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[20:27:03] [Server thread/INFO] [FML]: Unloading dimension 0
+[20:27:03] [Server thread/INFO] [FML]: Applying holder lookups
+[20:27:03] [Server thread/INFO] [FML]: Holder lookups applied
+[20:27:06] [Client thread/INFO] [net.minecraft.world.storage.SaveFormatOld]: Deleting level New World
+[20:27:06] [Client thread/INFO] [net.minecraft.world.storage.SaveFormatOld]: Attempt 1...
+[20:27:07] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[20:27:07] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[20:27:07] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

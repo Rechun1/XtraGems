@@ -24,7 +24,7 @@ public class GemRefinerRecipes {
 
     public void addRefiningRecipe(ItemStack input1, ItemStack input2, ItemStack result, float experience){
         if(getRefiningResult(input1, input2) != ItemStack.EMPTY) return;
-        this.smeltingList.put(input1, input1, result);
+        this.smeltingList.put(input1, input2, result);
         this.experienceList.put(result, Float.valueOf(experience));
     }
 

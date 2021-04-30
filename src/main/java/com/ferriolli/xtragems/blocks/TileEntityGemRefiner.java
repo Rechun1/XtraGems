@@ -188,7 +188,7 @@ public class TileEntityGemRefiner extends TileEntity implements IInventory, ITic
     }
 
     public int getCookTime(ItemStack input1, ItemStack input2) {
-        return 10;
+        return 50;
     }
 
     private boolean canSmelt(){

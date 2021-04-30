@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: XtraGems
+Implementation-Version: 1.0
+Specification-Vendor: examplemodsareus
+Specification-Title: examplemod
+Implementation-Timestamp: 2021-04-26T18:52:49-0300
+Specification-Version: 1
+Implementation-Vendor: examplemodsareus
+
