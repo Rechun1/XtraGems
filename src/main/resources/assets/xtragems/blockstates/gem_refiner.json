@@ -1,18 +1,13 @@
 {
-  "forge_marker": 1,
-  "defaults": {
-    "model": "xtragems:gem_refiner"
-  },
-  "variants": {
-    "normal": [{}],
-    "inventory": [{}],
-    "facing": {
-      "north": {},
-      "south": {"y": 180},
-      "west": {"y": 270},
-      "east": {"y": 90},
-      "up": {"x": -90},
-      "down": {"x": 90}
-    }
+  "variants":
+  {
+    "burning=false,facing=north": {"model": "xtragems:gem_refiner"},
+    "burning=false,facing=east": {"model": "xtragems:gem_refiner", "y": 90},
+    "burning=false,facing=south": {"model": "xtragems:gem_refiner", "y": 180},
+    "burning=false,facing=west": {"model": "xtragems:gem_refiner", "y":  270},
+    "burning=true,facing=north": {"model": "xtragems:gem_refiner"},
+    "burning=true,facing=east": {"model": "xtragems:gem_refiner", "y": 90},
+    "burning=true,facing=south": {"model": "xtragems:gem_refiner", "y": 180},
+    "burning=true,facing=west": {"model": "xtragems:gem_refiner", "y": 270}
   }
 }

@@ -21,12 +21,15 @@ import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraftforge.event.entity.living.*;
+import net.minecraftforge.event.entity.player.AttackEntityEvent;
 import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.event.world.BlockEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.Event;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import org.lwjgl.Sys;
 
+import javax.naming.event.ObjectChangeListener;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -39,7 +42,6 @@ public class EnchantmentInit {
     public static final Enchantment DAMAGE_HEAL = new EnchantmentDamageHeal(Enchantment.Rarity.VERY_RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
     public static final Enchantment DAMAGE_INCREASE = new EnchantmentDamageIncrease(Enchantment.Rarity.VERY_RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
     public static final Enchantment MINER_TEST = new EnchantmentMinerTest(Enchantment.Rarity.VERY_RARE, EnumEnchantmentType.DIGGER, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
-    public static final Enchantment VENOMOUS = new EnchantmentVenomous(Enchantment.Rarity.VERY_RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
     public static final Enchantment KNOWLEDGE = new EnchantmentKnowledge(Enchantment.Rarity.VERY_RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
     public static final Enchantment CATACLYSM = new EnchantmentCataclysm(Enchantment.Rarity.VERY_RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
     public static final Enchantment BLAST_FURNACE = new EnchantmentBlastFurnace(Enchantment.Rarity.UNCOMMON, EnumEnchantmentType.DIGGER, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
@@ -95,20 +97,6 @@ public class EnchantmentInit {
         }
     }
     @SubscribeEvent
-    public static void venomous(LivingAttackEvent event){
-        Object attacker = event.getSource().getTrueSource();
-        if (attacker instanceof EntityLivingBase){
-            EntityLivingBase entityAttacker = (EntityLivingBase)attacker;
-            Object enemy = event.getEntity();
-            EntityLivingBase entityEnemy = (EntityLivingBase)enemy;
-            int level = EnchantmentHelper.getEnchantmentLevel(VENOMOUS, entityAttacker.getHeldItemMainhand());
-            if(level > 0){
-                entityEnemy.addPotionEffect(new PotionEffect(MobEffects.POISON, 60 * level, level));
-                entityAttacker.getEntityWorld().playSound(null, entityAttacker.getPosition(), SoundEvents.ENTITY_PLAYER_LEVELUP, SoundCategory.HOSTILE, 1.0F, 2F);
-            }
-        }
-    }
-    @SubscribeEvent
     public static void knowledge(LivingExperienceDropEvent event){
         Object attacker = event.getAttackingPlayer();
         EntityLivingBase entityAttacker = (EntityLivingBase)attacker;
@@ -123,30 +111,31 @@ public class EnchantmentInit {
         }
     }
     @SubscribeEvent
-    public static void cataclysm(LivingAttackEvent event){
+    public static void cataclysm(LivingHurtEvent event) {
         Object attacker = event.getSource().getTrueSource();
         if (attacker instanceof EntityLivingBase){
-            EntityLivingBase entityAttacker = (EntityLivingBase) attacker;
-            Object enemy = event.getEntity();
-            EntityLivingBase entityEnemy = (EntityLivingBase) enemy;
-            int level = EnchantmentHelper.getEnchantmentLevel(CATACLYSM, entityAttacker.getHeldItemMainhand());
-            if (level > 0 && entityEnemy.getActivePotionEffects().isEmpty()){
+            EntityLivingBase attackerPlayer = (EntityLivingBase)attacker;
+            if (!attackerPlayer.getEntityWorld().isRemote){
+                EntityLivingBase enemy = (EntityLivingBase)event.getEntity();
                 Random random = new Random();
-                int chance = random.nextInt(3);
-                Minecraft.getMinecraft().player.sendChatMessage("num: " + chance);
-                switch (chance){
-                    case 0:
-                        //entityEnemy.setFire(3 * level);
-                        Minecraft.getMinecraft().player.sendChatMessage("foguinho");
-                        break;
-                    case 1:
-                        entityEnemy.addPotionEffect(new PotionEffect(MobEffects.WITHER, 60 * level, level));
-                        break;
-                    case 2:
-                        entityEnemy.addPotionEffect(new PotionEffect(MobEffects.POISON, 60 * level, level));
-                        break;
+                int level = EnchantmentHelper.getEnchantmentLevel(CATACLYSM, attackerPlayer.getHeldItemMainhand());
+                if (level > 0 && enemy.getActivePotionEffects().isEmpty()){
+                    int chance = random.nextInt(3);
+                    switch (chance){
+                        case 0:
+                            enemy.setFire(3 * level);
+                            System.out.println("Num 0");
+                            break;
+                        case 1:
+                            enemy.addPotionEffect(new PotionEffect(MobEffects.WITHER, 60 * level, level));
+                            System.out.println("Num 1");
+                            break;
+                        case 2:
+                            enemy.addPotionEffect(new PotionEffect(MobEffects.POISON, 60 * level, level));
+                            System.out.println("Num 2");
+                            break;
+                    }
                 }
-                entityAttacker.getEntityWorld().playSound(null, entityAttacker.getPosition(), SoundEvents.ENTITY_GENERIC_EXPLODE, SoundCategory.HOSTILE, 1.0F, 2F);
             }
         }
     }

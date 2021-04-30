@@ -32,7 +32,7 @@ public class FiriteOre extends BlockBase{
         setHarvestLevel("pickaxe", 3);
     }
 
-    @Override
+    /*@Override
     public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn, BlockPos fromPos) {
         EntityItem item = new EntityItem(worldIn, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(ModItems.FIRITE_GEM));
         if(!worldIn.isRemote) {
@@ -48,7 +48,7 @@ public class FiriteOre extends BlockBase{
                 }
             }
         }
-    }
+    }*/
 
     @Override
     public void onBlockPlacedBy(World worldIn, BlockPos pos, IBlockState state, EntityLivingBase placer, ItemStack stack) {

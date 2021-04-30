@@ -10,11 +10,13 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
+import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.EnumActionResult;
 import net.minecraft.util.EnumHand;
+import net.minecraft.util.SoundCategory;
 import net.minecraft.world.World;
 
 import java.util.List;
@@ -49,6 +51,7 @@ public class ItemHealingStaff extends Item implements IHasModel {
         if(!worldIn.isRemote && target.getHealth() < target.getMaxHealth()){
             target.heal(2);
             Minecraft.getMinecraft().player.sendChatMessage(String.valueOf(target.getHealth()));
+            playerIn.getEntityWorld().playSound(null, playerIn.getPosition(), SoundEvents.ENTITY_EXPERIENCE_ORB_PICKUP, SoundCategory.HOSTILE, 1.0F, 2F);
             itemStack.damageItem(1, playerIn);
             return true;
         }
