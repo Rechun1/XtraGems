@@ -1,4 +1,4 @@
-package com.ferriolli.xtragems.blocks;
+package com.ferriolli.xtragems.blocks.gemrefiner;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
@@ -8,8 +8,6 @@ import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
-
-import javax.swing.*;
 
 public class ContainerGemRefiner extends Container {
     private final TileEntityGemRefiner tileEntity;

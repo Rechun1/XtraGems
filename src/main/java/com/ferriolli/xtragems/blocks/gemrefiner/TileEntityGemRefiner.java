@@ -1,5 +1,7 @@
-package com.ferriolli.xtragems.blocks;
+package com.ferriolli.xtragems.blocks.gemrefiner;
 
+import com.ferriolli.xtragems.blocks.GemRefiner;
+import com.ferriolli.xtragems.blocks.gemrefiner.GemRefinerRecipes;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.player.EntityPlayer;

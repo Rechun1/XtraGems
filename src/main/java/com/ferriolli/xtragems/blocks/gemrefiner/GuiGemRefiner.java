@@ -1,4 +1,4 @@
-package com.ferriolli.xtragems.blocks;
+package com.ferriolli.xtragems.blocks.gemrefiner;
 
 import com.ferriolli.xtragems.util.Reference;
 import net.minecraft.client.gui.inventory.GuiContainer;

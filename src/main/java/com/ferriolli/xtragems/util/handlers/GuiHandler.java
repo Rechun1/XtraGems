@@ -1,8 +1,8 @@
 package com.ferriolli.xtragems.util.handlers;
 
-import com.ferriolli.xtragems.blocks.ContainerGemRefiner;
-import com.ferriolli.xtragems.blocks.GuiGemRefiner;
-import com.ferriolli.xtragems.blocks.TileEntityGemRefiner;
+import com.ferriolli.xtragems.blocks.gemrefiner.ContainerGemRefiner;
+import com.ferriolli.xtragems.blocks.gemrefiner.GuiGemRefiner;
+import com.ferriolli.xtragems.blocks.gemrefiner.TileEntityGemRefiner;
 import com.ferriolli.xtragems.util.Reference;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.math.BlockPos;

@@ -2,6 +2,7 @@ package com.ferriolli.xtragems.blocks;
 
 import com.ferriolli.xtragems.Init.ModBlocks;
 import com.ferriolli.xtragems.Main;
+import com.ferriolli.xtragems.blocks.gemrefiner.TileEntityGemRefiner;
 import com.ferriolli.xtragems.util.Reference;
 import net.minecraft.block.BlockHorizontal;
 import net.minecraft.block.ITileEntityProvider;
@@ -18,9 +19,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.InventoryHelper;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.stats.StatList;
 import net.minecraft.tileentity.TileEntity;
-import net.minecraft.tileentity.TileEntityFurnace;
 import net.minecraft.util.*;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;

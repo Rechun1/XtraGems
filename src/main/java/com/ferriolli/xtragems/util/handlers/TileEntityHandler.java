@@ -1,6 +1,6 @@
 package com.ferriolli.xtragems.util.handlers;
 
-import com.ferriolli.xtragems.blocks.TileEntityGemRefiner;
+import com.ferriolli.xtragems.blocks.gemrefiner.TileEntityGemRefiner;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class TileEntityHandler {

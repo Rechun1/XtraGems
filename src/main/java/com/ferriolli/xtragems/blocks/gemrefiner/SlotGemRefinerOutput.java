@@ -1,4 +1,4 @@
-package com.ferriolli.xtragems.blocks;
+package com.ferriolli.xtragems.blocks.gemrefiner;
 
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;

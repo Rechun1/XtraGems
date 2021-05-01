@@ -1,10 +1,9 @@
-package com.ferriolli.xtragems.blocks;
+package com.ferriolli.xtragems.blocks.gemrefiner;
 
 import com.ferriolli.xtragems.Init.ModItems;
 import com.google.common.collect.HashBasedTable;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Table;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 import java.util.Map;

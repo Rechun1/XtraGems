@@ -1,5 +1,6 @@
-package com.ferriolli.xtragems.blocks;
+package com.ferriolli.xtragems.blocks.gemrefiner;
 
+import com.ferriolli.xtragems.blocks.gemrefiner.TileEntityGemRefiner;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
