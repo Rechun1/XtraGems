@@ -18,10 +18,10 @@ public class ContainerGemRefiner extends Container {
     public ContainerGemRefiner(InventoryPlayer player, TileEntityGemRefiner tileEntity){
         this.tileEntity = tileEntity;
 
-        this.addSlotToContainer(new Slot(tileEntity, 0, 46, 18));
-        this.addSlotToContainer(new Slot(tileEntity, 1, 67, 18));
-        this.addSlotToContainer(new SlotGemRefinerFuel(tileEntity, 2, 57, 54));
-        this.addSlotToContainer(new SlotGemRefinerOutput(player.player, tileEntity, 3, 113, 32));
+        this.addSlotToContainer(new Slot(tileEntity, 0, 45, 17));
+        this.addSlotToContainer(new Slot(tileEntity, 1, 66, 17));
+        this.addSlotToContainer(new SlotGemRefinerFuel(tileEntity, 2, 56, 53));
+        this.addSlotToContainer(new SlotGemRefinerOutput(player.player, tileEntity, 3, 116, 35));
 
         for(int y = 0; y < 3; y++){
             for(int x = 0; x < 9; x++){

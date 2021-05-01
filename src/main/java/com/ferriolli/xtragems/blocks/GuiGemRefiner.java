@@ -32,10 +32,10 @@ public class GuiGemRefiner extends GuiContainer {
 
         if(TileEntityGemRefiner.isBurning(tileEntity)){
             int k = this.getBurnLeftScaled(13);
-            this.drawTexturedModalRect(this.guiLeft + 58, this.guiTop + 50 + 12 - k, 176, 12 - k, 14, k + 1 );
+            this.drawTexturedModalRect(this.guiLeft + 56, this.guiTop + 36 + 12 - k, 176, 12 - k, 14, k + 1 );
         }
         int l = this.getCookProgressScaled(24);
-        this.drawTexturedModalRect(this.guiLeft + 81, this.guiTop + 42, 176, 14, l + 1, 16);
+        this.drawTexturedModalRect(this.guiLeft + 79, this.guiTop + 34, 176, 14, l + 1, 16);
     }
 
     private int getBurnLeftScaled(int pixels){
