@@ -39,7 +39,7 @@ public class ModItems {
     public static final Item ANIMAL_FAT = new ItemBase("animal_fat");
     public static final Item ANIMAL_FAT_BOTTLE = new ItemBase("animal_fat_bottle");
 
-    public static final Item OIL_BOTTLE = new ItemCustomFood("oil_bottle", 4, 6.0F, false);
+    public static final Item OIL_BOTTLE = new ItemCustomFoodWithEffect("oil_bottle", 4, false, new PotionEffect(MobEffects.STRENGTH, 600, 2));
 
     public static final ItemSword RUBY_SWORD = new ToolSword("ruby_sword", MATERIAL_RUBY);
     public static final ItemSpade RUBY_SHOVEL = new ToolSpade("ruby_shovel", MATERIAL_RUBY);
