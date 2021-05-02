@@ -1,15 +1,16 @@
 package com.ferriolli.xtragems.Init;
 
 import com.ferriolli.xtragems.items.ItemBase;;
+import com.ferriolli.xtragems.items.ItemCustomFoodWithEffect;
 import com.ferriolli.xtragems.items.tools.specialItems.ItemHealingStaff;
 import com.ferriolli.xtragems.items.armor.ArmorBase;
 import com.ferriolli.xtragems.items.tools.*;
 import com.ferriolli.xtragems.util.Reference;
-import net.minecraft.block.Block;
-import net.minecraft.init.Blocks;
+import net.minecraft.init.MobEffects;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.*;
+import net.minecraft.potion.PotionEffect;
 import net.minecraftforge.common.util.EnumHelper;
 
 import java.util.ArrayList;
@@ -35,6 +36,10 @@ public class ModItems {
     public static final Item BLOODSTONE = new ItemBase("bloodstone");
     public static final Item GLASS_SHARD = new ItemBase("glass_shard");
     public static final Item REINFORCED_GLASS_SHARD = new ItemBase("reinforced_glass_shard");
+    public static final Item ANIMAL_FAT = new ItemBase("animal_fat");
+    public static final Item ANIMAL_FAT_BOTTLE = new ItemBase("animal_fat_bottle");
+
+    public static final Item OIL_BOTTLE = new ItemCustomFood("oil_bottle", 4, 6.0F, false);
 
     public static final ItemSword RUBY_SWORD = new ToolSword("ruby_sword", MATERIAL_RUBY);
     public static final ItemSpade RUBY_SHOVEL = new ToolSpade("ruby_shovel", MATERIAL_RUBY);
@@ -68,4 +73,5 @@ public class ModItems {
     public static final Item RUBY_BOOTS = new ArmorBase("ruby_boots", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.FEET);
 
     public static final ItemHealingStaff HEALING_STAFF = new ItemHealingStaff("healing_staff");
+
 }

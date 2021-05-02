@@ -16,5 +16,6 @@ public class ModSmeltingRecipes {
         GameRegistry.addSmelting(ModBlocks.BLOODSTONE_ORE, new ItemStack(ModItems.BLOODSTONE, 1), 5f);
         GameRegistry.addSmelting(ModBlocks.TOPAZ_ORE, new ItemStack(ModItems.TOPAZ, 1), 5f);
         GameRegistry.addSmelting(ModItems.GLASS_SHARD, new ItemStack(ModItems.REINFORCED_GLASS_SHARD, 1), 5F);
+        GameRegistry.addSmelting(ModItems.ANIMAL_FAT_BOTTLE, new ItemStack(ModItems.OIL_BOTTLE, 1), 10F);
     }
 }

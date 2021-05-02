@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "FFF",
+    "FBF",
+    "FFF"
+  ],
+
+  "key": {
+    "F": {
+      "item": "xtragems:animal_fat"
+    },
+    "B": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+
+  "result":
+  {
+    "item": "xtragems:animal_fat_bottle",
+    "count": 1
+  }
+}

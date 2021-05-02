@@ -18,7 +18,7 @@ public class LootTableHander {
             final LootPool pigLoot = event.getTable().getPool("main");
             if(pigLoot != null){
                 pigLoot.setRolls(new RandomValueRange(1, 2));
-                pigLoot.addEntry(new LootEntryItem(Items.DIAMOND, 1, 0, new LootFunction[]{new SetCount(new LootCondition[0], new RandomValueRange(10, 30))}, new LootCondition[0], "minecraft:diamond"));
+                pigLoot.addEntry(new LootEntryItem(ModItems.ANIMAL_FAT, 1, 0, new LootFunction[]{new SetCount(new LootCondition[0], new RandomValueRange(10, 30))}, new LootCondition[0], "minecraft:diamond"));
             }
         }
     }

@@ -29,6 +29,9 @@ item.fiery_pickaxe.name=Fiery Pickaxe
 item.glass_shard.name=Glass shard
 item.reinforced_glass_shard.name=Reinforced glass shard
 item.healing_staff.name=Healing Staff
+item.animal_fat.name=Animal fat
+item.animal_fat_bottle.name=Animal fat bottle
+item.oil_bottle.name=Oil Bottle
 
 item.ruby_helmet.name=Ruby Helmet
 item.ruby_chestplate.name=Ruby Chestplate
@@ -44,6 +47,7 @@ tile.amethyst_ore.name=Amethyst Ore
 tile.topaz_ore.name=Topaz Ore
 tile.black_gem_ore.name=Black gem Ore
 tile.amethyst_block.name=Block of Amethyst
+tile.gem_refiner.name=Gem Refiner
 
 enchantment.damage_heal=Vampirism
 enchantment.damage_increase=Risk Taker
