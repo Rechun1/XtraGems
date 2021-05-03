@@ -4,7 +4,10 @@ import com.ferriolli.xtragems.Init.ModItems;
 import com.google.common.collect.HashBasedTable;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Table;
+import net.minecraft.init.Items;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraftforge.oredict.OreDictionary;
 
 import java.util.Map;
 
@@ -18,7 +21,10 @@ public class GemRefinerRecipes {
     }
 
     private GemRefinerRecipes(){
-        addRefiningRecipe(new ItemStack(ModItems.AMETHYST), new ItemStack(ModItems.RUBY), new ItemStack(ModItems.FIRITE_GEM), 5.0F);
+        addRefiningRecipe(new ItemStack(ModItems.AMETHYST), new ItemStack(Items.QUARTZ), new ItemStack(ModItems.FIRITE_GEM), 5.0F);
+        addRefiningRecipe(new ItemStack(ModItems.RUBY), new ItemStack(Items.DIAMOND), new ItemStack(ModItems.FIRITE_GEM), 5.0F);
+        addRefiningRecipe(new ItemStack(ModItems.TOPAZ), new ItemStack(Items.ENDER_PEARL), new ItemStack(ModItems.FIRITE_GEM), 5.0F);
+        addRefiningRecipe(new ItemStack(ModItems.TURQUOISE), new ItemStack(Items.EMERALD), new ItemStack(ModItems.FIRITE_GEM), 5.0F);
     }
 
     public void addRefiningRecipe(ItemStack input1, ItemStack input2, ItemStack result, float experience){
