@@ -31,6 +31,7 @@ public class ModItems {
     public static final Item BLACK_GEM = new ItemBase("black_gem");
     public static final Item RUBY = new ItemBase("ruby");
     public static final Item AMETHYST = new ItemBase("amethyst");
+    public static final Item TURQUOISE = new ItemBase("turquoise");
     public static final Item SHADOW_INGOT = new ItemBase("shadow_ingot");
     public static final Item FIRITE_GEM = new ItemBase("firite_gem");
     public static final Item BLOODSTONE = new ItemBase("bloodstone");
@@ -39,7 +40,7 @@ public class ModItems {
     public static final Item ANIMAL_FAT = new ItemBase("animal_fat");
     public static final Item ANIMAL_FAT_BOTTLE = new ItemBase("animal_fat_bottle");
 
-    public static final Item OIL_BOTTLE = new ItemCustomFoodWithEffect("oil_bottle", 4, false, new PotionEffect(MobEffects.STRENGTH, 600, 2));
+    public static final Item OIL_BOTTLE = new ItemCustomFoodWithEffect("oil_bottle", 4, false, new PotionEffect(MobEffects.STRENGTH, 6000, 2));
 
     public static final ItemSword RUBY_SWORD = new ToolSword("ruby_sword", MATERIAL_RUBY);
     public static final ItemSpade RUBY_SHOVEL = new ToolSpade("ruby_shovel", MATERIAL_RUBY);

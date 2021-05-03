@@ -50,7 +50,6 @@ public class ItemHealingStaff extends Item implements IHasModel {
         World worldIn = playerIn.getEntityWorld();
         if(!worldIn.isRemote && target.getHealth() < target.getMaxHealth()){
             target.heal(2);
-            Minecraft.getMinecraft().player.sendChatMessage(String.valueOf(target.getHealth()));
             playerIn.getEntityWorld().playSound(null, playerIn.getPosition(), SoundEvents.ENTITY_EXPERIENCE_ORB_PICKUP, SoundCategory.HOSTILE, 1.0F, 2F);
             itemStack.damageItem(1, playerIn);
             return true;

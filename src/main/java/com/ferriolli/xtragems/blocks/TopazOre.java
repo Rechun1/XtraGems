@@ -23,6 +23,10 @@ public class TopazOre extends BlockBase{
     }
 
     public int quantityDropped(IBlockState state, int fortune, Random random) {
+        if(fortune > 0){
+            int min = 1;
+            return random.nextInt(fortune) + min;
+        }
         return 1;
     }
 

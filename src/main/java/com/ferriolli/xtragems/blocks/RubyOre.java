@@ -7,6 +7,7 @@ import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.Item;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IBlockAccess;
+import net.minecraftforge.common.config.Config;
 
 import java.util.Random;
 
@@ -23,6 +24,10 @@ public class RubyOre extends BlockBase{
     }
 
     public int quantityDropped(IBlockState state, int fortune, Random random) {
+        if(fortune > 0){
+            int min = 1;
+            return random.nextInt(fortune) + min;
+        }
         return 1;
     }
     public int getExpDrop(IBlockState state, IBlockAccess world, BlockPos pos, int fortune)
