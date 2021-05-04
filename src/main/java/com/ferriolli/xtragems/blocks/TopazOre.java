@@ -14,7 +14,7 @@ public class TopazOre extends BlockBase{
     public TopazOre(String name, Material material) {
         super(name, material);
         setSoundType(SoundType.STONE);
-        setHardness(10);
+        setHardness(3);
         setResistance(30f);
         setHarvestLevel("pickaxe", 3);
     }

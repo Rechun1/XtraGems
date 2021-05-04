@@ -15,7 +15,7 @@ public class TurquoiseOre extends BlockBase {
     public TurquoiseOre(String name, Material material) {
         super(name, material);
         setSoundType(SoundType.STONE);
-        setHardness(5);
+        setHardness(3);
         setResistance(30f);
         setHarvestLevel("pickaxe", 2);
     }

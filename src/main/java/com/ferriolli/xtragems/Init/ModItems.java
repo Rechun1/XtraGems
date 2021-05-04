@@ -81,6 +81,6 @@ public class ModItems {
 
     public static final ItemHealingStaff HEALING_STAFF = new ItemHealingStaff("healing_staff");
     public static final ItemLightningStaff LIGHTNING_STAFF = new ItemLightningStaff("lightning_staff");
-    public static final ItemMidasStaff MIDAS_STAFF = new ItemMidasStaff("teleport_staff");
+    public static final ItemMidasStaff MIDAS_STAFF = new ItemMidasStaff("midas_staff");
 
 }

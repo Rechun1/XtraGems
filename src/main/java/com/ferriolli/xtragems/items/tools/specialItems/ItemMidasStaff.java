@@ -86,8 +86,8 @@ public class ItemMidasStaff extends Item implements IHasModel {
                         break;
                 }
                 playerIn.getEntityWorld().playSound(null, playerIn.getPosition(), SoundEvents.ENTITY_ENDERMEN_TELEPORT, SoundCategory.HOSTILE, 1.0F, 0F);
+                stack.damageItem(1, playerIn);
             }
-            stack.damageItem(1, playerIn);
             return new ActionResult(EnumActionResult.SUCCESS, stack);
         }
         return new ActionResult(EnumActionResult.FAIL, stack);

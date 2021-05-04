@@ -31,9 +31,10 @@ public class ToolHandler {
                 if (entityBreaker.getHeldItemMainhand().getItem() == ModItems.FIERY_PICKAXE) {
                     Block dBlock = event.getState().getBlock();
                     int level = event.getFortuneLevel();
+                    System.out.println(level);
                     Random random = new Random();
-                    int droppedAmount = random.nextInt(level) + 1;
                     if (level > 0) {
+                        int droppedAmount = random.nextInt(level) + 1;
                         if (dBlock == Blocks.IRON_ORE) {
                             for (int i = 0; i <= droppedAmount; i++) {
                                 event.getDrops().add(new ItemStack(Items.IRON_INGOT));
@@ -48,7 +49,8 @@ public class ToolHandler {
                             event.getDrops().remove(0);
                             return;
                         }
-                    } else {
+                    }
+                    else {
                         if (dBlock == Blocks.IRON_ORE) {
                             event.getDrops().add(new ItemStack(Items.IRON_INGOT));
                             event.getDrops().remove(0);

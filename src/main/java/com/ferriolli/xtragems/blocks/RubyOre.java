@@ -15,7 +15,7 @@ public class RubyOre extends BlockBase{
     public RubyOre(String name, Material material) {
         super(name, material);
         setSoundType(SoundType.STONE);
-        setHardness(5);
+        setHardness(3);
         setResistance(30f);
         setHarvestLevel("pickaxe", 2);
     }
