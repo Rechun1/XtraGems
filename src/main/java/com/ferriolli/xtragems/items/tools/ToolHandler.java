@@ -3,12 +3,10 @@ package com.ferriolli.xtragems.items.tools;
 import com.ferriolli.xtragems.Init.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
+import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.init.Blocks;
-import net.minecraft.init.Items;
-import net.minecraft.init.MobEffects;
-import net.minecraft.init.SoundEvents;
+import net.minecraft.init.*;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.SoundCategory;
@@ -24,23 +22,43 @@ import java.util.Random;
 
 @Mod.EventBusSubscriber
 public class ToolHandler {
-    //VERIFICAR SE (!world.isRemote())
     @SubscribeEvent
+    //TODO: CORRIGIR DROPS DO ITEM;
     public static void fieryPick(BlockEvent.HarvestDropsEvent event) {
         if (event.getHarvester() instanceof EntityPlayer) {
             EntityPlayer entityBreaker = event.getHarvester();
-            if (!entityBreaker.getEntityWorld().isRemote){
+            if (!entityBreaker.getEntityWorld().isRemote) {
                 if (entityBreaker.getHeldItemMainhand().getItem() == ModItems.FIERY_PICKAXE) {
                     Block dBlock = event.getState().getBlock();
-                    if (dBlock == Blocks.IRON_ORE) {
-                        event.getDrops().add(new ItemStack(Items.IRON_INGOT));
-                        event.getDrops().remove(0);
-                        return;
-                    }
-                    if (dBlock == Blocks.GOLD_ORE) {
-                        event.getDrops().add(new ItemStack(Items.GOLD_INGOT));
-                        event.getDrops().remove(0);
-                        return;
+                    int level = event.getFortuneLevel();
+                    Random random = new Random();
+                    int droppedAmount = random.nextInt(level) + 1;
+                    if (level > 0) {
+                        if (dBlock == Blocks.IRON_ORE) {
+                            for (int i = 0; i <= droppedAmount; i++) {
+                                event.getDrops().add(new ItemStack(Items.IRON_INGOT));
+                            }
+                            event.getDrops().remove(0);
+                            return;
+                        }
+                        if (dBlock == Blocks.GOLD_ORE) {
+                            for (int i = 0; i <= droppedAmount; i++) {
+                                event.getDrops().add(new ItemStack(Items.GOLD_INGOT));
+                            }
+                            event.getDrops().remove(0);
+                            return;
+                        }
+                    } else {
+                        if (dBlock == Blocks.IRON_ORE) {
+                            event.getDrops().add(new ItemStack(Items.IRON_INGOT));
+                            event.getDrops().remove(0);
+                            return;
+                        }
+                        if (dBlock == Blocks.GOLD_ORE) {
+                            event.getDrops().add(new ItemStack(Items.GOLD_INGOT));
+                            event.getDrops().remove(0);
+                            return;
+                        }
                     }
                 }
             }
@@ -66,7 +84,6 @@ public class ToolHandler {
         if (event.getEntityLiving() instanceof EntityLivingBase){
             EntityLivingBase entityUser = event.getEntityLiving();
             if (entityUser.getHeldItemMainhand().getItem() == ModItems.FIERY_PICKAXE){
-                Minecraft.getMinecraft().player.sendChatMessage("passou aqui 2");
                 entityUser.getHeldItemMainhand().damageItem(50, entityUser);
             }
         }

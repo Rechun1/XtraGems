@@ -30,9 +30,15 @@ item.glass_shard.name=Glass shard
 item.turquoise.name = Turquoise
 item.reinforced_glass_shard.name=Reinforced glass shard
 item.healing_staff.name=Healing Staff
+item.lightning_staff.name=Lightning Staff
 item.animal_fat.name=Animal fat
 item.animal_fat_bottle.name=Animal fat bottle
 item.oil_bottle.name=Oil Bottle
+item.amber_pearl.name=Amber Pearl
+item.azure_emerald.name=Azure Emerald
+item.violet_quartz.name=Violet Quartz
+item.bloody_diamond.name=Bloody Diamond
+item.teleport_staff.name=Teleport Staff
 
 item.ruby_helmet.name=Ruby Helmet
 item.ruby_chestplate.name=Ruby Chestplate

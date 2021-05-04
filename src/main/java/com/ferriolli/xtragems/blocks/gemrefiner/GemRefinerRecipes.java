@@ -21,10 +21,10 @@ public class GemRefinerRecipes {
     }
 
     private GemRefinerRecipes(){
-        addRefiningRecipe(new ItemStack(ModItems.AMETHYST), new ItemStack(Items.QUARTZ), new ItemStack(ModItems.FIRITE_GEM), 5.0F);
-        addRefiningRecipe(new ItemStack(ModItems.RUBY), new ItemStack(Items.DIAMOND), new ItemStack(ModItems.FIRITE_GEM), 5.0F);
-        addRefiningRecipe(new ItemStack(ModItems.TOPAZ), new ItemStack(Items.ENDER_PEARL), new ItemStack(ModItems.FIRITE_GEM), 5.0F);
-        addRefiningRecipe(new ItemStack(ModItems.TURQUOISE), new ItemStack(Items.EMERALD), new ItemStack(ModItems.FIRITE_GEM), 5.0F);
+        addRefiningRecipe(new ItemStack(ModItems.AMETHYST), new ItemStack(Items.QUARTZ), new ItemStack(ModItems.VIOLET_QUARTZ), 5.0F);
+        addRefiningRecipe(new ItemStack(ModItems.RUBY), new ItemStack(Items.DIAMOND), new ItemStack(ModItems.BLOODY_DIAMOND), 5.0F);
+        addRefiningRecipe(new ItemStack(ModItems.TOPAZ), new ItemStack(Items.ENDER_PEARL), new ItemStack(ModItems.AMBER_PEARL), 5.0F);
+        addRefiningRecipe(new ItemStack(ModItems.TURQUOISE), new ItemStack(Items.EMERALD), new ItemStack(ModItems.AZURE_EMERALD), 5.0F);
     }
 
     public void addRefiningRecipe(ItemStack input1, ItemStack input2, ItemStack result, float experience){

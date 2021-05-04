@@ -5,6 +5,8 @@ import com.ferriolli.xtragems.items.ItemCustomFoodWithEffect;
 import com.ferriolli.xtragems.items.tools.specialItems.ItemHealingStaff;
 import com.ferriolli.xtragems.items.armor.ArmorBase;
 import com.ferriolli.xtragems.items.tools.*;
+import com.ferriolli.xtragems.items.tools.specialItems.ItemLightningStaff;
+import com.ferriolli.xtragems.items.tools.specialItems.ItemMidasStaff;
 import com.ferriolli.xtragems.util.Reference;
 import net.minecraft.init.MobEffects;
 import net.minecraft.init.SoundEvents;
@@ -39,6 +41,10 @@ public class ModItems {
     public static final Item REINFORCED_GLASS_SHARD = new ItemBase("reinforced_glass_shard");
     public static final Item ANIMAL_FAT = new ItemBase("animal_fat");
     public static final Item ANIMAL_FAT_BOTTLE = new ItemBase("animal_fat_bottle");
+    public static final Item AMBER_PEARL = new ItemBase("amber_pearl");
+    public static final Item AZURE_EMERALD = new ItemBase("azure_emerald");
+    public static final Item BLOODY_DIAMOND = new ItemBase("bloody_diamond");
+    public static final Item VIOLET_QUARTZ = new ItemBase("violet_quartz");
 
     public static final Item OIL_BOTTLE = new ItemCustomFoodWithEffect("oil_bottle", 4, false, new PotionEffect(MobEffects.STRENGTH, 6000, 2));
 
@@ -74,5 +80,7 @@ public class ModItems {
     public static final Item RUBY_BOOTS = new ArmorBase("ruby_boots", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.FEET);
 
     public static final ItemHealingStaff HEALING_STAFF = new ItemHealingStaff("healing_staff");
+    public static final ItemLightningStaff LIGHTNING_STAFF = new ItemLightningStaff("lightning_staff");
+    public static final ItemMidasStaff MIDAS_STAFF = new ItemMidasStaff("teleport_staff");
 
 }
