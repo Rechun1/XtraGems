@@ -7,6 +7,7 @@ import com.ferriolli.xtragems.items.armor.ArmorBase;
 import com.ferriolli.xtragems.items.tools.*;
 import com.ferriolli.xtragems.items.tools.specialItems.ItemLightningStaff;
 import com.ferriolli.xtragems.items.tools.specialItems.ItemMidasStaff;
+import com.ferriolli.xtragems.items.tools.specialItems.ItemWindStaff;
 import com.ferriolli.xtragems.util.Reference;
 import net.minecraft.init.MobEffects;
 import net.minecraft.init.SoundEvents;
@@ -35,7 +36,7 @@ public class ModItems {
     public static final Item AMETHYST = new ItemBase("amethyst");
     public static final Item TURQUOISE = new ItemBase("turquoise");
     public static final Item SHADOW_INGOT = new ItemBase("shadow_ingot");
-    public static final Item FIRITE_GEM = new ItemBase("firite_gem");
+    public static final Item UNREFINED_FIRITE_GEM = new ItemBase("unrefined_firite_gem");
     public static final Item BLOODSTONE = new ItemBase("bloodstone");
     public static final Item GLASS_SHARD = new ItemBase("glass_shard");
     public static final Item REINFORCED_GLASS_SHARD = new ItemBase("reinforced_glass_shard");
@@ -45,6 +46,7 @@ public class ModItems {
     public static final Item AZURE_EMERALD = new ItemBase("azure_emerald");
     public static final Item BLOODY_DIAMOND = new ItemBase("bloody_diamond");
     public static final Item VIOLET_QUARTZ = new ItemBase("violet_quartz");
+    public static final Item FIRITE_GEM = new ItemBase("firite_gem");
 
     public static final Item OIL_BOTTLE = new ItemCustomFoodWithEffect("oil_bottle", 4, false, new PotionEffect(MobEffects.STRENGTH, 6000, 2));
 
@@ -82,5 +84,5 @@ public class ModItems {
     public static final ItemHealingStaff HEALING_STAFF = new ItemHealingStaff("healing_staff");
     public static final ItemLightningStaff LIGHTNING_STAFF = new ItemLightningStaff("lightning_staff");
     public static final ItemMidasStaff MIDAS_STAFF = new ItemMidasStaff("midas_staff");
-
+    public static final ItemWindStaff TEST_STAFF = new ItemWindStaff("wind_staff");
 }

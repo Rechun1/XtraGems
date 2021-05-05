@@ -3,6 +3,7 @@ item.black_gem.name=Black Gem
 item.ruby.name=Ruby
 item.amethyst.name=Amethyst
 item.shadow_ingot.name=Shadow Ingot
+item.unrefined_firite_gem.name=Unrefined Firite Gem
 item.firite_gem.name=Firite Gem
 item.bloodstone.name=Bloodstone
 item.ruby_sword.name=Ruby Sword
@@ -39,6 +40,7 @@ item.azure_emerald.name=Azure Emerald
 item.violet_quartz.name=Violet Quartz
 item.bloody_diamond.name=Bloody Diamond
 item.midas_staff.name=Midas Staff
+item.wind_staff.name=Wind Staff
 
 item.ruby_helmet.name=Ruby Helmet
 item.ruby_chestplate.name=Ruby Chestplate

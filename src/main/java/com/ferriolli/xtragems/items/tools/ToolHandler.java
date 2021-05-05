@@ -23,7 +23,6 @@ import java.util.Random;
 @Mod.EventBusSubscriber
 public class ToolHandler {
     @SubscribeEvent
-    //TODO: CORRIGIR DROPS DO ITEM;
     public static void fieryPick(BlockEvent.HarvestDropsEvent event) {
         if (event.getHarvester() instanceof EntityPlayer) {
             EntityPlayer entityBreaker = event.getHarvester();
@@ -31,7 +30,6 @@ public class ToolHandler {
                 if (entityBreaker.getHeldItemMainhand().getItem() == ModItems.FIERY_PICKAXE) {
                     Block dBlock = event.getState().getBlock();
                     int level = event.getFortuneLevel();
-                    System.out.println(level);
                     Random random = new Random();
                     if (level > 0) {
                         int droppedAmount = random.nextInt(level) + 1;
@@ -80,15 +78,4 @@ public class ToolHandler {
             }
         }
     }
-
-    @SubscribeEvent
-    public static void UseItemTest(PlayerInteractEvent.RightClickItem event){
-        if (event.getEntityLiving() instanceof EntityLivingBase){
-            EntityLivingBase entityUser = event.getEntityLiving();
-            if (entityUser.getHeldItemMainhand().getItem() == ModItems.FIERY_PICKAXE){
-                entityUser.getHeldItemMainhand().damageItem(50, entityUser);
-            }
-        }
-    }
-
 }

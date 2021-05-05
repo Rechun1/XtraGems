@@ -32,27 +32,9 @@ public class FiriteOre extends BlockBase{
         setHarvestLevel("pickaxe", 3);
     }
 
-    /*@Override
-    public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn, BlockPos fromPos) {
-        EntityItem item = new EntityItem(worldIn, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(ModItems.FIRITE_GEM));
-        if(!worldIn.isRemote) {
-            for (EnumFacing direction : EnumFacing.VALUES) {
-                fromPos = pos.offset(direction);
-                state = worldIn.getBlockState(fromPos);
-                blockIn = state.getBlock();
-                if (blockIn == Blocks.LAVA || blockIn == Blocks.FLOWING_LAVA) {
-                    //breakBlock(worldIn, pos, worldIn.getBlockState(pos));
-                    worldIn.setBlockToAir(pos);
-                    worldIn.playSound(null, pos, SoundEvents.BLOCK_STONE_BREAK, SoundCategory.BLOCKS, 1, 1);
-                    worldIn.spawnEntity(item);
-                }
-            }
-        }
-    }*/
-
     @Override
     public void onBlockPlacedBy(World worldIn, BlockPos pos, IBlockState state, EntityLivingBase placer, ItemStack stack) {
-        EntityItem item = new EntityItem(worldIn, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(ModItems.FIRITE_GEM));
+        EntityItem item = new EntityItem(worldIn, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(ModItems.UNREFINED_FIRITE_GEM));
         if (!worldIn.isRemote){
             for (EnumFacing direction : EnumFacing.VALUES){
                 BlockPos fromPos = pos.offset(direction);

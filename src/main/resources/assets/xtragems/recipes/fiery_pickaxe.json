@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "FFF",
+    " B ",
+    " B "
+  ],
+
+  "key": {
+    "F": {
+      "item": "xtragems:firite_gem"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+
+  "result":
+  {
+    "item": "xtragems:fiery_pickaxe",
+    "count": 1
+  }
+}
