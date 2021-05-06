@@ -39,7 +39,7 @@ public class ItemCustomFoodWithEffect extends ItemFood implements IHasModel {
     @Override
     protected void onFoodEaten(ItemStack stack, World worldIn, EntityPlayer player) {
         if(!worldIn.isRemote){
-            player.addPotionEffect(new PotionEffect(effect));
+            player.addPotionEffect(effect);
             System.out.println("aplicou efeito");
         }
     }

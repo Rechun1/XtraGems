@@ -26,7 +26,7 @@ public class ModItems {
     public static final Item.ToolMaterial MATERIAL_TOPAZ = EnumHelper.addToolMaterial("material_topaz", 3, 848, 9.0F, 2.5F, 10);
     public static final Item.ToolMaterial MATERIAL_AMETHYST = EnumHelper.addToolMaterial("material_amethyst", 2, 348, 6.0F, 2.0F, 10);
     public static final Item.ToolMaterial MATERIAL_GLASS = EnumHelper.addToolMaterial("material_glass", 2, 50, 20.0F, 6.0F, 10);
-    public static final Item.ToolMaterial MATERIAL_FIRITE = EnumHelper.addToolMaterial("material_firite", 3, 500, 12.0F, 6.0F, 10);
+    public static final Item.ToolMaterial MATERIAL_FIRITE = EnumHelper.addToolMaterial("material_firite", 3, 1561, 12.0F, 6.0F, 10);
 
     public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_RUBY = EnumHelper.addArmorMaterial("armor_material_ruby", Reference.MOD_ID + ":ruby", 16, new int[] {4, 9, 7, 4}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0);
 

@@ -1,5 +1,6 @@
 package com.ferriolli.xtragems.blocks.gemrefiner;
 
+import com.ferriolli.xtragems.Init.ModBlocks;
 import com.ferriolli.xtragems.Init.ModItems;
 import com.google.common.collect.HashBasedTable;
 import com.google.common.collect.Maps;
@@ -25,6 +26,8 @@ public class GemRefinerRecipes {
         addRefiningRecipe(new ItemStack(ModItems.RUBY), new ItemStack(Items.DIAMOND), new ItemStack(ModItems.BLOODY_DIAMOND), 5.0F);
         addRefiningRecipe(new ItemStack(ModItems.TOPAZ), new ItemStack(Items.ENDER_PEARL), new ItemStack(ModItems.AMBER_PEARL), 5.0F);
         addRefiningRecipe(new ItemStack(ModItems.TURQUOISE), new ItemStack(Items.EMERALD), new ItemStack(ModItems.AZURE_EMERALD), 5.0F);
+        addRefiningRecipe(new ItemStack(ModBlocks.BLACK_GEM_ORE), new ItemStack(Items.BLAZE_POWDER), new ItemStack(ModItems.BLACK_GEM), 5.0F);
+        addRefiningRecipe(new ItemStack(ModItems.BLACK_GEM), new ItemStack(ModItems.UNREFINED_FIRITE_GEM), new ItemStack(ModItems.FIRITE_GEM), 5.0F);
     }
 
     public void addRefiningRecipe(ItemStack input1, ItemStack input2, ItemStack result, float experience){
