@@ -47,8 +47,15 @@ public class ModItems {
     public static final Item BLOODY_DIAMOND = new ItemBase("bloody_diamond");
     public static final Item VIOLET_QUARTZ = new ItemBase("violet_quartz");
     public static final Item FIRITE_GEM = new ItemBase("firite_gem");
+    public static final Item INFUSED_BLACK_GEM = new ItemBase("infused_black_gem");
+    public static final Item RUBY_INFUSED_BLACK_GEM = new ItemBase("ruby_infused_black_gem");
+    public static final Item TOPAZ_INFUSED_BLACK_GEM = new ItemBase("topaz_infused_black_gem");
+    public static final Item AMETHYST_INFUSED_BLACK_GEM = new ItemBase("amethyst_infused_black_gem");
+    public static final Item TURQUOISE_INFUSED_BLACK_GEM = new ItemBase("turquoise_infused_black_gem");
+
 
     public static final Item OIL_BOTTLE = new ItemCustomFoodWithEffect("oil_bottle", 4, false, new PotionEffect(MobEffects.STRENGTH, 6000, 2));
+    //TODO: POTENAY
 
     public static final ItemSword RUBY_SWORD = new ToolSword("ruby_sword", MATERIAL_RUBY);
     public static final ItemSpade RUBY_SHOVEL = new ToolSpade("ruby_shovel", MATERIAL_RUBY);
