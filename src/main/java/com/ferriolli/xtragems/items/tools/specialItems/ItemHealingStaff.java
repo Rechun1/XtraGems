@@ -29,7 +29,6 @@ public class ItemHealingStaff extends Item implements IHasModel {
         this.setRegistryName(name);
         this.setCreativeTab(CreativeTabs.COMBAT);
 
-
         ModItems.ITEMS.add(this);
     }
 

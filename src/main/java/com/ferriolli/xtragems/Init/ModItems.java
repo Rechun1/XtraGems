@@ -2,6 +2,7 @@ package com.ferriolli.xtragems.Init;
 
 import com.ferriolli.xtragems.items.ItemBase;;
 import com.ferriolli.xtragems.items.ItemCustomFoodWithEffect;
+import com.ferriolli.xtragems.items.ItemFillable;
 import com.ferriolli.xtragems.items.tools.specialItems.ItemHealingStaff;
 import com.ferriolli.xtragems.items.armor.ArmorBase;
 import com.ferriolli.xtragems.items.tools.*;
@@ -54,9 +55,11 @@ public class ModItems {
     public static final Item TURQUOISE_INFUSED_BLACK_GEM = new ItemBase("turquoise_infused_black_gem");
 
     public static final Item STAFF_HANDLE = new ItemBase("staff_handle");
+    public static final ItemFillable EMPTY_POTENAY_BOTTLE = new ItemFillable("empty_potenay_bottle");
+    public static final Item FILLED_POTENAY_BOTTLE = new ItemBase("filled_potenay_bottle");
 
     public static final Item OIL_BOTTLE = new ItemCustomFoodWithEffect("oil_bottle", 4, false, new PotionEffect(MobEffects.STRENGTH, 6000, 2));
-    //TODO: POTENAY, CRIAR ITENS PARA EMPTY_POTENAY_BOTTLE, FILLED_POTENAY_BOTTLE, e POTENAY
+    //TODO: CRIAR ITEM PARA: POTENAY E ALTERAR VISUAL PARA COR LARANJA, RECEITA DA GARRAFA = GLASS BOTTLE E CORANTE LARANJA
 
     public static final ItemSword RUBY_SWORD = new ToolSword("ruby_sword", MATERIAL_RUBY);
     public static final ItemSpade RUBY_SHOVEL = new ToolSpade("ruby_shovel", MATERIAL_RUBY);

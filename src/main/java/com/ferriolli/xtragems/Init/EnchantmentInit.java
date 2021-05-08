@@ -39,13 +39,12 @@ import java.util.Random;
 public class EnchantmentInit {
     public static final List<Enchantment> ENCHANTMENTS = new ArrayList<Enchantment>();
 
-    public static final Enchantment DAMAGE_HEAL = new EnchantmentDamageHeal(Enchantment.Rarity.VERY_RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
-    public static final Enchantment DAMAGE_INCREASE = new EnchantmentDamageIncrease(Enchantment.Rarity.VERY_RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
-    public static final Enchantment MINER_TEST = new EnchantmentMinerTest(Enchantment.Rarity.VERY_RARE, EnumEnchantmentType.DIGGER, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
-    public static final Enchantment KNOWLEDGE = new EnchantmentKnowledge(Enchantment.Rarity.VERY_RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
+    public static final Enchantment DAMAGE_HEAL = new EnchantmentDamageHeal(Enchantment.Rarity.RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
+    public static final Enchantment DAMAGE_INCREASE = new EnchantmentDamageIncrease(Enchantment.Rarity.UNCOMMON, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
+    public static final Enchantment MINER_TEST = new EnchantmentMinerTest(Enchantment.Rarity.COMMON, EnumEnchantmentType.DIGGER, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
+    public static final Enchantment KNOWLEDGE = new EnchantmentKnowledge(Enchantment.Rarity.RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
     public static final Enchantment CATACLYSM = new EnchantmentCataclysm(Enchantment.Rarity.VERY_RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
-    public static final Enchantment BLAST_FURNACE = new EnchantmentBlastFurnace(Enchantment.Rarity.UNCOMMON, EnumEnchantmentType.DIGGER, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
-
+    //TODO: Adicionar função para o encantamento Miner e sempre verificar se o encantamento é igual a ele mesmo na função canApplyTogether
     //enchant de mob dropar cabeça
     //mudar cataclysm para chance de causar um tipo de efeito no mob atingido
     //VERIFICAR !WORLD.ISREMOTE
@@ -124,7 +123,6 @@ public class EnchantmentInit {
                     switch (chance){
                         case 0:
                             enemy.setFire(3 * level);
-                            System.out.println("Num 0");
                             break;
                         case 1:
                             enemy.addPotionEffect(new PotionEffect(MobEffects.WITHER, 60 * level, level));
@@ -137,26 +135,4 @@ public class EnchantmentInit {
             }
         }
     }
-    //TODO: remover blast furnace e programar fortuna para fiery pick quebrando black gem ore no nether
-    @SubscribeEvent
-    public static void blastFurnace(BlockEvent.HarvestDropsEvent event){
-        if (event.getHarvester() instanceof EntityPlayer){
-            EntityPlayer entityBreaker = event.getHarvester();
-            int level = EnchantmentHelper.getEnchantmentLevel(BLAST_FURNACE, entityBreaker.getHeldItemMainhand());
-            if (level > 0) {
-                Block dblock = event.getState().getBlock();
-                if (dblock == Blocks.IRON_ORE){
-                    event.getDrops().add(new ItemStack(Items.IRON_INGOT));
-                    event.getDrops().remove(0);
-                    return;
-                }
-                if (dblock == Blocks.GOLD_ORE){
-                    event.getDrops().add(new ItemStack(Items.GOLD_INGOT));
-                    event.getDrops().remove(0);
-                    return;
-                }
-            }
-        }
-    }
-
 }

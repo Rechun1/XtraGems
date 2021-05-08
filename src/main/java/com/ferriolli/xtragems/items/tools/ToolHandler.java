@@ -1,5 +1,6 @@
 package com.ferriolli.xtragems.items.tools;
 
+import com.ferriolli.xtragems.Init.ModBlocks;
 import com.ferriolli.xtragems.Init.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
@@ -24,7 +25,7 @@ import java.util.Random;
 public class ToolHandler {
     @SubscribeEvent
     public static void fieryPick(BlockEvent.HarvestDropsEvent event) {
-        if (event.getHarvester() instanceof EntityPlayer) {
+        if (event.getHarvester() != null) {
             EntityPlayer entityBreaker = event.getHarvester();
             if (!entityBreaker.getEntityWorld().isRemote) {
                 if (entityBreaker.getHeldItemMainhand().getItem() == ModItems.FIERY_PICKAXE) {
@@ -45,19 +46,26 @@ public class ToolHandler {
                                 event.getDrops().add(new ItemStack(Items.GOLD_INGOT));
                             }
                             event.getDrops().remove(0);
-                            return;
+                        }
+                        if (dBlock == ModBlocks.BLACK_GEM_ORE){
+                            for (int i = 0; i <= droppedAmount; i++) {
+                                event.getDrops().add(new ItemStack(ModItems.BLACK_GEM));
+                            }
+                            event.getDrops().remove(0);
                         }
                     }
                     else {
                         if (dBlock == Blocks.IRON_ORE) {
                             event.getDrops().add(new ItemStack(Items.IRON_INGOT));
                             event.getDrops().remove(0);
-                            return;
                         }
                         if (dBlock == Blocks.GOLD_ORE) {
                             event.getDrops().add(new ItemStack(Items.GOLD_INGOT));
                             event.getDrops().remove(0);
-                            return;
+                        }
+                        if (dBlock == ModBlocks.BLACK_GEM_ORE){
+                            event.getDrops().add(new ItemStack(ModItems.BLACK_GEM));
+                            event.getDrops().remove(0);
                         }
                     }
                 }
@@ -67,7 +75,7 @@ public class ToolHandler {
 
     @SubscribeEvent
     public static void breakGlassChance(BlockEvent.BreakEvent event){
-        if (event.getPlayer() instanceof EntityPlayer){
+        if (event.getPlayer() != null){
             EntityPlayer entityBreaker = event.getPlayer();
             if (entityBreaker.getHeldItemMainhand().getItem() == ModItems.GLASS_AXE || entityBreaker.getHeldItemMainhand().getItem() == ModItems.GLASS_PICKAXE || entityBreaker.getHeldItemMainhand().getItem() == ModItems.GLASS_HOE || entityBreaker.getHeldItemMainhand().getItem() == ModItems.GLASS_SHOVEL){
                 Random random = new Random();

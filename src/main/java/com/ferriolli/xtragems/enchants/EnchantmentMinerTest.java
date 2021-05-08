@@ -19,12 +19,12 @@ public class EnchantmentMinerTest extends Enchantment {
 
     @Override
     public int getMinEnchantability(int enchantmentLevel) {
-        return enchantmentLevel * 11;
+        return 1 + 10 * (enchantmentLevel - 1);
     }
 
     @Override
     public int getMaxEnchantability(int enchantmentLevel) {
-        return this.getMinEnchantability(enchantmentLevel * 11);
+        return super.getMinEnchantability(enchantmentLevel) + 50;
     }
 
     @Override
@@ -34,6 +34,6 @@ public class EnchantmentMinerTest extends Enchantment {
 
     @Override
     protected boolean canApplyTogether(Enchantment ench) {
-        return true;
+        return this != ench;
     }
 }

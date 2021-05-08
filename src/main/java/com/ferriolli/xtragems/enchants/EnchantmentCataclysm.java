@@ -35,10 +35,6 @@ public class EnchantmentCataclysm extends Enchantment {
 
     @Override
     protected boolean canApplyTogether(Enchantment ench) {
-        if (ench == Enchantments.FIRE_ASPECT/* || ench == EnchantmentInit.VENOMOUS*/){
-            return false;
-        }else{
-            return true;
-        }
+        return ench != Enchantments.FIRE_ASPECT;
     }
 }
