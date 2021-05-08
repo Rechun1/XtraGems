@@ -53,9 +53,10 @@ public class ModItems {
     public static final Item AMETHYST_INFUSED_BLACK_GEM = new ItemBase("amethyst_infused_black_gem");
     public static final Item TURQUOISE_INFUSED_BLACK_GEM = new ItemBase("turquoise_infused_black_gem");
 
+    public static final Item STAFF_HANDLE = new ItemBase("staff_handle");
 
     public static final Item OIL_BOTTLE = new ItemCustomFoodWithEffect("oil_bottle", 4, false, new PotionEffect(MobEffects.STRENGTH, 6000, 2));
-    //TODO: POTENAY
+    //TODO: POTENAY, CRIAR ITENS PARA EMPTY_POTENAY_BOTTLE, FILLED_POTENAY_BOTTLE, e POTENAY
 
     public static final ItemSword RUBY_SWORD = new ToolSword("ruby_sword", MATERIAL_RUBY);
     public static final ItemSpade RUBY_SHOVEL = new ToolSpade("ruby_shovel", MATERIAL_RUBY);

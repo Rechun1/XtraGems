@@ -44,8 +44,7 @@ public class ItemWindStaff extends Item implements IHasModel {
 
     @Override
     public void addInformation(ItemStack stack, World player, List<String> tooltip, ITooltipFlag advanced){
-        tooltip.add("\u00A7a" + "Right click to");
-        tooltip.add("\u00A7a" + "Fly");
+        tooltip.add("\u00A7a" + "Right click to fly");
     }
 
     @Override
@@ -56,6 +55,7 @@ public class ItemWindStaff extends Item implements IHasModel {
             playerIn.getEntityWorld().playSound(null, playerIn.getPosition(), SoundEvents.ENTITY_FIREWORK_LAUNCH, SoundCategory.HOSTILE, 1.0F, 1F);
             playerIn.addVelocity(vec.x * 2, vec.y * 2, vec.z * 2);
             playerIn.velocityChanged = true;
+            //TODO: corrigir player tomando dano após uso único do staff
             playerIn.fallDistance = -1000;
             stack.damageItem(1, playerIn);
             return new ActionResult(EnumActionResult.SUCCESS, stack);

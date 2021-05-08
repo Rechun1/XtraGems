@@ -28,6 +28,11 @@ public class GemRefinerRecipes {
         addRefiningRecipe(new ItemStack(ModItems.TURQUOISE), new ItemStack(Items.EMERALD), new ItemStack(ModItems.AZURE_EMERALD), 5.0F);
         addRefiningRecipe(new ItemStack(ModBlocks.BLACK_GEM_ORE), new ItemStack(Items.BLAZE_POWDER), new ItemStack(ModItems.BLACK_GEM), 5.0F);
         addRefiningRecipe(new ItemStack(ModItems.BLACK_GEM), new ItemStack(ModItems.UNREFINED_FIRITE_GEM), new ItemStack(ModItems.FIRITE_GEM), 5.0F);
+        addRefiningRecipe(new ItemStack(ModItems.BLACK_GEM), new ItemStack(Items.ENDER_PEARL), new ItemStack(ModItems.INFUSED_BLACK_GEM), 5.0F);
+        addRefiningRecipe(new ItemStack(ModItems.INFUSED_BLACK_GEM), new ItemStack(ModItems.BLOODY_DIAMOND), new ItemStack(ModItems.RUBY_INFUSED_BLACK_GEM), 5.0F);
+        addRefiningRecipe(new ItemStack(ModItems.INFUSED_BLACK_GEM), new ItemStack(ModItems.VIOLET_QUARTZ), new ItemStack(ModItems.AMETHYST_INFUSED_BLACK_GEM), 5.0F);
+        addRefiningRecipe(new ItemStack(ModItems.INFUSED_BLACK_GEM), new ItemStack(ModItems.AZURE_EMERALD), new ItemStack(ModItems.TURQUOISE_INFUSED_BLACK_GEM), 5.0F);
+        addRefiningRecipe(new ItemStack(ModItems.INFUSED_BLACK_GEM), new ItemStack(ModItems.AMBER_PEARL), new ItemStack(ModItems.TOPAZ_INFUSED_BLACK_GEM), 5.0F);
     }
 
     public void addRefiningRecipe(ItemStack input1, ItemStack input2, ItemStack result, float experience){

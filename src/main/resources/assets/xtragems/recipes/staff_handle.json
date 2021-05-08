@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "xtragems:shadow_ingot"
+    }
+  ],
+  "result": {
+    "item": "xtragems:staff_handle",
+    "count": 1
+  }
+}

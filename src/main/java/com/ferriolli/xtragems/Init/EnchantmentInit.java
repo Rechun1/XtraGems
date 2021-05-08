@@ -128,17 +128,16 @@ public class EnchantmentInit {
                             break;
                         case 1:
                             enemy.addPotionEffect(new PotionEffect(MobEffects.WITHER, 60 * level, level));
-                            System.out.println("Num 1");
                             break;
                         case 2:
                             enemy.addPotionEffect(new PotionEffect(MobEffects.POISON, 60 * level, level));
-                            System.out.println("Num 2");
                             break;
                     }
                 }
             }
         }
     }
+    //TODO: remover blast furnace e programar fortuna para fiery pick quebrando black gem ore no nether
     @SubscribeEvent
     public static void blastFurnace(BlockEvent.HarvestDropsEvent event){
         if (event.getHarvester() instanceof EntityPlayer){

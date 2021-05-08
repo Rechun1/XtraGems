@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "G",
+    "H",
+    "H"
+  ],
+  "key": {
+    "G": {
+      "item": "xtragems:turquoise_infused_black_gem"
+    },
+    "H": {
+      "item": "xtragems:staff_handle"
+    }
+  },
+  "result": {
+    "item": "xtragems:lightning_staff"
+  }
+}

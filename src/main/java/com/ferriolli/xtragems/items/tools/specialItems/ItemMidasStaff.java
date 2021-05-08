@@ -46,7 +46,8 @@ public class ItemMidasStaff extends Item implements IHasModel {
 
     @Override
     public void addInformation(ItemStack stack, World player, List<String> tooltip, ITooltipFlag advanced){
-        tooltip.add("\u00A7a" + "Right click to teleport");
+        tooltip.add("\u00A7a" + "Right click stone or dirt");
+        tooltip.add("\u00A7a" + "to create ore");
     }
 
     public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn) {
@@ -56,7 +57,7 @@ public class ItemMidasStaff extends Item implements IHasModel {
             IBlockState state = worldIn.getBlockState(pos);
             Block blockIn = state.getBlock();
             Random random = new Random();
-            if(blockIn != Blocks.AIR){
+            if(blockIn == Blocks.STONE || blockIn == Blocks.DIRT){
                 int randomNum = random.nextInt(8);
                 System.out.println(randomNum);
                 switch (randomNum){
