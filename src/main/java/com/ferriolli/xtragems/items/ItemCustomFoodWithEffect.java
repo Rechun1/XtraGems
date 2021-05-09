@@ -47,7 +47,11 @@ public class ItemCustomFoodWithEffect extends ItemFood implements IHasModel {
     @Override
     public void addInformation(ItemStack stack, @Nullable World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
         super.addInformation(stack, worldIn, tooltip, flagIn);
-        tooltip.add(TextFormatting.GOLD + "How can you do such thing?");
-
+        if(stack.getItem() == ModItems.OIL_BOTTLE){
+            tooltip.add(TextFormatting.GOLD + "How can you do such thing?");
+        }
+        if(stack.getItem() == ModItems.POTENAY){
+            tooltip.add(TextFormatting.GOLD + "Natural? Not even plants!!");
+        }
     }
 }

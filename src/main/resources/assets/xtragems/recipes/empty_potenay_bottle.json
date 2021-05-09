@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "xtragems:reinforced_glass_shard"
+    }
+  ],
+  "result": {
+    "item": "xtragems:empty_potenay_bottle",
+    "count": 1
+  }
+}

@@ -35,9 +35,6 @@ public class EnchantmentDamageHeal extends Enchantment {
 
     @Override
     protected boolean canApplyTogether(Enchantment ench) {
-        if (ench == Enchantments.MENDING){
-            return false;
-        }
-        return true;
+        return this != ench;
     }
 }

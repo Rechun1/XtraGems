@@ -34,6 +34,6 @@ public class EnchantmentKnowledge extends Enchantment {
 
     @Override
     protected boolean canApplyTogether(Enchantment ench) {
-        return true;
+        return this != ench;
     }
 }

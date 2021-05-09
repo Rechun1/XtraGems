@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "xtragems:filled_potenay_bottle"
+    }
+  ],
+  "result": {
+    "item": "xtragems:potenay",
+    "count": 1
+  }
+}

@@ -59,7 +59,7 @@ public class ModItems {
     public static final Item FILLED_POTENAY_BOTTLE = new ItemBase("filled_potenay_bottle");
 
     public static final Item OIL_BOTTLE = new ItemCustomFoodWithEffect("oil_bottle", 4, false, new PotionEffect(MobEffects.STRENGTH, 6000, 2));
-    //TODO: CRIAR ITEM PARA: POTENAY E ALTERAR VISUAL PARA COR LARANJA, RECEITA DA GARRAFA = GLASS BOTTLE E CORANTE LARANJA
+    public static final Item POTENAY = new ItemCustomFoodWithEffect("potenay", 2, false, new PotionEffect(MobEffects.STRENGTH, 3000, 3));
 
     public static final ItemSword RUBY_SWORD = new ToolSword("ruby_sword", MATERIAL_RUBY);
     public static final ItemSpade RUBY_SHOVEL = new ToolSpade("ruby_shovel", MATERIAL_RUBY);

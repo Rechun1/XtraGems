@@ -15,6 +15,7 @@ import net.minecraft.init.Items;
 import net.minecraft.init.MobEffects;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
@@ -40,61 +41,45 @@ public class EnchantmentInit {
     public static final List<Enchantment> ENCHANTMENTS = new ArrayList<Enchantment>();
 
     public static final Enchantment DAMAGE_HEAL = new EnchantmentDamageHeal(Enchantment.Rarity.RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
-    public static final Enchantment DAMAGE_INCREASE = new EnchantmentDamageIncrease(Enchantment.Rarity.UNCOMMON, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
-    public static final Enchantment MINER_TEST = new EnchantmentMinerTest(Enchantment.Rarity.COMMON, EnumEnchantmentType.DIGGER, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
+    public static final Enchantment MINER_TEST = new EnchantmentMinerTest(Enchantment.Rarity.UNCOMMON, EnumEnchantmentType.DIGGER, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
     public static final Enchantment KNOWLEDGE = new EnchantmentKnowledge(Enchantment.Rarity.RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
     public static final Enchantment CATACLYSM = new EnchantmentCataclysm(Enchantment.Rarity.VERY_RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
-    //TODO: Adicionar função para o encantamento Miner e sempre verificar se o encantamento é igual a ele mesmo na função canApplyTogether
-    //enchant de mob dropar cabeça
-    //mudar cataclysm para chance de causar um tipo de efeito no mob atingido
-    //VERIFICAR !WORLD.ISREMOTE
+    //Enchant de mob dropar cabeça
     @SubscribeEvent
     public static void vampirism(LivingDeathEvent event){
         Object attacker = event.getSource().getTrueSource();
         if (attacker instanceof EntityPlayer){
             EntityPlayer entityAttacker = (EntityPlayer)attacker;
-            int level = EnchantmentHelper.getEnchantmentLevel(DAMAGE_HEAL, entityAttacker.getHeldItemMainhand());
-            if (!entityAttacker.getEntityWorld().isRemote && level > 0){
-                entityAttacker.heal(level);
-                entityAttacker.getEntityWorld().playSound(null, entityAttacker.getPosition(), SoundEvents.ENTITY_ARROW_HIT_PLAYER, SoundCategory.HOSTILE, 1.0F, 2.0F);
-            }
-        }
-    }
-    @SubscribeEvent
-    public static void dmgIncrease(LivingHurtEvent event) {
-        boolean dmgAlreadyIncreased = false;
-        Object attacker = event.getSource().getTrueSource();
-        if (attacker instanceof  EntityLivingBase){
-            EntityLivingBase entityAttacker = (EntityLivingBase)attacker;
-            int level = EnchantmentHelper.getEnchantmentLevel(DAMAGE_INCREASE, entityAttacker.getHeldItemMainhand());
-            if (!entityAttacker.getEntityWorld().isRemote && level > 0){
-                if (entityAttacker.getHealth() <= entityAttacker.getMaxHealth() * .2F && !dmgAlreadyIncreased) {
-                    event.setAmount(event.getAmount() * 1.5F);
-                    dmgAlreadyIncreased = true;
-                    entityAttacker.getEntityWorld().playSound(null, entityAttacker.getPosition(), SoundEvents.ENTITY_PLAYER_LEVELUP, SoundCategory.HOSTILE, 1.0F, 0.1F);
-                }
-                else if(entityAttacker.getHealth() <= entityAttacker.getMaxHealth() * .4F && !dmgAlreadyIncreased){
-                    event.setAmount(event.getAmount() * 1.25F);
-                    dmgAlreadyIncreased = true;
-                    entityAttacker.getEntityWorld().playSound(null, entityAttacker.getPosition(), SoundEvents.ENTITY_PLAYER_LEVELUP, SoundCategory.HOSTILE, 1.0F, 0.1F);
+            if(!entityAttacker.getEntityWorld().isRemote){
+                int level = EnchantmentHelper.getEnchantmentLevel(DAMAGE_HEAL, entityAttacker.getHeldItemMainhand());
+                if (level > 0){
+                    entityAttacker.heal(level);
                 }
             }
         }
     }
+
     @SubscribeEvent
-    public static void minerTest(BlockEvent.BreakEvent event){
-        EntityLivingBase entityBreaker = event.getPlayer();
-        float destroyedBlockHeight = event.getPos().getY();
-        int level = EnchantmentHelper.getEnchantmentLevel(MINER_TEST, entityBreaker.getHeldItemMainhand());
-        if (level > 0){
-            if (destroyedBlockHeight < 10){
+    public static void minerTest(BlockEvent.HarvestDropsEvent event){
+        if(event.getHarvester() instanceof EntityPlayer){
+            if(!event.getHarvester().getEntityWorld().isRemote){
                 Block dBlock = event.getState().getBlock();
-                if (dBlock == Blocks.STONE){
-                    entityBreaker.getEntityWorld().playSound(null, entityBreaker.getPosition(), SoundEvents.ENTITY_PLAYER_LEVELUP, SoundCategory.HOSTILE, 1.0F, 0.1F);
+                if(dBlock == Blocks.STONE){
+                    Random random = new Random();
+                    int chosenNumber = random.nextInt(2);
+                    switch (chosenNumber){
+                        case 0:
+                            event.getDrops().add(new ItemStack(Items.IRON_INGOT));
+                            break;
+                        case 1:
+                            event.getDrops().add(new ItemStack(Items.GOLD_INGOT));
+                            break;
+                    }
                 }
             }
         }
     }
+
     @SubscribeEvent
     public static void knowledge(LivingExperienceDropEvent event){
         Object attacker = event.getAttackingPlayer();
@@ -109,6 +94,7 @@ public class EnchantmentInit {
             }
         }
     }
+
     @SubscribeEvent
     public static void cataclysm(LivingHurtEvent event) {
         Object attacker = event.getSource().getTrueSource();

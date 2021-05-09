@@ -35,6 +35,6 @@ public class EnchantmentCataclysm extends Enchantment {
 
     @Override
     protected boolean canApplyTogether(Enchantment ench) {
-        return ench != Enchantments.FIRE_ASPECT;
+        return super.canApplyTogether(ench) && ench != Enchantments.FIRE_ASPECT;
     }
 }
