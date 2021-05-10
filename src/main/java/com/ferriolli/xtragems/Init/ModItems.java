@@ -53,12 +53,14 @@ public class ModItems {
     public static final Item TOPAZ_INFUSED_BLACK_GEM = new ItemBase("topaz_infused_black_gem");
     public static final Item AMETHYST_INFUSED_BLACK_GEM = new ItemBase("amethyst_infused_black_gem");
     public static final Item TURQUOISE_INFUSED_BLACK_GEM = new ItemBase("turquoise_infused_black_gem");
+    //TODO: criar receita para shadow ingot
+    //TODO: criar receita para gem refiner
 
     public static final Item STAFF_HANDLE = new ItemBase("staff_handle");
     public static final ItemFillable EMPTY_POTENAY_BOTTLE = new ItemFillable("empty_potenay_bottle");
     public static final Item FILLED_POTENAY_BOTTLE = new ItemBase("filled_potenay_bottle");
 
-    public static final Item OIL_BOTTLE = new ItemCustomFoodWithEffect("oil_bottle", 4, false, new PotionEffect(MobEffects.STRENGTH, 6000, 2));
+    public static final Item OIL_BOTTLE = new ItemCustomFoodWithEffect("oil_bottle", 4, false, new PotionEffect(MobEffects.NAUSEA, 600, 2));
     public static final Item POTENAY = new ItemCustomFoodWithEffect("potenay", 2, false, new PotionEffect(MobEffects.STRENGTH, 3000, 3));
 
     public static final ItemSword RUBY_SWORD = new ToolSword("ruby_sword", MATERIAL_RUBY);

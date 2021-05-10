@@ -5,6 +5,7 @@ import com.ferriolli.xtragems.Init.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.enchantment.EnchantmentHelper;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.*;
@@ -13,11 +14,13 @@ import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.world.gen.feature.WorldGenWaterlily;
 import net.minecraftforge.event.entity.living.LivingEntityUseItemEvent;
+import net.minecraftforge.event.entity.living.LivingFallEvent;
 import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.event.world.BlockEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import com.ferriolli.xtragems.items.tools.specialItems.ItemWindStaff;
 
 import java.util.Random;
 
@@ -82,6 +85,21 @@ public class ToolHandler {
                 int chance = random.nextInt(21);
                 if (chance == 1){
                     entityBreaker.getHeldItemMainhand().damageItem(9999, event.getPlayer());
+                }
+            }
+        }
+    }
+
+    @SubscribeEvent
+    public static void cancelFallDamage(LivingFallEvent event){
+        Entity entity = event.getEntity();
+        if(entity instanceof EntityPlayer){
+            EntityPlayer playerIn = (EntityPlayer) entity;
+            if(!playerIn.getEntityWorld().isRemote){
+                if(ItemWindStaff.cancelDamage){
+                    System.out.println("***CANCELOU***");
+                    event.setCanceled(true);
+                    ItemWindStaff.cancelDamage = false;
                 }
             }
         }

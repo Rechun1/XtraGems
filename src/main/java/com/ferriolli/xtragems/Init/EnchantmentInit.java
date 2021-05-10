@@ -41,10 +41,11 @@ public class EnchantmentInit {
     public static final List<Enchantment> ENCHANTMENTS = new ArrayList<Enchantment>();
 
     public static final Enchantment DAMAGE_HEAL = new EnchantmentDamageHeal(Enchantment.Rarity.RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
-    public static final Enchantment MINER_TEST = new EnchantmentMinerTest(Enchantment.Rarity.UNCOMMON, EnumEnchantmentType.DIGGER, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
+    public static final Enchantment MINER_TEST = new EnchantmentMinerTest(Enchantment.Rarity.RARE, EnumEnchantmentType.DIGGER, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
     public static final Enchantment KNOWLEDGE = new EnchantmentKnowledge(Enchantment.Rarity.RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
-    public static final Enchantment CATACLYSM = new EnchantmentCataclysm(Enchantment.Rarity.VERY_RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
+    public static final Enchantment CATACLYSM = new EnchantmentCataclysm(Enchantment.Rarity.UNCOMMON, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
     //Enchant de mob dropar cabeça
+    //TODO: Enchant de quebrar árvore
     @SubscribeEvent
     public static void vampirism(LivingDeathEvent event){
         Object attacker = event.getSource().getTrueSource();
@@ -62,18 +63,22 @@ public class EnchantmentInit {
     @SubscribeEvent
     public static void minerTest(BlockEvent.HarvestDropsEvent event){
         if(event.getHarvester() instanceof EntityPlayer){
+            EntityPlayer player = event.getHarvester();
             if(!event.getHarvester().getEntityWorld().isRemote){
                 Block dBlock = event.getState().getBlock();
+                int level = EnchantmentHelper.getEnchantmentLevel(MINER_TEST, player.getHeldItemMainhand());
                 if(dBlock == Blocks.STONE){
                     Random random = new Random();
-                    int chosenNumber = random.nextInt(2);
-                    switch (chosenNumber){
-                        case 0:
-                            event.getDrops().add(new ItemStack(Items.IRON_INGOT));
-                            break;
-                        case 1:
-                            event.getDrops().add(new ItemStack(Items.GOLD_INGOT));
-                            break;
+                    if(level > 0){
+                        int chosenNumber = random.nextInt(2);
+                        switch (chosenNumber){
+                            case 0:
+                                event.getDrops().add(new ItemStack(Items.IRON_INGOT));
+                                break;
+                            case 1:
+                                event.getDrops().add(new ItemStack(Items.GOLD_INGOT));
+                                break;
+                        }
                     }
                 }
             }
@@ -88,7 +93,7 @@ public class EnchantmentInit {
             int level = EnchantmentHelper.getEnchantmentLevel(KNOWLEDGE, entityAttacker.getHeldItemMainhand());
             if (level > 0){
                 //Minecraft.getMinecraft().player.sendChatMessage("xp dropado: " + event.getOriginalExperience() + ", level 1: " + event.getOriginalExperience() * 1 * 1.5F + ", level 2: " + event.getOriginalExperience() * 2 * 1.5F + ", level 3: " + event.getOriginalExperience() * 3 * 1.5F);
-                int droppedXp = (int) Math.ceil(event.getOriginalExperience() * level * 1.2F);
+                int droppedXp = (int) Math.ceil(event.getOriginalExperience() * level * 1.5F);
                 event.setDroppedExperience(droppedXp);
                 entityAttacker.getEntityWorld().playSound(null, entityAttacker.getPosition(), SoundEvents.ENTITY_PLAYER_LEVELUP, SoundCategory.HOSTILE, 1.0F, 2F);
             }

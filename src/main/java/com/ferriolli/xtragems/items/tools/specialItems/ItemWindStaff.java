@@ -3,10 +3,12 @@ package com.ferriolli.xtragems.items.tools.specialItems;
 import com.ferriolli.xtragems.Init.ModItems;
 import com.ferriolli.xtragems.Main;
 import com.ferriolli.xtragems.util.IHasModel;
+import com.ferriolli.xtragems.util.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.effect.EntityLightningBolt;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
@@ -22,11 +24,15 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
+import net.minecraftforge.event.entity.living.LivingFallEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import org.lwjgl.Sys;
 
 import java.util.List;
 
 public class ItemWindStaff extends Item implements IHasModel {
+    public static boolean cancelDamage = false;
     public ItemWindStaff(String name) {
         this.setMaxStackSize(1);
         this.setMaxDamage(256);
@@ -52,14 +58,17 @@ public class ItemWindStaff extends Item implements IHasModel {
         ItemStack stack = playerIn.getHeldItem(handIn);
         Vec3d vec = playerIn.getLookVec().normalize();
         if(!worldIn.isRemote){
+            //playerIn.fallDistance = -1000;
+            this.cancelDamage = true;
             playerIn.getEntityWorld().playSound(null, playerIn.getPosition(), SoundEvents.ENTITY_FIREWORK_LAUNCH, SoundCategory.HOSTILE, 1.0F, 1F);
             playerIn.addVelocity(vec.x * 2, vec.y * 2, vec.z * 2);
             playerIn.velocityChanged = true;
-            //TODO: corrigir player tomando dano após uso único do staff
-            playerIn.fallDistance = -1000;
+            System.out.println(this.cancelDamage);
+            //TODO: corrigir player tomando dano após uso único do staff -> TESTAR
             stack.damageItem(1, playerIn);
             return new ActionResult(EnumActionResult.SUCCESS, stack);
         }
+        playerIn.fallDistance = -1000;
         return new ActionResult(EnumActionResult.FAIL, stack);
     }
 }
