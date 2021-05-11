@@ -1,6 +1,8 @@
 package com.ferriolli.xtragems;
 
 import com.ferriolli.xtragems.Init.ModSmeltingRecipes;
+import com.ferriolli.xtragems.items.tools.ToolHandler;
+import com.ferriolli.xtragems.items.tools.specialItems.ItemWindStaff;
 import com.ferriolli.xtragems.proxy.ClientProxy;
 import com.ferriolli.xtragems.proxy.CommonProxy;
 import com.ferriolli.xtragems.util.Reference;
@@ -10,6 +12,7 @@ import com.ferriolli.xtragems.world.ModWorldGen;
 import com.ferriolli.xtragems.world.ModWorldGenCustomStructures;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.storage.loot.LootTableList;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -39,6 +42,7 @@ public class Main {
     {
         GameRegistry.registerWorldGenerator(new ModWorldGenCustomStructures(), 0);
         GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
+        MinecraftForge.EVENT_BUS.register(new ToolHandler());
     }
 
     @EventHandler

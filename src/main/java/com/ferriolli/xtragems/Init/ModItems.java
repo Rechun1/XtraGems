@@ -53,6 +53,7 @@ public class ModItems {
     public static final Item TOPAZ_INFUSED_BLACK_GEM = new ItemBase("topaz_infused_black_gem");
     public static final Item AMETHYST_INFUSED_BLACK_GEM = new ItemBase("amethyst_infused_black_gem");
     public static final Item TURQUOISE_INFUSED_BLACK_GEM = new ItemBase("turquoise_infused_black_gem");
+    public static final Item SHADOW_ESSENCE = new ItemBase("shadow_essence");
     //TODO: criar receita para shadow ingot
     //TODO: criar receita para gem refiner
 
@@ -97,5 +98,5 @@ public class ModItems {
     public static final ItemHealingStaff HEALING_STAFF = new ItemHealingStaff("healing_staff");
     public static final ItemLightningStaff LIGHTNING_STAFF = new ItemLightningStaff("lightning_staff");
     public static final ItemMidasStaff MIDAS_STAFF = new ItemMidasStaff("midas_staff");
-    public static final ItemWindStaff TEST_STAFF = new ItemWindStaff("wind_staff");
+    public static final ItemWindStaff TEST_STAFF = new ItemWindStaff();
 }

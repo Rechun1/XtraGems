@@ -9,6 +9,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.*;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.SoundCategory;
@@ -50,14 +51,13 @@ public class ToolHandler {
                             }
                             event.getDrops().remove(0);
                         }
-                        if (dBlock == ModBlocks.BLACK_GEM_ORE){
+                        if (dBlock == ModBlocks.BLACK_GEM_ORE) {
                             for (int i = 0; i <= droppedAmount; i++) {
                                 event.getDrops().add(new ItemStack(ModItems.BLACK_GEM));
                             }
                             event.getDrops().remove(0);
                         }
-                    }
-                    else {
+                    } else {
                         if (dBlock == Blocks.IRON_ORE) {
                             event.getDrops().add(new ItemStack(Items.IRON_INGOT));
                             event.getDrops().remove(0);
@@ -66,7 +66,7 @@ public class ToolHandler {
                             event.getDrops().add(new ItemStack(Items.GOLD_INGOT));
                             event.getDrops().remove(0);
                         }
-                        if (dBlock == ModBlocks.BLACK_GEM_ORE){
+                        if (dBlock == ModBlocks.BLACK_GEM_ORE) {
                             event.getDrops().add(new ItemStack(ModItems.BLACK_GEM));
                             event.getDrops().remove(0);
                         }
@@ -77,31 +77,35 @@ public class ToolHandler {
     }
 
     @SubscribeEvent
-    public static void breakGlassChance(BlockEvent.BreakEvent event){
-        if (event.getPlayer() != null){
+    public static void breakGlassChance(BlockEvent.BreakEvent event) {
+        if (event.getPlayer() != null) {
             EntityPlayer entityBreaker = event.getPlayer();
-            if (entityBreaker.getHeldItemMainhand().getItem() == ModItems.GLASS_AXE || entityBreaker.getHeldItemMainhand().getItem() == ModItems.GLASS_PICKAXE || entityBreaker.getHeldItemMainhand().getItem() == ModItems.GLASS_HOE || entityBreaker.getHeldItemMainhand().getItem() == ModItems.GLASS_SHOVEL){
+            if (entityBreaker.getHeldItemMainhand().getItem() == ModItems.GLASS_AXE || entityBreaker.getHeldItemMainhand().getItem() == ModItems.GLASS_PICKAXE || entityBreaker.getHeldItemMainhand().getItem() == ModItems.GLASS_HOE || entityBreaker.getHeldItemMainhand().getItem() == ModItems.GLASS_SHOVEL) {
                 Random random = new Random();
                 int chance = random.nextInt(21);
-                if (chance == 1){
+                if (chance == 1) {
                     entityBreaker.getHeldItemMainhand().damageItem(9999, event.getPlayer());
                 }
             }
         }
     }
 
-    @SubscribeEvent
-    public static void cancelFallDamage(LivingFallEvent event){
+    /*@SubscribeEvent
+    public void cancelFallDamage(LivingFallEvent event) {
         Entity entity = event.getEntity();
-        if(entity instanceof EntityPlayer){
+        if (entity instanceof EntityPlayer) {
             EntityPlayer playerIn = (EntityPlayer) entity;
-            if(!playerIn.getEntityWorld().isRemote){
-                if(ItemWindStaff.cancelDamage){
-                    System.out.println("***CANCELOU***");
-                    event.setCanceled(true);
-                    ItemWindStaff.cancelDamage = false;
+            if (!playerIn.getEntityWorld().isRemote) {
+                Item itemInHand = playerIn.getHeldItemMainhand().getItem();
+                if (itemInHand instanceof ItemWindStaff) {
+                    System.out.println("**********" + ((ItemWindStaff) itemInHand).getCancelDamage());
+                    if (((ItemWindStaff) itemInHand).getInstance().getCancelDamage()) {
+                        System.out.println("********************** " + ((ItemWindStaff) itemInHand).getCancelDamage());
+                        event.setCanceled(true);
+                        ((ItemWindStaff) itemInHand).getInstance().setCancelDamage();
+                    }
                 }
             }
         }
-    }
+    }*/
 }
