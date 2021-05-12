@@ -58,34 +58,33 @@ public class ItemMidasStaff extends Item implements IHasModel {
             Block blockIn = state.getBlock();
             Random random = new Random();
             if(blockIn == Blocks.STONE || blockIn == Blocks.DIRT){
-                int randomNum = random.nextInt(8);
+                int randomNum = random.nextInt(100);
                 System.out.println(randomNum);
-                switch (randomNum){
-                    case 0:
-                        worldIn.setBlockState(pos,Blocks.DIAMOND_ORE.getDefaultState());
-                        break;
-                    case 1:
-                        worldIn.setBlockState(pos,Blocks.GOLD_ORE.getDefaultState());
-                        break;
-                    case 2:
-                        worldIn.setBlockState(pos,Blocks.IRON_ORE.getDefaultState());
-                        break;
-                    case 3:
-                        worldIn.setBlockState(pos,Blocks.EMERALD_ORE.getDefaultState());
-                        break;
-                    case 4:
-                        worldIn.setBlockState(pos, ModBlocks.RUBY_ORE.getDefaultState());
-                        break;
-                    case 5:
-                        worldIn.setBlockState(pos, ModBlocks.TOPAZ_ORE.getDefaultState());
-                        break;
-                    case 6:
-                        worldIn.setBlockState(pos, ModBlocks.AMETHYST_ORE.getDefaultState());
-                        break;
-                    case 7:
-                        worldIn.setBlockState(pos, ModBlocks.TURQUOISE_ORE.getDefaultState());
-                        break;
+                if(randomNum <= 4){
+                    worldIn.setBlockState(pos,Blocks.DIAMOND_ORE.getDefaultState());
                 }
+                if(randomNum >= 6 && randomNum <= 10){
+                    worldIn.setBlockState(pos, ModBlocks.RUBY_ORE.getDefaultState());
+                }
+                if(randomNum >= 11 && randomNum <= 20){
+                    worldIn.setBlockState(pos, ModBlocks.AMETHYST_ORE.getDefaultState());
+                }
+                if(randomNum >= 21 && randomNum <= 30){
+                    worldIn.setBlockState(pos,Blocks.EMERALD_ORE.getDefaultState());
+                }
+                if(randomNum >= 31 && randomNum <= 45){
+                    worldIn.setBlockState(pos, ModBlocks.TOPAZ_ORE.getDefaultState());
+                }
+                if(randomNum >= 46 && randomNum <= 60){
+                    worldIn.setBlockState(pos, ModBlocks.TURQUOISE_ORE.getDefaultState());
+                }
+                if(randomNum >= 61 && randomNum <= 80){
+                    worldIn.setBlockState(pos,Blocks.GOLD_ORE.getDefaultState());
+                }
+                if(randomNum >= 81){
+                    worldIn.setBlockState(pos,Blocks.IRON_ORE.getDefaultState());
+                }
+
                 playerIn.getEntityWorld().playSound(null, playerIn.getPosition(), SoundEvents.ENTITY_ENDERMEN_TELEPORT, SoundCategory.HOSTILE, 1.0F, 0F);
                 stack.damageItem(1, playerIn);
             }

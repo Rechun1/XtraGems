@@ -44,7 +44,7 @@ public class LootTableHander {
             LootTableUtil.addItemToTable(loot, ModItems.ANIMAL_FAT, 1, 1, 1, 1, 2, 1, 2, "xtragems:animal_fat");
         }
         if(event.getName().equals(LootTableList.ENTITIES_ENDERMAN)){
-            LootTableUtil.addItemToTable(loot, ModItems.SHADOW_ESSENCE, 1, 1, 0.8F, 1, 2, 0, 1, "xtragems_ruby",
+            LootTableUtil.addItemToTable(loot, ModItems.SHADOW_ESSENCE, 1, 1, 0.8F, 1, 2, 0, 1, "xtragems:shadow_essence",
                 new LootTableUtil.IMethod() {
                     @Override
                     public void FunctionsCallback(ArrayList<LootFunction> lootfuncs) {

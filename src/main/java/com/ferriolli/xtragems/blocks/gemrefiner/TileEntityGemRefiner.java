@@ -6,6 +6,7 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.ItemStackHelper;
 import net.minecraft.item.Item;
@@ -190,7 +191,7 @@ public class TileEntityGemRefiner extends TileEntity implements IInventory, ITic
     }
 
     public int getCookTime(ItemStack input1, ItemStack input2) {
-        return 50;
+        return 100;
     }
 
     private boolean canSmelt(){
@@ -227,12 +228,11 @@ public class TileEntityGemRefiner extends TileEntity implements IInventory, ITic
         else{
             Item item = fuel.getItem();
 
+            if(item == Items.GLOWSTONE_DUST) return 200;
+
             if(item instanceof ItemBlock && Block.getBlockFromItem(item) != Blocks.AIR){
                 Block block = Block.getBlockFromItem(item);
-
-                if(block == Blocks.WOODEN_SLAB) return 150;
-                if(block.getDefaultState().getMaterial() == Material.WOOD) return 300;
-                if(block == Blocks.COAL_BLOCK) return 16000;
+                if(block == Blocks.GLOWSTONE) return 800;
             }
 
             if(item instanceof ItemTool && "WOOD".equals(((ItemTool)item).getToolMaterialName())) return 200;

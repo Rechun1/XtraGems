@@ -34,14 +34,13 @@ import org.lwjgl.Sys;
 
 import java.util.List;
 
-@Mod.EventBusSubscriber(value = { Side.CLIENT })
 public class ItemWindStaff extends Item implements IHasModel {
     public boolean cancelDamage;
-    public ItemWindStaff() {
+    public ItemWindStaff(String name) {
         this.setMaxStackSize(1);
         this.setMaxDamage(256);
-        this.setUnlocalizedName("wind_staff");
-        this.setRegistryName("wind_staff");
+        this.setUnlocalizedName(name);
+        this.setRegistryName(name);
         this.setCreativeTab(CreativeTabs.COMBAT);
 
         ModItems.ITEMS.add(this);
@@ -66,25 +65,9 @@ public class ItemWindStaff extends Item implements IHasModel {
             playerIn.getEntityWorld().playSound(null, playerIn.getPosition(), SoundEvents.ENTITY_FIREWORK_LAUNCH, SoundCategory.HOSTILE, 1.0F, 1F);
             playerIn.addVelocity(vec.x * 2, vec.y * 2, vec.z * 2);
             playerIn.velocityChanged = true;
-            playerIn.fallDistance = -1000;
-            System.out.println(playerIn.fallDistance);
-            //System.out.println(this.cancelDamage);
-            //TODO: corrigir player tomando dano após uso único do staff -> TESTAR
             stack.damageItem(1, playerIn);
             return new ActionResult(EnumActionResult.SUCCESS, stack);
         }
         return new ActionResult(EnumActionResult.FAIL, stack);
-    }
-
-    public void setCancelDamage(){
-        this.cancelDamage = false;
-    }
-
-    public boolean getCancelDamage(){
-        return this.cancelDamage;
-    }
-
-    public ItemWindStaff getInstance(){
-        return this;
     }
 }

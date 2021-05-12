@@ -44,7 +44,7 @@ public class EnchantmentInit {
     public static final Enchantment MINER_TEST = new EnchantmentMinerTest(Enchantment.Rarity.RARE, EnumEnchantmentType.DIGGER, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
     public static final Enchantment KNOWLEDGE = new EnchantmentKnowledge(Enchantment.Rarity.RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
     public static final Enchantment CATACLYSM = new EnchantmentCataclysm(Enchantment.Rarity.UNCOMMON, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
-    //Enchant de mob dropar cabeça
+    public static final Enchantment LIGHTWEIGHT = new EnchantmentLightWeight(Enchantment.Rarity.RARE, EnumEnchantmentType.ARMOR_FEET, new EntityEquipmentSlot[]{EntityEquipmentSlot.FEET});
     //TODO: Enchant de quebrar árvore
     @SubscribeEvent
     public static void vampirism(LivingDeathEvent event){
@@ -70,7 +70,7 @@ public class EnchantmentInit {
                 if(dBlock == Blocks.STONE){
                     Random random = new Random();
                     if(level > 0){
-                        int chosenNumber = random.nextInt(2);
+                        int chosenNumber = random.nextInt(100);
                         switch (chosenNumber){
                             case 0:
                                 event.getDrops().add(new ItemStack(Items.IRON_INGOT));
@@ -122,6 +122,19 @@ public class EnchantmentInit {
                             enemy.addPotionEffect(new PotionEffect(MobEffects.POISON, 60 * level, level));
                             break;
                     }
+                }
+            }
+        }
+    }
+
+    @SubscribeEvent
+    public static void lightweight(LivingFallEvent event){
+        if(event.getEntity() instanceof EntityPlayer){
+            EntityPlayer player = (EntityPlayer) event.getEntity();
+            if(!player.getEntityWorld().isRemote){
+                int level = EnchantmentHelper.getEnchantmentLevel(LIGHTWEIGHT, player.getItemStackFromSlot(EntityEquipmentSlot.FEET));
+                if(level > 0){
+                    event.setCanceled(true);
                 }
             }
         }

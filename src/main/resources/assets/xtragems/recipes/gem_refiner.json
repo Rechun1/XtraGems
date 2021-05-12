@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "GIG",
+    "GBG",
+    "GIG"
+  ],
+
+  "key":
+  {
+    "G": {
+      "item": "minecraft:glowstone"
+    },
+    "I": {
+      "item": "minecraft:gold_ingot"
+    },
+    "B": {
+      "item": "minecraft:gold_block"
+    }
+  },
+
+  "result":
+  {
+    "item": "xtragems:gem_refiner",
+    "count": 1
+  }
+}

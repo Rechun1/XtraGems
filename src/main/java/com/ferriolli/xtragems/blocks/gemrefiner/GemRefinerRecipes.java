@@ -34,6 +34,10 @@ public class GemRefinerRecipes {
         addRefiningRecipe(new ItemStack(ModItems.INFUSED_BLACK_GEM), new ItemStack(ModItems.AZURE_EMERALD), new ItemStack(ModItems.TURQUOISE_INFUSED_BLACK_GEM), 5.0F);
         addRefiningRecipe(new ItemStack(ModItems.INFUSED_BLACK_GEM), new ItemStack(ModItems.AMBER_PEARL), new ItemStack(ModItems.TOPAZ_INFUSED_BLACK_GEM), 5.0F);
         addRefiningRecipe(new ItemStack(Items.IRON_INGOT), new ItemStack(ModItems.SHADOW_ESSENCE), new ItemStack(ModItems.SHADOW_INGOT), 5.0F);
+        addRefiningRecipe(new ItemStack(ModItems.BLOODY_DIAMOND), new ItemStack(ModItems.AZURE_EMERALD), new ItemStack(ModItems.BLOODY_TURQUOISE), 5.0F);
+        addRefiningRecipe(new ItemStack(ModItems.AMBER_PEARL), new ItemStack(ModItems.VIOLET_QUARTZ), new ItemStack(ModItems.VIOLET_AMBER), 5.0F);
+        addRefiningRecipe(new ItemStack(ModItems.VIOLET_AMBER), new ItemStack(ModItems.BLOODY_TURQUOISE), new ItemStack(ModItems.UNIVERSAL_GEM), 5.0F);
+        addRefiningRecipe(new ItemStack(ModItems.SHADOW_INGOT), new ItemStack(ModItems.UNIVERSAL_GEM), new ItemStack(ModItems.UNIVERSAL_GEM_INGOT), 5.0F);
         //TODO: corrigir crash do item na hotbar
         //TODO: juntar todas as gemas e fazer uma unica
     }

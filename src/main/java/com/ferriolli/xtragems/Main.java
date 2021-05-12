@@ -42,7 +42,6 @@ public class Main {
     {
         GameRegistry.registerWorldGenerator(new ModWorldGenCustomStructures(), 0);
         GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
-        MinecraftForge.EVENT_BUS.register(new ToolHandler());
     }
 
     @EventHandler

@@ -17,6 +17,7 @@ import net.minecraft.item.*;
 import net.minecraft.potion.PotionEffect;
 import net.minecraftforge.common.util.EnumHelper;
 
+import javax.tools.Tool;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,6 +29,7 @@ public class ModItems {
     public static final Item.ToolMaterial MATERIAL_AMETHYST = EnumHelper.addToolMaterial("material_amethyst", 2, 348, 6.0F, 2.0F, 10);
     public static final Item.ToolMaterial MATERIAL_GLASS = EnumHelper.addToolMaterial("material_glass", 2, 50, 20.0F, 6.0F, 10);
     public static final Item.ToolMaterial MATERIAL_FIRITE = EnumHelper.addToolMaterial("material_firite", 3, 1561, 12.0F, 6.0F, 10);
+    public static final Item.ToolMaterial MATERIAL_UNIVERSAL_GEM = EnumHelper.addToolMaterial("material_universal_gem", 4, 4212, 50.0F, 6.0F, 16);
 
     public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_RUBY = EnumHelper.addArmorMaterial("armor_material_ruby", Reference.MOD_ID + ":ruby", 16, new int[] {4, 9, 7, 4}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0);
 
@@ -54,8 +56,10 @@ public class ModItems {
     public static final Item AMETHYST_INFUSED_BLACK_GEM = new ItemBase("amethyst_infused_black_gem");
     public static final Item TURQUOISE_INFUSED_BLACK_GEM = new ItemBase("turquoise_infused_black_gem");
     public static final Item SHADOW_ESSENCE = new ItemBase("shadow_essence");
-    //TODO: criar receita para shadow ingot
-    //TODO: criar receita para gem refiner
+    public static final Item BLOODY_TURQUOISE = new ItemBase("bloody_turquoise");
+    public static final Item VIOLET_AMBER = new ItemBase("violet_amber");
+    public static final Item UNIVERSAL_GEM = new ItemBase("universal_gem");
+    public static final Item UNIVERSAL_GEM_INGOT = new ItemBase("universal_ingot");
 
     public static final Item STAFF_HANDLE = new ItemBase("staff_handle");
     public static final ItemFillable EMPTY_POTENAY_BOTTLE = new ItemFillable("empty_potenay_bottle");
@@ -90,6 +94,12 @@ public class ModItems {
 
     public static final ItemPickaxe FIERY_PICKAXE = new ToolPickaxe("fiery_pickaxe", MATERIAL_FIRITE);
 
+    public static final ItemPickaxe UNIVERSAL_PICKAXE = new ToolPickaxe("universal_pickaxe", MATERIAL_UNIVERSAL_GEM);
+    public static final ItemSword UNIVERSAL_SWORD = new ToolSword("universal_sword", MATERIAL_UNIVERSAL_GEM);
+    public static final ItemSpade UNIVERSAL_SHOVEL = new ToolSpade("universal_shovel", MATERIAL_UNIVERSAL_GEM);
+    public static final ItemAxe UNIVERSAL_AXE = new ToolAxe("universal_axe", MATERIAL_UNIVERSAL_GEM);
+    public static final ItemHoe UNIVERSAL_HOE = new ToolHoe("universal_hoe", MATERIAL_UNIVERSAL_GEM);
+
     public static final Item RUBY_HELMET = new ArmorBase("ruby_helmet", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.HEAD);
     public static final Item RUBY_CHESTPLATE = new ArmorBase("ruby_chestplate", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.CHEST);
     public static final Item RUBY_LEGGINGS = new ArmorBase("ruby_leggings", ARMOR_MATERIAL_RUBY, 2, EntityEquipmentSlot.LEGS);
@@ -98,5 +108,5 @@ public class ModItems {
     public static final ItemHealingStaff HEALING_STAFF = new ItemHealingStaff("healing_staff");
     public static final ItemLightningStaff LIGHTNING_STAFF = new ItemLightningStaff("lightning_staff");
     public static final ItemMidasStaff MIDAS_STAFF = new ItemMidasStaff("midas_staff");
-    public static final ItemWindStaff TEST_STAFF = new ItemWindStaff();
+    public static final ItemWindStaff WIND_STAFF = new ItemWindStaff("wind_staff");
 }
