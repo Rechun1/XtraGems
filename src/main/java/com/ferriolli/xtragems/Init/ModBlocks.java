@@ -21,4 +21,6 @@ public class ModBlocks {
     public static final Block AMETHYST_BLOCK = new AmethystBlock("amethyst_block", Material.ROCK);
     public static final Block TURQUOISE_ORE = new TurquoiseOre("turquoise_ore", Material.ROCK);
     public static final GemRefiner GEM_REFINER = new GemRefiner("gem_refiner", Material.IRON);
+    public static final Block ENDERITE_ORE = new EnderiteOre("enderite_ore", Material.ROCK);
+
 }

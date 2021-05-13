@@ -24,6 +24,9 @@ public class ModWorldGen implements IWorldGenerator {
         if (world.provider.getDimension() == -1){
             generateNether(random, chunkX, chunkZ, world, chunkGenerator, chunkProvider);
         }
+        if (world.provider.getDimension() == 1){
+            generateEnd(random, chunkX, chunkZ, world, chunkGenerator, chunkProvider);
+        }
     }
 
     private void generateOverworld(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider){
@@ -37,6 +40,10 @@ public class ModWorldGen implements IWorldGenerator {
         generateOreNether(ModBlocks.BLACK_GEM_ORE.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 0, 125, random.nextInt(4) + 2, 18);
     }
 
+    private void generateEnd(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider){
+        generateOreEnd(ModBlocks.ENDERITE_ORE.getDefaultState(), world, random, chunkX * 16, chunkZ * 16, 0, 255, random.nextInt(4) + 2, 16);
+    }
+
     private void generateOre(IBlockState ore, World world, Random random, int x, int z, int minY, int maxY, int size, int chances){
         int deltaY = maxY - minY;
 
@@ -44,6 +51,23 @@ public class ModWorldGen implements IWorldGenerator {
             BlockPos pos = new BlockPos(x + random.nextInt(16), minY + random.nextInt(deltaY), z + random.nextInt(16));
             WorldGenMinable generator = new WorldGenMinable(ore, size);
             generator.generate(world, random, pos);
+        }
+    }
+
+    private void generateOreEnd(IBlockState ore, World world, Random random, int x, int z, int minY, int maxY, int size, int chances){
+        int deltaY = maxY - minY;
+
+        for (int i = 0; i < chances; i++){
+            BlockPos pos = new BlockPos(x + random.nextInt(16), minY + random.nextInt(deltaY), z + random.nextInt(16));
+            WorldGenMinable generator = new WorldGenMinable(ore, size, BlockMatcher.forBlock(Blocks.END_STONE));
+            for(EnumFacing direction : EnumFacing.VALUES){
+                BlockPos fromPos = pos.offset(direction);
+                IBlockState state = world.getBlockState(fromPos);
+                Block blockIn = state.getBlock();
+                if(blockIn == Blocks.AIR){
+                    generator.generate(world, random, pos);
+                }
+            }
         }
     }
 

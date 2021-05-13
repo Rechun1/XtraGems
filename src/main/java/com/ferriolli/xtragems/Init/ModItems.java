@@ -30,6 +30,7 @@ public class ModItems {
     public static final Item.ToolMaterial MATERIAL_GLASS = EnumHelper.addToolMaterial("material_glass", 2, 50, 20.0F, 6.0F, 10);
     public static final Item.ToolMaterial MATERIAL_FIRITE = EnumHelper.addToolMaterial("material_firite", 3, 1561, 12.0F, 6.0F, 10);
     public static final Item.ToolMaterial MATERIAL_UNIVERSAL_GEM = EnumHelper.addToolMaterial("material_universal_gem", 4, 4212, 50.0F, 6.0F, 16);
+    public static final Item.ToolMaterial MATERIAL_ENDERITE = EnumHelper.addToolMaterial("material_enderite", 4, 2234, 16.0F, 5.0F, 14);
 
     public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_RUBY = EnumHelper.addArmorMaterial("armor_material_ruby", Reference.MOD_ID + ":ruby", 16, new int[] {4, 9, 7, 4}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0);
 
@@ -60,6 +61,7 @@ public class ModItems {
     public static final Item VIOLET_AMBER = new ItemBase("violet_amber");
     public static final Item UNIVERSAL_GEM = new ItemBase("universal_gem");
     public static final Item UNIVERSAL_GEM_INGOT = new ItemBase("universal_ingot");
+    public static final Item ENDERITE_INGOT = new ItemBase("enderite_ingot");
 
     public static final Item STAFF_HANDLE = new ItemBase("staff_handle");
     public static final ItemFillable EMPTY_POTENAY_BOTTLE = new ItemFillable("empty_potenay_bottle");
@@ -93,6 +95,8 @@ public class ModItems {
     public static final ItemHoe GLASS_HOE = new ToolHoe("glass_hoe", MATERIAL_GLASS);
 
     public static final ItemPickaxe FIERY_PICKAXE = new ToolPickaxe("fiery_pickaxe", MATERIAL_FIRITE);
+
+    public static final ItemPickaxe ENDERITE_PICKAXE = new ToolEnderitePickaxe("enderite_pickaxe", MATERIAL_ENDERITE);
 
     public static final ItemPickaxe UNIVERSAL_PICKAXE = new ToolPickaxe("universal_pickaxe", MATERIAL_UNIVERSAL_GEM);
     public static final ItemSword UNIVERSAL_SWORD = new ToolSword("universal_sword", MATERIAL_UNIVERSAL_GEM);
