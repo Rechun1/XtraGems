@@ -58,10 +58,9 @@ public class ToolEnderitePickaxe extends ItemPickaxe implements IHasModel {
             BlockPos pos = rayTrace(playerIn, 5, 1.0F).getBlockPos();
             IBlockState state = worldIn.getBlockState(pos);
             Block blockIn = state.getBlock();
-            if(blockIn == Blocks.STONE|| blockIn == Blocks.GRASS || blockIn == Blocks.DIRT){
+            if(blockIn == Blocks.STONE || blockIn == Blocks.GRASS || blockIn == Blocks.DIRT){
                 InventoryHelper.spawnItemStack(worldIn, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(Item.getItemFromBlock(state.getBlock())));
                 worldIn.setBlockToAir(pos);
-                System.out.println("***" + Item.getItemFromBlock(state.getBlock()));
                 worldIn.playSound(null, pos, SoundEvents.ENTITY_ENDERMEN_TELEPORT, SoundCategory.BLOCKS, 1, 1);
                 stack.damageItem(1, playerIn);
                 return new ActionResult(EnumActionResult.SUCCESS, stack);
