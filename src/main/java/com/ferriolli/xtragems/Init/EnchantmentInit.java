@@ -43,9 +43,8 @@ public class EnchantmentInit {
     public static final Enchantment DAMAGE_HEAL = new EnchantmentDamageHeal(Enchantment.Rarity.RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
     public static final Enchantment MINER_TEST = new EnchantmentMinerTest(Enchantment.Rarity.RARE, EnumEnchantmentType.DIGGER, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
     public static final Enchantment KNOWLEDGE = new EnchantmentKnowledge(Enchantment.Rarity.RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
-    public static final Enchantment CATACLYSM = new EnchantmentCataclysm(Enchantment.Rarity.UNCOMMON, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
     public static final Enchantment LIGHTWEIGHT = new EnchantmentLightWeight(Enchantment.Rarity.RARE, EnumEnchantmentType.ARMOR_FEET, new EntityEquipmentSlot[]{EntityEquipmentSlot.FEET});
-    //TODO: Enchant de quebrar árvore
+
     @SubscribeEvent
     public static void vampirism(LivingDeathEvent event){
         Object attacker = event.getSource().getTrueSource();
@@ -96,33 +95,6 @@ public class EnchantmentInit {
                 int droppedXp = (int) Math.ceil(event.getOriginalExperience() * level * 1.5F);
                 event.setDroppedExperience(droppedXp);
                 entityAttacker.getEntityWorld().playSound(null, entityAttacker.getPosition(), SoundEvents.ENTITY_PLAYER_LEVELUP, SoundCategory.HOSTILE, 1.0F, 2F);
-            }
-        }
-    }
-
-    @SubscribeEvent
-    public static void cataclysm(LivingHurtEvent event) {
-        Object attacker = event.getSource().getTrueSource();
-        if (attacker instanceof EntityLivingBase){
-            EntityLivingBase attackerPlayer = (EntityLivingBase)attacker;
-            if (!attackerPlayer.getEntityWorld().isRemote){
-                EntityLivingBase enemy = (EntityLivingBase)event.getEntity();
-                Random random = new Random();
-                int level = EnchantmentHelper.getEnchantmentLevel(CATACLYSM, attackerPlayer.getHeldItemMainhand());
-                if (level > 0 && enemy.getActivePotionEffects().isEmpty()){
-                    int chance = random.nextInt(3);
-                    switch (chance){
-                        case 0:
-                            enemy.setFire(3 * level);
-                            break;
-                        case 1:
-                            enemy.addPotionEffect(new PotionEffect(MobEffects.WITHER, 60 * level, level));
-                            break;
-                        case 2:
-                            enemy.addPotionEffect(new PotionEffect(MobEffects.POISON, 60 * level, level));
-                            break;
-                    }
-                }
             }
         }
     }

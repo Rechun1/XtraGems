@@ -16,6 +16,7 @@ import net.minecraft.util.SoundCategory;
 import net.minecraft.world.gen.feature.WorldGenWaterlily;
 import net.minecraftforge.event.entity.living.LivingEntityUseItemEvent;
 import net.minecraftforge.event.entity.living.LivingFallEvent;
+import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.event.world.BlockEvent;
@@ -90,6 +91,31 @@ public class ToolHandler {
         }
     }
 
+    @SubscribeEvent
+    public static void cataclysm(LivingHurtEvent event) {
+        Object attacker = event.getSource().getTrueSource();
+        if (attacker instanceof EntityLivingBase){
+            EntityLivingBase attackerPlayer = (EntityLivingBase)attacker;
+            if (!attackerPlayer.getEntityWorld().isRemote){
+                EntityLivingBase enemy = (EntityLivingBase)event.getEntity();
+                Random random = new Random();
+                if (attackerPlayer.getHeldItemMainhand().getItem() == ModItems.UNIVERSAL_SWORD){
+                    int chance = random.nextInt(3);
+                    switch (chance){
+                        case 0:
+                            enemy.setFire(10);
+                            break;
+                        case 1:
+                            enemy.addPotionEffect(new PotionEffect(MobEffects.WITHER, 180, 4));
+                            break;
+                        case 2:
+                            enemy.addPotionEffect(new PotionEffect(MobEffects.POISON, 180, 4));
+                            break;
+                    }
+                }
+            }
+        }
+    }
     /*@SubscribeEvent
     public void cancelFallDamage(LivingFallEvent event) {
         Entity entity = event.getEntity();

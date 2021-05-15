@@ -42,6 +42,7 @@ public class Main {
     {
         GameRegistry.registerWorldGenerator(new ModWorldGenCustomStructures(), 0);
         GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
+        LootTableList.register(new ResourceLocation(Reference.MOD_ID, "teste.json"));
     }
 
     @EventHandler

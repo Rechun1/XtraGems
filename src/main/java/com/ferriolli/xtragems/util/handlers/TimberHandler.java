@@ -71,6 +71,18 @@ public class TimberHandler {
         if(worldIn.getBlockState(pos.west()).getBlock() == blockIn){
             list.add(pos.west());
         }
+        if(worldIn.getBlockState(pos.north().west()).getBlock() == blockIn){
+            list.add(pos.north().west());
+        }
+        if(worldIn.getBlockState(pos.north().east()).getBlock() == blockIn){
+            list.add(pos.north().east());
+        }
+        if(worldIn.getBlockState(pos.south().west()).getBlock() == blockIn){
+            list.add(pos.south().west());
+        }
+        if(worldIn.getBlockState(pos.south().east()).getBlock() == blockIn){
+            list.add(pos.south().east());
+        }
 
         if(list.size() <= 0){
             list = null;

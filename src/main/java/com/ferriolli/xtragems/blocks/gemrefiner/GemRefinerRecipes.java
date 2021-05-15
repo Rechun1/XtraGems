@@ -38,8 +38,6 @@ public class GemRefinerRecipes {
         addRefiningRecipe(new ItemStack(ModItems.AMBER_PEARL), new ItemStack(ModItems.VIOLET_QUARTZ), new ItemStack(ModItems.VIOLET_AMBER), 5.0F);
         addRefiningRecipe(new ItemStack(ModItems.VIOLET_AMBER), new ItemStack(ModItems.BLOODY_TURQUOISE), new ItemStack(ModItems.UNIVERSAL_GEM), 5.0F);
         addRefiningRecipe(new ItemStack(ModItems.SHADOW_INGOT), new ItemStack(ModItems.UNIVERSAL_GEM), new ItemStack(ModItems.UNIVERSAL_GEM_INGOT), 5.0F);
-        //TODO: corrigir crash do item na hotbar
-        //TODO: juntar todas as gemas e fazer uma unica
     }
 
     public void addRefiningRecipe(ItemStack input1, ItemStack input2, ItemStack result, float experience){

@@ -80,7 +80,6 @@ public class ContainerGemRefiner extends Container {
                 slot.onSlotChange(stack1, stack);
             }
             else if(index != 2 && index != 1 && index != 0){
-                //TODO VERIFICAR +1 CRASHANDO O JOGO
                 Slot slot1 = (Slot)this.inventorySlots.get(index/* + 1*/);
 
                 if(!GemRefinerRecipes.getInstance().getRefiningResult(stack1, slot1.getStack()).isEmpty()){
