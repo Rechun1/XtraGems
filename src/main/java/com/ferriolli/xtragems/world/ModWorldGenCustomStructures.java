@@ -17,8 +17,6 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class ModWorldGenCustomStructures implements IWorldGenerator {
-    //public final ModWorldGenStructure MINER_HOUSE = new ModWorldGenStructure("miner_house");
-    //public final ModWorldGenStructure RUINED_HOUSE = new ModWorldGenStructure("ruined_house");
     public final ModWorldGenStructure ABANDONED_TOWER = new ModWorldGenStructure("tower");
     public final ModWorldGenStructure CAMP = new ModWorldGenStructure("camp");
     public final ModWorldGenStructure DESERT_TEMPLE = new ModWorldGenStructure("desert_temple");
@@ -32,12 +30,10 @@ public class ModWorldGenCustomStructures implements IWorldGenerator {
                 break;
 
             case 0:
-                    //generateStructure(MINER_HOUSE, world, random, chunkX, chunkZ, 100, Blocks.GRASS, BiomePlains.class);
-                    //generateStructure(RUINED_HOUSE, world, random, chunkX, chunkZ, 100, Blocks.GRASS, BiomePlains.class);
                     generateStructure(ABANDONED_TOWER, world, random, chunkX, chunkZ, 1000, BiomePlains.class, BiomeDesert.class, BiomeForest.class, BiomeBeach.class, BiomeMesa.class, BiomeSavanna.class, BiomeHills.class, BiomeSnow.class);
                     generateStructure(CAMP, world, random, chunkX, chunkZ, 600, BiomePlains.class);
                     generateStructure(DESERT_TEMPLE, world, random, chunkX, chunkZ, 1000, BiomeDesert.class);
-                    generateStructure(SWAMP_DEPOSIT, world, random, chunkX, chunkZ, 300, BiomeSwamp.class);
+                    generateStructure(SWAMP_DEPOSIT, world, random, chunkX, chunkZ, 500, BiomeSwamp.class);
                 break;
             case -1:
                 break;
