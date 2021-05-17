@@ -23,11 +23,26 @@ public class ModWorldGenStructure extends WorldGenerator implements IStructure {
 
     @Override
     public boolean generate(World worldIn, Random rand, BlockPos position) {
-        this.generateStructure(worldIn, position);
+        //this.generateStructure(worldIn, position);
+        MinecraftServer mcServer = worldIn.getMinecraftServer();
+        WorldServer worldServer = (WorldServer) worldIn;
+        TemplateManager manager = worldServer.getStructureTemplateManager();
+        ResourceLocation location = new ResourceLocation(Reference.MOD_ID, structureName);
+        Template template = manager.get(mcServer, location);
+
+        if (template == null){
+            System.out.println("NO STRUCTURE");
+            return false;
+        }
+        if(ModWorldGenCustomStructures.canSpawnHere(template, worldServer, position)){
+            IBlockState state = worldIn.getBlockState(position);
+            worldIn.notifyBlockUpdate(position, state, state, 3);
+            template.addBlocksToWorldChunk(worldIn, position, settings);
+        }
         return true;
     }
 
-    public void generateStructure(World world, BlockPos pos){
+    /*public void generateStructure(World world, BlockPos pos){
         MinecraftServer mcServer = world.getMinecraftServer();
         TemplateManager manager = worldServer.getStructureTemplateManager();
         ResourceLocation location = new ResourceLocation(Reference.MOD_ID, structureName);
@@ -38,5 +53,5 @@ public class ModWorldGenStructure extends WorldGenerator implements IStructure {
             world.notifyBlockUpdate(pos, state, state, 3);
             template.addBlocksToWorldChunk(world, pos, settings);
         }
-    }
+    }*/
 }

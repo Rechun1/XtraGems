@@ -9,6 +9,7 @@ import net.minecraft.world.biome.*;
 import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraft.world.gen.feature.WorldGenerator;
+import net.minecraft.world.gen.structure.template.Template;
 import net.minecraftforge.fml.common.IWorldGenerator;
 import java.util.Arrays;
 
@@ -20,6 +21,8 @@ public class ModWorldGenCustomStructures implements IWorldGenerator {
     //public final ModWorldGenStructure RUINED_HOUSE = new ModWorldGenStructure("ruined_house");
     public final ModWorldGenStructure ABANDONED_TOWER = new ModWorldGenStructure("tower");
     public final ModWorldGenStructure CAMP = new ModWorldGenStructure("camp");
+    public final ModWorldGenStructure DESERT_TEMPLE = new ModWorldGenStructure("desert_temple");
+    public final ModWorldGenStructure SWAMP_DEPOSIT = new ModWorldGenStructure("swamp_deposit");
     @Override
     public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider) {
 
@@ -31,19 +34,21 @@ public class ModWorldGenCustomStructures implements IWorldGenerator {
             case 0:
                     //generateStructure(MINER_HOUSE, world, random, chunkX, chunkZ, 100, Blocks.GRASS, BiomePlains.class);
                     //generateStructure(RUINED_HOUSE, world, random, chunkX, chunkZ, 100, Blocks.GRASS, BiomePlains.class);
-                    generateStructure(ABANDONED_TOWER, world, random, chunkX, chunkZ, 800, Blocks.GRASS, BiomePlains.class, BiomeDesert.class, BiomeForest.class, BiomeBeach.class, BiomeMesa.class, BiomeSavanna.class, BiomeHills.class, BiomeSnow.class);
-                    generateStructure(CAMP, world, random, chunkX, chunkZ, 1000, Blocks.GRASS, BiomePlains.class);
+                    generateStructure(ABANDONED_TOWER, world, random, chunkX, chunkZ, 1000, BiomePlains.class, BiomeDesert.class, BiomeForest.class, BiomeBeach.class, BiomeMesa.class, BiomeSavanna.class, BiomeHills.class, BiomeSnow.class);
+                    generateStructure(CAMP, world, random, chunkX, chunkZ, 600, BiomePlains.class);
+                    generateStructure(DESERT_TEMPLE, world, random, chunkX, chunkZ, 1000, BiomeDesert.class);
+                    generateStructure(SWAMP_DEPOSIT, world, random, chunkX, chunkZ, 300, BiomeSwamp.class);
                 break;
             case -1:
                 break;
         }
     }
-    private void generateStructure(WorldGenerator generator, World world, Random random, int chunkX, int chunkZ, int chance, Block topBlock, Class<?>... classes){
+    private void generateStructure(WorldGenerator generator, World world, Random random, int chunkX, int chunkZ, int chance, Class<?>... classes){
         ArrayList<Class<?>> classesList = new ArrayList<Class<?>>(Arrays.asList(classes));
 
         int x = (chunkX * 16) + random.nextInt(15);
         int z = (chunkZ * 16) + random.nextInt(15);
-        int y = calculateGenerationHeight(world, x, z, topBlock);
+        int y = calculateGenerationHeight(world, x, z);
         BlockPos pos = new BlockPos(x, y, z);
 
         Class<?> biome = world.provider.getBiomeForCoords(pos).getClass();
@@ -57,15 +62,31 @@ public class ModWorldGenCustomStructures implements IWorldGenerator {
         }
     }
 
-    private int calculateGenerationHeight(World world, int x, int z, Block topBlock){
+    public static int calculateGenerationHeight(World world, int x, int z){
         int y = world.getHeight();
         boolean foundGround = false;
 
         while(!foundGround && y-- >= 0){
             Block block = world.getBlockState(new BlockPos(x, y, z)).getBlock();
-            foundGround = block == topBlock;
+            foundGround = block == Blocks.GRASS || block == Blocks.SAND || block == Blocks.STONE;
         }
 
         return y;
+    }
+
+    public static boolean canSpawnHere(Template template, World worldIn, BlockPos posAboveGround){
+        int zSize = template.getSize().getZ();
+        int xSize = template.getSize().getX();
+
+        boolean corner1 = isCornerValid(worldIn, posAboveGround);
+        boolean corner2 = isCornerValid(worldIn, posAboveGround.add(xSize, 0 ,zSize));
+
+        return posAboveGround.getY() > 30 && corner1 && corner2;
+    }
+
+    public static boolean isCornerValid(World worldIn, BlockPos pos){
+        int variation = 3;
+        int highestBlock = calculateGenerationHeight(worldIn, pos.getX(), pos.getZ());
+        return highestBlock > pos.getY() - variation && highestBlock < pos.getY() + variation;
     }
 }
