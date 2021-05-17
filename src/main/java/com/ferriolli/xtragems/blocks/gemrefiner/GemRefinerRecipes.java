@@ -5,6 +5,7 @@ import com.ferriolli.xtragems.Init.ModItems;
 import com.google.common.collect.HashBasedTable;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Table;
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -27,7 +28,7 @@ public class GemRefinerRecipes {
         addRefiningRecipe(new ItemStack(ModItems.TOPAZ), new ItemStack(Items.ENDER_PEARL), new ItemStack(ModItems.AMBER_PEARL), 5.0F);
         addRefiningRecipe(new ItemStack(ModItems.TURQUOISE), new ItemStack(Items.EMERALD), new ItemStack(ModItems.AZURE_EMERALD), 5.0F);
         addRefiningRecipe(new ItemStack(ModBlocks.BLACK_GEM_ORE), new ItemStack(Items.BLAZE_POWDER), new ItemStack(ModItems.BLACK_GEM), 5.0F);
-        addRefiningRecipe(new ItemStack(ModItems.BLACK_GEM), new ItemStack(ModItems.UNREFINED_FIRITE_GEM), new ItemStack(ModItems.FIRITE_GEM), 5.0F);
+        addRefiningRecipe(new ItemStack(Blocks.MAGMA), new ItemStack(ModItems.UNREFINED_FIRITE_GEM), new ItemStack(ModItems.FIRITE_GEM), 5.0F);
         addRefiningRecipe(new ItemStack(ModItems.BLACK_GEM), new ItemStack(Items.ENDER_PEARL), new ItemStack(ModItems.INFUSED_BLACK_GEM), 5.0F);
         addRefiningRecipe(new ItemStack(ModItems.INFUSED_BLACK_GEM), new ItemStack(ModItems.BLOODY_DIAMOND), new ItemStack(ModItems.RUBY_INFUSED_BLACK_GEM), 5.0F);
         addRefiningRecipe(new ItemStack(ModItems.INFUSED_BLACK_GEM), new ItemStack(ModItems.VIOLET_QUARTZ), new ItemStack(ModItems.AMETHYST_INFUSED_BLACK_GEM), 5.0F);
