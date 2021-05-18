@@ -33,6 +33,7 @@ public class ModItems {
     public static final Item.ToolMaterial MATERIAL_ENDERITE = EnumHelper.addToolMaterial("material_enderite", 4, 2234, 16.0F, 5.0F, 14);
 
     public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_RUBY = EnumHelper.addArmorMaterial("armor_material_ruby", Reference.MOD_ID + ":ruby", 16, new int[] {4, 9, 7, 4}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0);
+    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_ENDERITE = EnumHelper.addArmorMaterial("armor_material_enderite", Reference.MOD_ID + ":enderite", 20, new int[] {7, 12, 10, 7}, 11, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0);
 
     public static final Item TOPAZ = new ItemBase("topaz");
     public static final Item BLACK_GEM = new ItemBase("black_gem");
@@ -108,6 +109,11 @@ public class ModItems {
     public static final Item RUBY_CHESTPLATE = new ArmorBase("ruby_chestplate", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.CHEST);
     public static final Item RUBY_LEGGINGS = new ArmorBase("ruby_leggings", ARMOR_MATERIAL_RUBY, 2, EntityEquipmentSlot.LEGS);
     public static final Item RUBY_BOOTS = new ArmorBase("ruby_boots", ARMOR_MATERIAL_RUBY, 1, EntityEquipmentSlot.FEET);
+
+    public static final Item ENDERITE_HELMET = new ArmorBase("enderite_helmet", ARMOR_MATERIAL_ENDERITE, 1, EntityEquipmentSlot.HEAD);
+    public static final Item ENDERITE_CHESTPLATE = new ArmorBase("enderite_chestplate", ARMOR_MATERIAL_ENDERITE, 1, EntityEquipmentSlot.CHEST);
+    public static final Item ENDERITE_LEGGINGS = new ArmorBase("enderite_leggings", ARMOR_MATERIAL_ENDERITE, 2, EntityEquipmentSlot.LEGS);
+    public static final Item ENDERITE_BOOTS = new ArmorBase("enderite_boots", ARMOR_MATERIAL_ENDERITE, 1, EntityEquipmentSlot.FEET);
 
     public static final ItemHealingStaff HEALING_STAFF = new ItemHealingStaff("healing_staff");
     public static final ItemLightningStaff LIGHTNING_STAFF = new ItemLightningStaff("lightning_staff");

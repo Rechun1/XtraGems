@@ -26,14 +26,12 @@ public class ModWorldGenCustomStructures implements IWorldGenerator {
 
         switch (world.provider.getDimension()){
             case 1:
-
                 break;
-
             case 0:
-                    generateStructure(ABANDONED_TOWER, world, random, chunkX, chunkZ, 1000, BiomePlains.class, BiomeDesert.class, BiomeForest.class, BiomeBeach.class, BiomeMesa.class, BiomeSavanna.class, BiomeHills.class, BiomeSnow.class);
-                    generateStructure(CAMP, world, random, chunkX, chunkZ, 600, BiomePlains.class);
-                    generateStructure(DESERT_TEMPLE, world, random, chunkX, chunkZ, 1000, BiomeDesert.class);
-                    generateStructure(SWAMP_DEPOSIT, world, random, chunkX, chunkZ, 500, BiomeSwamp.class);
+                generateStructure(ABANDONED_TOWER, world, random, chunkX, chunkZ, 1000, BiomePlains.class, BiomeDesert.class, BiomeForest.class, BiomeBeach.class, BiomeMesa.class, BiomeSavanna.class, BiomeHills.class, BiomeSnow.class);
+                generateStructure(CAMP, world, random, chunkX, chunkZ, 600, BiomePlains.class);
+                generateStructure(DESERT_TEMPLE, world, random, chunkX, chunkZ, 1000, BiomeDesert.class);
+                generateStructure(SWAMP_DEPOSIT, world, random, chunkX, chunkZ, 500, BiomeSwamp.class);
                 break;
             case -1:
                 break;
