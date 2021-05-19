@@ -2,6 +2,7 @@ package com.ferriolli.xtragems.Init;
 
 import com.ferriolli.xtragems.items.ItemBase;;
 import com.ferriolli.xtragems.items.ItemCustomFoodWithEffect;
+import com.ferriolli.xtragems.items.UniqueItems.ItemEnderiteTotem;
 import com.ferriolli.xtragems.items.ItemFillable;
 import com.ferriolli.xtragems.items.tools.specialItems.ItemHealingStaff;
 import com.ferriolli.xtragems.items.armor.ArmorBase;
@@ -17,7 +18,6 @@ import net.minecraft.item.*;
 import net.minecraft.potion.PotionEffect;
 import net.minecraftforge.common.util.EnumHelper;
 
-import javax.tools.Tool;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,8 +32,8 @@ public class ModItems {
     public static final Item.ToolMaterial MATERIAL_UNIVERSAL_GEM = EnumHelper.addToolMaterial("material_universal_gem", 4, 4212, 50.0F, 6.0F, 16);
     public static final Item.ToolMaterial MATERIAL_ENDERITE = EnumHelper.addToolMaterial("material_enderite", 4, 2234, 16.0F, 5.0F, 14);
 
-    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_RUBY = EnumHelper.addArmorMaterial("armor_material_ruby", Reference.MOD_ID + ":ruby", 16, new int[] {4, 9, 7, 4}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0);
-    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_ENDERITE = EnumHelper.addArmorMaterial("armor_material_enderite", Reference.MOD_ID + ":enderite", 20, new int[] {7, 12, 10, 7}, 11, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0);
+    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_RUBY = EnumHelper.addArmorMaterial("armor_material_ruby", Reference.MOD_ID + ":ruby", 36, new int[] {4, 9, 7, 4}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0);
+    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_ENDERITE = EnumHelper.addArmorMaterial("armor_material_enderite", Reference.MOD_ID + ":enderite", 40, new int[] {7, 12, 10, 7}, 11, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0);
 
     public static final Item TOPAZ = new ItemBase("topaz");
     public static final Item BLACK_GEM = new ItemBase("black_gem");
@@ -63,6 +63,8 @@ public class ModItems {
     public static final Item UNIVERSAL_GEM = new ItemBase("universal_gem");
     public static final Item UNIVERSAL_GEM_INGOT = new ItemBase("universal_ingot");
     public static final Item ENDERITE_INGOT = new ItemBase("enderite_ingot");
+
+    public static final ItemEnderiteTotem ENDERITE_TOTEM = new ItemEnderiteTotem("enderite_totem");
 
     public static final Item STAFF_HANDLE = new ItemBase("staff_handle");
     public static final ItemFillable EMPTY_POTENAY_BOTTLE = new ItemFillable("empty_potenay_bottle");

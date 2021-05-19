@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    " E ",
+    "ESE",
+    " E "
+  ],
+
+  "key":
+  {
+    "E": {
+      "item": "xtragems:enderite_ingot"
+    },
+    "S": {
+      "item": "minecraft:shulker_shell"
+    }
+  },
+
+  "result":
+  {
+    "item": "xtragems:enderite_ingot",
+    "count": 1
+  }
+}
