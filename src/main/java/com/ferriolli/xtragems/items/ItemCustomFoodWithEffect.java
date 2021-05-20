@@ -19,14 +19,16 @@ import java.util.List;
 
 public class ItemCustomFoodWithEffect extends ItemFood implements IHasModel {
     PotionEffect effect;
+    int healAmount;
 
-    public ItemCustomFoodWithEffect(String name, int amount, boolean isWolfFood, PotionEffect effect){
-        super(amount, isWolfFood);
+    public ItemCustomFoodWithEffect(String name, int hungerAmount, int healAmount, boolean isWolfFood, PotionEffect effect){
+        super(hungerAmount, isWolfFood);
         setUnlocalizedName(name);
         setRegistryName(name);
         setCreativeTab(CreativeTabs.FOOD);
 
         this.effect = effect;
+        this.healAmount = healAmount;
 
         ModItems.ITEMS.add(this);
     }
@@ -40,7 +42,7 @@ public class ItemCustomFoodWithEffect extends ItemFood implements IHasModel {
     protected void onFoodEaten(ItemStack stack, World worldIn, EntityPlayer player) {
         if(!worldIn.isRemote){
             player.addPotionEffect(effect);
-            System.out.println("aplicou efeito");
+            player.heal(healAmount);
         }
     }
 

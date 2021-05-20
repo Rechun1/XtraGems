@@ -79,31 +79,11 @@
                 },
                 {
                     "type": "item",
-                    "name": "minecraft:diamond_sword",
-                    "weight": 3,
+                    "name": "minecraft:book",
+                    "weight": 10,
                     "functions": [
                         {
-                            "function": "enchant_with_levels",
-                            "treasure": true,
-                            "levels": {
-                                "min": 20,
-                                "max": 39
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "item",
-                    "name": "minecraft:diamond_pickaxe",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "enchant_with_levels",
-                            "treasure": true,
-                            "levels": {
-                                "min": 20,
-                                "max": 39
-                            }
+                            "function": "enchant_randomly"
                         }
                     ]
                 }

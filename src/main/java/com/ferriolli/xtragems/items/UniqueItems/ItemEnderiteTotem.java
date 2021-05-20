@@ -25,7 +25,8 @@ public class ItemEnderiteTotem extends Item implements IHasModel {
         setUnlocalizedName(name);
         setRegistryName(name);
         setCreativeTab(CreativeTabs.TOOLS);
-
+        this.setMaxStackSize(1);
+        this.setMaxDamage(463);
         ModItems.ITEMS.add(this);
     }
 
@@ -46,11 +47,13 @@ public class ItemEnderiteTotem extends Item implements IHasModel {
         if(playerIn.inventory.armorItemInSlot(0).getItem() == ModItems.ENDERITE_BOOTS && playerIn.inventory.armorItemInSlot(1).getItem() == ModItems.ENDERITE_LEGGINGS
         && playerIn.inventory.armorItemInSlot(2).getItem() == ModItems.ENDERITE_CHESTPLATE && playerIn.inventory.armorItemInSlot(3).getItem() == ModItems.ENDERITE_HELMET){
             if(!playerIn.isPotionActive(MobEffects.LEVITATION)){
-                playerIn.addPotionEffect(new PotionEffect(MobEffects.LEVITATION, 9999, 19));
+                playerIn.addPotionEffect(new PotionEffect(MobEffects.LEVITATION, 999999, 19));
                 playerIn.fallDistance = 0;
+                stack.damageItem(1, playerIn);
             }
             else{
                 playerIn.removeActivePotionEffect(Potion.getPotionById(25));
+                playerIn.addPotionEffect(new PotionEffect(MobEffects.LEVITATION, 1, 0));
             }
             return new ActionResult<>(EnumActionResult.SUCCESS, stack);
         }

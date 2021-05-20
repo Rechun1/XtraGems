@@ -70,8 +70,8 @@ public class ModItems {
     public static final ItemFillable EMPTY_POTENAY_BOTTLE = new ItemFillable("empty_potenay_bottle");
     public static final Item FILLED_POTENAY_BOTTLE = new ItemBase("filled_potenay_bottle");
 
-    public static final Item OIL_BOTTLE = new ItemCustomFoodWithEffect("oil_bottle", 4, false, new PotionEffect(MobEffects.NAUSEA, 600, 2));
-    public static final Item POTENAY = new ItemCustomFoodWithEffect("potenay", 2, false, new PotionEffect(MobEffects.STRENGTH, 3000, 3));
+    public static final Item OIL_BOTTLE = new ItemCustomFoodWithEffect("oil_bottle", 12, 10,false, new PotionEffect(MobEffects.NAUSEA, 150, 2));
+    public static final Item POTENAY = new ItemCustomFoodWithEffect("potenay", 2, 6,false, new PotionEffect(MobEffects.STRENGTH, 1500, 4));
 
     public static final ItemSword RUBY_SWORD = new ToolSword("ruby_sword", MATERIAL_RUBY);
     public static final ItemSpade RUBY_SHOVEL = new ToolSpade("ruby_shovel", MATERIAL_RUBY);

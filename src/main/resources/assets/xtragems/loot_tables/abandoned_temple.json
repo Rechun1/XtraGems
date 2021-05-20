@@ -104,6 +104,16 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:book",
+                    "weight": 6,
+                    "functions": [
+                        {
+                            "function": "enchant_randomly"
+                        }
+                    ]
                 }
             ]
         }
