@@ -24,16 +24,17 @@ import java.util.List;
 public class ModItems {
     public static final List<Item> ITEMS = new ArrayList<Item>();
 
-    public static final Item.ToolMaterial MATERIAL_RUBY = EnumHelper.addToolMaterial("material_ruby", 3, 1736, 14.0F, 4.0F, 10);
-    public static final Item.ToolMaterial MATERIAL_TOPAZ = EnumHelper.addToolMaterial("material_topaz", 3, 848, 9.0F, 2.5F, 10);
+    public static final Item.ToolMaterial MATERIAL_RUBY = EnumHelper.addToolMaterial("material_ruby", 3, 1736, 14.0F, 6.0F, 10);
+    public static final Item.ToolMaterial MATERIAL_TURQUOISE = EnumHelper.addToolMaterial("material_turquoise", 3, 1459, 12.0F, 5.0F, 10);
+    public static final Item.ToolMaterial MATERIAL_TOPAZ = EnumHelper.addToolMaterial("material_topaz", 3, 848, 9.0F, 3.0F, 10);
     public static final Item.ToolMaterial MATERIAL_AMETHYST = EnumHelper.addToolMaterial("material_amethyst", 2, 348, 6.0F, 2.0F, 10);
-    public static final Item.ToolMaterial MATERIAL_GLASS = EnumHelper.addToolMaterial("material_glass", 2, 50, 20.0F, 6.0F, 10);
-    public static final Item.ToolMaterial MATERIAL_FIRITE = EnumHelper.addToolMaterial("material_firite", 3, 1561, 12.0F, 6.0F, 10);
-    public static final Item.ToolMaterial MATERIAL_UNIVERSAL_GEM = EnumHelper.addToolMaterial("material_universal_gem", 4, 4212, 50.0F, 6.0F, 16);
+    public static final Item.ToolMaterial MATERIAL_GLASS = EnumHelper.addToolMaterial("material_glass", 2, 62, 20.0F, 6.0F, 10);
+    public static final Item.ToolMaterial MATERIAL_FIRITE = EnumHelper.addToolMaterial("material_firite", 3, 1561, 12.0F, 5.0F, 10);
+    public static final Item.ToolMaterial MATERIAL_UNIVERSAL_GEM = EnumHelper.addToolMaterial("material_universal_gem", 4, 4212, 50.0F, 8.0F, 16);
     public static final Item.ToolMaterial MATERIAL_ENDERITE = EnumHelper.addToolMaterial("material_enderite", 4, 2234, 16.0F, 5.0F, 14);
 
-    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_RUBY = EnumHelper.addArmorMaterial("armor_material_ruby", Reference.MOD_ID + ":ruby", 36, new int[] {4, 9, 7, 4}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0);
-    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_ENDERITE = EnumHelper.addArmorMaterial("armor_material_enderite", Reference.MOD_ID + ":enderite", 40, new int[] {7, 12, 10, 7}, 11, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0);
+    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_RUBY = EnumHelper.addArmorMaterial("armor_material_ruby", Reference.MOD_ID + ":ruby", 36, new int[] {4, 8, 7, 4}, 10, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0);
+    public static final ItemArmor.ArmorMaterial ARMOR_MATERIAL_ENDERITE = EnumHelper.addArmorMaterial("armor_material_enderite", Reference.MOD_ID + ":enderite", 40, new int[] {5, 9, 7, 4}, 11, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0);
 
     public static final Item TOPAZ = new ItemBase("topaz");
     public static final Item BLACK_GEM = new ItemBase("black_gem");
@@ -72,12 +73,19 @@ public class ModItems {
 
     public static final Item OIL_BOTTLE = new ItemCustomFoodWithEffect("oil_bottle", 12, 10,false, new PotionEffect(MobEffects.NAUSEA, 150, 2));
     public static final Item POTENAY = new ItemCustomFoodWithEffect("potenay", 2, 6,false, new PotionEffect(MobEffects.STRENGTH, 1500, 4));
+    public static final Item HAMBURGER = new ItemCustomFood("hamburger", 20, 8, false);
 
     public static final ItemSword RUBY_SWORD = new ToolSword("ruby_sword", MATERIAL_RUBY);
     public static final ItemSpade RUBY_SHOVEL = new ToolSpade("ruby_shovel", MATERIAL_RUBY);
     public static final ItemPickaxe RUBY_PICKAXE = new ToolPickaxe("ruby_pickaxe", MATERIAL_RUBY);
     public static final ItemAxe RUBY_AXE = new ToolAxe("ruby_axe", MATERIAL_RUBY);
     public static final ItemHoe RUBY_HOE = new ToolHoe("ruby_hoe", MATERIAL_RUBY);
+
+    public static final ItemSword TURQUOISE_SWORD = new ToolSword("turquoise_sword", MATERIAL_TURQUOISE);
+    public static final ItemSpade TURQUOISE_SHOVEL = new ToolSpade("turquoise_shovel", MATERIAL_TURQUOISE);
+    public static final ItemPickaxe TURQUOISE_PICKAXE = new ToolPickaxe("turquoise_pickaxe", MATERIAL_TURQUOISE);
+    public static final ItemAxe TURQUOISE_AXE = new ToolAxe("turquoise_axe", MATERIAL_TURQUOISE);
+    public static final ItemHoe TURQUOISE_HOE = new ToolHoe("turquoise_hoe", MATERIAL_TURQUOISE);
 
     public static final ItemSword TOPAZ_SWORD = new ToolSword("topaz_sword", MATERIAL_TOPAZ);
     public static final ItemSpade TOPAZ_SHOVEL = new ToolSpade("topaz_shovel", MATERIAL_TOPAZ);

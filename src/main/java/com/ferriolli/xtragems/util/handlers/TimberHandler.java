@@ -92,7 +92,7 @@ public class TimberHandler {
             BlockPos posToBreak = list.get(i);
             IBlockState state = worldIn.getBlockState(posToBreak);
             System.out.println(state.getBlock().getRegistryName());
-            chopWood(worldIn, posToBreak, state);
+            chopWood(worldIn, posToBreak, state, player);
             findBlocksToBreak(worldIn, player, new ArrayList<BlockPos>(), blockIn, posToBreak);
         }
     }
@@ -103,9 +103,11 @@ public class TimberHandler {
      * @param worldIn the player's world
      * @param pos the position to break the block
      * @param state the blockstate at the position (pos)
+     * @param playerIn the player that broke the block
      */
-    public static void chopWood(World worldIn, BlockPos pos, IBlockState state){
+    public static void chopWood(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn){
         worldIn.setBlockToAir(pos);
+        playerIn.getHeldItemMainhand().damageItem(1, playerIn);
         int meta = state.getBlock().getMetaFromState(state);
         if(meta >= 4 && meta < 8) meta -= 4;
         if(meta >= 8) meta -= 8;
