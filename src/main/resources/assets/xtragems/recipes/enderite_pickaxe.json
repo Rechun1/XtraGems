@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "E": {
+      "item": "xtragems:enderite_ingot"
+    }
+  },
+  "result": {
+    "item": "xtragems:enderite_pickaxe"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A",
+    "A",
+    "S"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "A": {
+      "item": "xtragems:amethyst"
+    }
+  },
+  "result": {
+    "item": "xtragems:amethyst_sword"
+  }
+}

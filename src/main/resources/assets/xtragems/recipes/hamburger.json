@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "xtragems:oil_bottle"
+    }
+  ],
+  "result": {
+    "item": "xtragems:hamburger",
+    "count": 1
+  }
+}
