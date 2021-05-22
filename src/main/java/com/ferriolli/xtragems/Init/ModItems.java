@@ -43,7 +43,6 @@ public class ModItems {
     public static final Item TURQUOISE = new ItemBase("turquoise");
     public static final Item SHADOW_INGOT = new ItemBase("shadow_ingot");
     public static final Item UNREFINED_FIRITE_GEM = new ItemBase("unrefined_firite_gem");
-    public static final Item BLOODSTONE = new ItemBase("bloodstone");
     public static final Item GLASS_SHARD = new ItemBase("glass_shard");
     public static final Item REINFORCED_GLASS_SHARD = new ItemBase("reinforced_glass_shard");
     public static final Item ANIMAL_FAT = new ItemBase("animal_fat");
@@ -71,8 +70,8 @@ public class ModItems {
     public static final ItemFillable EMPTY_POTENAY_BOTTLE = new ItemFillable("empty_potenay_bottle");
     public static final Item FILLED_POTENAY_BOTTLE = new ItemBase("filled_potenay_bottle");
 
-    public static final Item OIL_BOTTLE = new ItemCustomFoodWithEffect("oil_bottle", 12, 10,false, new PotionEffect(MobEffects.NAUSEA, 150, 2));
-    public static final Item POTENAY = new ItemCustomFoodWithEffect("potenay", 2, 6,false, new PotionEffect(MobEffects.STRENGTH, 1500, 4));
+    public static final Item OIL_BOTTLE = new ItemCustomFoodWithEffect("oil_bottle", 6, 0,false, new PotionEffect(MobEffects.NAUSEA, 150, 2));
+    public static final Item POTENAY = new ItemCustomFoodWithEffect("potenay", 6, 4,false, new PotionEffect(MobEffects.STRENGTH, 1500, 4));
     public static final Item HAMBURGER = new ItemCustomFood("hamburger", 20, 8, false);
 
     public static final ItemSword RUBY_SWORD = new ToolSword("ruby_sword", MATERIAL_RUBY);

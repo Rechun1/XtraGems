@@ -11,7 +11,7 @@ public class ToolSword extends ItemSword implements IHasModel {
         super(material);
         setUnlocalizedName(name);
         setRegistryName(name);
-        setCreativeTab(CreativeTabs.TOOLS);
+        setCreativeTab(CreativeTabs.COMBAT);
 
         ModItems.ITEMS.add(this);
     }
