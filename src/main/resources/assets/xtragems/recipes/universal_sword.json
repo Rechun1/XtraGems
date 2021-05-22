@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "U",
+    "U",
+    "S"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "U": {
+      "item": "xtragems:universal_ingot"
+    }
+  },
+  "result": {
+    "item": "xtragems:universal_sword"
+  }
+}

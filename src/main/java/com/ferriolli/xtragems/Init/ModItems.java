@@ -24,12 +24,12 @@ import java.util.List;
 public class ModItems {
     public static final List<Item> ITEMS = new ArrayList<Item>();
 
-    public static final Item.ToolMaterial MATERIAL_RUBY = EnumHelper.addToolMaterial("material_ruby", 3, 1736, 14.0F, 6.0F, 10);
-    public static final Item.ToolMaterial MATERIAL_TURQUOISE = EnumHelper.addToolMaterial("material_turquoise", 3, 1459, 12.0F, 5.0F, 10);
+    public static final Item.ToolMaterial MATERIAL_RUBY = EnumHelper.addToolMaterial("material_ruby", 4, 1736, 14.0F, 6.0F, 10);
+    public static final Item.ToolMaterial MATERIAL_TURQUOISE = EnumHelper.addToolMaterial("material_turquoise", 4, 1659, 12.0F, 5.0F, 10);
     public static final Item.ToolMaterial MATERIAL_TOPAZ = EnumHelper.addToolMaterial("material_topaz", 3, 848, 9.0F, 3.0F, 10);
     public static final Item.ToolMaterial MATERIAL_AMETHYST = EnumHelper.addToolMaterial("material_amethyst", 2, 348, 6.0F, 2.0F, 10);
     public static final Item.ToolMaterial MATERIAL_GLASS = EnumHelper.addToolMaterial("material_glass", 2, 62, 20.0F, 6.0F, 10);
-    public static final Item.ToolMaterial MATERIAL_FIRITE = EnumHelper.addToolMaterial("material_firite", 3, 1561, 12.0F, 5.0F, 10);
+    public static final Item.ToolMaterial MATERIAL_FIRITE = EnumHelper.addToolMaterial("material_firite", 4, 1724, 12.0F, 5.0F, 10);
     public static final Item.ToolMaterial MATERIAL_UNIVERSAL_GEM = EnumHelper.addToolMaterial("material_universal_gem", 4, 4212, 50.0F, 8.0F, 16);
     public static final Item.ToolMaterial MATERIAL_ENDERITE = EnumHelper.addToolMaterial("material_enderite", 4, 2234, 16.0F, 5.0F, 14);
 

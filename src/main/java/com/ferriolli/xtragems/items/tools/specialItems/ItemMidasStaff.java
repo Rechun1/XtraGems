@@ -31,7 +31,7 @@ import java.util.Random;
 public class ItemMidasStaff extends Item implements IHasModel {
     public ItemMidasStaff(String name) {
         this.setMaxStackSize(1);
-        this.setMaxDamage(100);
+        this.setMaxDamage(64);
         this.setUnlocalizedName(name);
         this.setRegistryName(name);
         this.setCreativeTab(CreativeTabs.COMBAT);

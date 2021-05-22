@@ -24,7 +24,7 @@ import java.util.List;
 public class ItemHealingStaff extends Item implements IHasModel {
     public ItemHealingStaff(String name){
         this.setMaxStackSize(1);
-        this.setMaxDamage(128);
+        this.setMaxDamage(100);
         this.setUnlocalizedName(name);
         this.setRegistryName(name);
         this.setCreativeTab(CreativeTabs.COMBAT);

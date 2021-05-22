@@ -38,7 +38,7 @@ public class ItemWindStaff extends Item implements IHasModel {
     public boolean cancelDamage;
     public ItemWindStaff(String name) {
         this.setMaxStackSize(1);
-        this.setMaxDamage(256);
+        this.setMaxDamage(342);
         this.setUnlocalizedName(name);
         this.setRegistryName(name);
         this.setCreativeTab(CreativeTabs.COMBAT);

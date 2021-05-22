@@ -40,8 +40,8 @@ import java.util.Random;
 public class EnchantmentInit {
     public static final List<Enchantment> ENCHANTMENTS = new ArrayList<Enchantment>();
 
-    public static final Enchantment DAMAGE_HEAL = new EnchantmentDamageHeal(Enchantment.Rarity.RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
-    public static final Enchantment MINER_TEST = new EnchantmentMinerTest(Enchantment.Rarity.RARE, EnumEnchantmentType.DIGGER, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
+    public static final Enchantment DAMAGE_HEAL = new EnchantmentDamageHeal(Enchantment.Rarity.UNCOMMON, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
+    public static final Enchantment MINER_TEST = new EnchantmentMinerTest(Enchantment.Rarity.UNCOMMON, EnumEnchantmentType.DIGGER, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
     public static final Enchantment KNOWLEDGE = new EnchantmentKnowledge(Enchantment.Rarity.RARE, EnumEnchantmentType.WEAPON, new EntityEquipmentSlot[]{EntityEquipmentSlot.MAINHAND});
     public static final Enchantment LIGHTWEIGHT = new EnchantmentLightWeight(Enchantment.Rarity.RARE, EnumEnchantmentType.ARMOR_FEET, new EntityEquipmentSlot[]{EntityEquipmentSlot.FEET});
 
@@ -66,7 +66,7 @@ public class EnchantmentInit {
             if(!event.getHarvester().getEntityWorld().isRemote){
                 Block dBlock = event.getState().getBlock();
                 int level = EnchantmentHelper.getEnchantmentLevel(MINER_TEST, player.getHeldItemMainhand());
-                if(dBlock == Blocks.STONE){
+                if(dBlock == Blocks.STONE || dBlock == Blocks.DIRT){
                     Random random = new Random();
                     if(level > 0){
                         int chosenNumber = random.nextInt(100);

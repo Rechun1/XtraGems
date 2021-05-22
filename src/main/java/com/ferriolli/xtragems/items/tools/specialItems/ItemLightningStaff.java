@@ -26,7 +26,7 @@ public class ItemLightningStaff extends Item implements IHasModel {
 
     public ItemLightningStaff(String name){
         this.setMaxStackSize(1);
-        this.setMaxDamage(32);
+        this.setMaxDamage(64);
         this.setUnlocalizedName(name);
         this.setRegistryName(name);
         this.setCreativeTab(CreativeTabs.COMBAT);
