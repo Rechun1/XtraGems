@@ -48,12 +48,12 @@ public class ItemEnderiteTotem extends Item implements IHasModel {
         && playerIn.inventory.armorItemInSlot(2).getItem() == ModItems.ENDERITE_CHESTPLATE && playerIn.inventory.armorItemInSlot(3).getItem() == ModItems.ENDERITE_HELMET){
             if(!playerIn.isPotionActive(MobEffects.LEVITATION)){
                 playerIn.addPotionEffect(new PotionEffect(MobEffects.LEVITATION, 999999, 19));
-                playerIn.fallDistance = 0;
+                playerIn.fallDistance = -1000;
                 stack.damageItem(1, playerIn);
             }
             else{
                 playerIn.removeActivePotionEffect(Potion.getPotionById(25));
-                playerIn.addPotionEffect(new PotionEffect(MobEffects.LEVITATION, 1, 0));
+                playerIn.fallDistance = -1000;
             }
             return new ActionResult<>(EnumActionResult.SUCCESS, stack);
         }

@@ -2,6 +2,7 @@ package com.ferriolli.xtragems.items.tools;
 
 import com.ferriolli.xtragems.Init.ModBlocks;
 import com.ferriolli.xtragems.Init.ModItems;
+import com.ferriolli.xtragems.util.Reference;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.enchantment.EnchantmentHelper;
@@ -91,46 +92,19 @@ public class ToolHandler {
         }
     }
 
-    @SubscribeEvent
-    public static void cataclysm(LivingHurtEvent event) {
-        Object attacker = event.getSource().getTrueSource();
-        if (attacker instanceof EntityLivingBase){
-            EntityLivingBase attackerPlayer = (EntityLivingBase)attacker;
-            if (!attackerPlayer.getEntityWorld().isRemote){
-                EntityLivingBase enemy = (EntityLivingBase)event.getEntity();
-                Random random = new Random();
-                if (attackerPlayer.getHeldItemMainhand().getItem() == ModItems.UNIVERSAL_SWORD){
-                    int chance = random.nextInt(3);
-                    switch (chance){
-                        case 0:
-                            enemy.setFire(10);
-                            break;
-                        case 1:
-                            enemy.addPotionEffect(new PotionEffect(MobEffects.WITHER, 180, 4));
-                            break;
-                        case 2:
-                            enemy.addPotionEffect(new PotionEffect(MobEffects.POISON, 180, 4));
-                            break;
-                    }
-                }
-            }
-        }
-    }
-
     /*@SubscribeEvent
-    public void cancelFallDamage(LivingFallEvent event) {
+    public static void cancelFallDamage(LivingFallEvent event) {
         Entity entity = event.getEntity();
-        if (entity instanceof EntityPlayer) {
+        if (entity instanceof EntityPlayer && entity != null) {
             EntityPlayer playerIn = (EntityPlayer) entity;
-            if (!playerIn.getEntityWorld().isRemote) {
-                Item itemInHand = playerIn.getHeldItemMainhand().getItem();
-                if (itemInHand instanceof ItemWindStaff) {
-                    System.out.println("**********" + ((ItemWindStaff) itemInHand).getCancelDamage());
-                    if (((ItemWindStaff) itemInHand).getInstance().getCancelDamage()) {
-                        System.out.println("********************** " + ((ItemWindStaff) itemInHand).getCancelDamage());
-                        event.setCanceled(true);
-                        ((ItemWindStaff) itemInHand).getInstance().setCancelDamage();
-                    }
+            Item itemInHand = playerIn.getHeldItemMainhand().getItem();
+            if(!playerIn.world.isRemote){
+                if(playerIn.inventory.armorItemInSlot(0).getItem() == ModItems.ENDERITE_BOOTS
+                        && playerIn.inventory.armorItemInSlot(1).getItem() == ModItems.ENDERITE_LEGGINGS
+                        && playerIn.inventory.armorItemInSlot(2).getItem() == ModItems.ENDERITE_CHESTPLATE
+                        && playerIn.inventory.armorItemInSlot(3).getItem() == ModItems.ENDERITE_HELMET
+                        && itemInHand == ModItems.ENDERITE_TOTEM){
+                    event.setCanceled(true);
                 }
             }
         }

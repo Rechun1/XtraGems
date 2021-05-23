@@ -92,6 +92,6 @@ tile.enderite_ore.name=Enderite Ore
 enchantment.damage_heal=Vampirism
 enchantment.miner_test=Miner's Delight
 enchantment.knowledge=Knowledge
-enchantment.lightweight.name=Lightweight
+enchantment.lightweight=Lightweight
 
 container.gem_refiner=Gem Refiner
